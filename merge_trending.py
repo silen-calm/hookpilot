@@ -347,7 +347,8 @@ def merge():
         ind = classify(v)
         if not ind: continue
         days = days_ago(v.get("uploadDate"))
-        if days is not None and days > 365:
+        # 시간 컷 365 → 730일 (사장님 누적 가속 — 옛 영상 더 보존)
+        if days is not None and days > 730:
             skipped_old += 1
             continue
         # 선정 기준 컷오프 — 시간대별 차등
@@ -413,7 +414,7 @@ def merge():
         if not k or k in new_ids: continue  # 새 결과에 이미 있음 — 새 데이터로 갱신
         # 365일 컷오프 — uploadDate 없으면 firstSeen 기준
         days = old_v.get("publishedDaysAgo", 0)
-        if isinstance(days, (int, float)) and days > 365:
+        if isinstance(days, (int, float)) and days > 730:  # 365 → 730 (누적 가속)
             continue
         # 옛 풀 영상 ID 새 id 재부여 (충돌 방지)
         old_v["id"] = next_id; next_id += 1
