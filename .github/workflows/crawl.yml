@@ -21,7 +21,7 @@ concurrency:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 25  # cron 25분 hard limit (Actions runner)
+    timeout-minutes: 60  # cron 25분 hard limit (Actions runner)
     permissions:
       contents: write    # git push 권한
 
