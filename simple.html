@@ -1936,14 +1936,21 @@ function applyMetaToCard(v) {
   if (card) {
     const metaSlot = card.querySelector(".meta-stats");
     if (metaSlot) {
-      if (v.fetchedMeta && v.fetchedMeta.views != null) {
-        const vw = fmtViews(v.fetchedMeta.views);
-        const dur = fmtDur(v.fetchedMeta.duration);
-        const lk = v.fetchedMeta.likes != null ? fmtViews(v.fetchedMeta.likes) : null;
-        const ago = fmtTimeAgo(v);
-        metaSlot.innerHTML = `<span class="stat">조회수 <strong>${vw || "?"}</strong></span>${lk ? `<span class="stat">좋아요 <strong>${lk}</strong></span>` : ""}<span class="stat">길이 <strong>${dur || "—"}</strong></span>${ago ? `<span class="stat">${ago}</span>` : ""}`;
-      } else if (v.fetchedMeta === false) {
-        metaSlot.innerHTML = '<span class="stat" style="color:var(--status-cautionary);">조회 안 됨</span>';
+      // fetchedMeta 우선, 없으면 풀 원본 v.views/v.likes fallback (사장님 "조회 안 됨" 인상 fix)
+      const m = v.fetchedMeta;
+      const vw = (m && m.views != null) ? m.views : v.views;
+      const lk = (m && m.likes != null) ? m.likes : v.likes;
+      const dur = (m && m.duration != null) ? m.duration : null;
+      const ago = fmtTimeAgo(v);
+      if (vw != null || lk != null) {
+        const vwStr = (vw != null) ? `<span class="stat">조회수 <strong>${fmtViews(vw)}</strong></span>` : "";
+        const lkStr = (lk != null) ? `<span class="stat">좋아요 <strong>${fmtViews(lk)}</strong></span>` : "";
+        const durStr = (dur != null) ? `<span class="stat">길이 <strong>${fmtDur(dur) || "—"}</strong></span>` : "";
+        const agoStr = ago ? `<span class="stat">${ago}</span>` : "";
+        metaSlot.innerHTML = vwStr + lkStr + durStr + agoStr;
+      } else if (m === false) {
+        // 진짜로 풀에도 views 없고 fetch도 실패 — 친절히 표시
+        metaSlot.innerHTML = '<span class="stat" style="color:var(--status-cautionary);">메타 정보 수집 중</span>';
       }
     }
   }
@@ -2423,7 +2430,19 @@ function renderCards() {
         <div class="wjob__row-top"><span class="wjob__plat wjob__plat--${plat}">${platName}</span><span class="wjob__flag">${v.country === "KR" ? "한국" : "미국"}</span>${hookBadge}${newBadge}<span class="wjob__star">${getStarredIds().has(v.id) ? "★" : ""}</span>${(v.relatedRevenue && v.relatedRevenue.length) ? `<span class="wjob__case" title="같은 업종 매출 검증 사례 ${v.relatedRevenue.length}건 매핑됨" style="font-size:var(--t-caption1-size);color:var(--status-positive);font-weight:var(--fw-heavy);">💰${v.relatedRevenue.length}</span>` : ""}<span class="wjob__score wjob__score--${(v.priorityScore||0) >= 70 ? "high" : (v.priorityScore||0) >= 50 ? "mid" : "low"}" title="외주 우선도 ${v.priorityScore||0}점 — 70+ 즉시 참고·50+ 참고 가능">${(v.priorityScore||0) >= 70 ? "★ " : ""}${v.priorityScore || 0}점</span><span class="wjob__rank">#${i+1}</span></div>
         <div class="wjob__co"${v.channel ? ` data-channel="${escapeHTML(v.channel)}"` : ""}>${v.channel ? "@" + escapeHTML(v.channel) : escapeHTML(IND[v.industry] || "기타")}</div>
         <div class="wjob__title">${escapeHTML(shortTitle(v.title) || "(제목 분석 중)")}</div>
-        <div class="wjob__meta meta-stats" data-vid="${v.id}">${v.fetchedMeta ? `<span class="stat">조회수 <strong>${fmtViews(v.fetchedMeta.views) || "?"}</strong></span>${v.fetchedMeta.likes != null ? `<span class="stat">좋아요 <strong>${fmtViews(v.fetchedMeta.likes)}</strong></span>` : ""}<span class="stat">길이 <strong>${fmtDur(v.fetchedMeta.duration) || "—"}</strong></span>${ago ? `<span class="stat">${ago}</span>` : ""}` : '<span class="stat loading">분석 중…</span>'}</div>
+        <div class="wjob__meta meta-stats" data-vid="${v.id}">${(() => {
+          // fetchedMeta 우선, 없으면 풀 원본 v.views/v.likes 사용 (사장님 "영상 세부정보 안 보임" fix)
+          const m = v.fetchedMeta;
+          const vw = (m && m.views != null) ? m.views : v.views;
+          const lk = (m && m.likes != null) ? m.likes : v.likes;
+          const dur = m ? m.duration : null;
+          if (vw == null && lk == null) return '<span class="stat loading">분석 중…</span>';
+          const vwStr = (vw != null) ? `<span class="stat">조회수 <strong>${fmtViews(vw)}</strong></span>` : "";
+          const lkStr = (lk != null) ? `<span class="stat">좋아요 <strong>${fmtViews(lk)}</strong></span>` : "";
+          const durStr = (dur != null) ? `<span class="stat">길이 <strong>${fmtDur(dur) || "—"}</strong></span>` : "";
+          const agoStr = ago ? `<span class="stat">${ago}</span>` : "";
+          return vwStr + lkStr + durStr + agoStr;
+        })()}</div>
       </div>
     </article>`;
   }).join("");
