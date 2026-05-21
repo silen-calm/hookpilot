@@ -2312,34 +2312,39 @@ function filter() {
   const getViews = v => (v.fetchedMeta && v.fetchedMeta.views) || v.views || 0;
   const getLikes = v => (v.fetchedMeta && v.fetchedMeta.likes) || v.likes || 0;
   const getDate = v => (v.fetchedMeta && v.fetchedMeta.uploadDate) || v.uploadDate || v.firstSeen || "1970-01-01";
-  if (state.sort === "priority") list.sort((a, b) => {
-    const ap = a.priorityScore || 0, bp = b.priorityScore || 0;
-    if (bp !== ap) return bp - ap;
-    return getViews(b) - getViews(a);
-  });
-  else if (state.sort === "verified") list.sort((a, b) => getLikes(b) - getLikes(a));
-  else if (state.sort === "recent") {
-    // 따끈한 신상 — 풀에 들어온 날짜(firstSeen) 우선, 동률 시 영상 게시일·priorityScore
-    list.sort((a, b) => {
+
+  // 정렬 함수 — 모든 sort 모드 공통 (각 플랫폼 내에서 같은 기준 적용)
+  let sortFn;
+  if (state.sort === "verified") {
+    sortFn = (a, b) => getLikes(b) - getLikes(a);
+  } else if (state.sort === "recent") {
+    sortFn = (a, b) => {
       const fa = a.firstSeen || "1970-01-01";
       const fb = b.firstSeen || "1970-01-01";
       if (fa !== fb) return fb.localeCompare(fa);
       const ua = getDate(a), ub = getDate(b);
       if (ua !== ub) return ub.localeCompare(ua);
       return (b.priorityScore || 0) - (a.priorityScore || 0);
-    });
-  }
-  else if (state.sort === "starred") {
-    // 별표(컬렉션) 영상만 표시 — 점수 내림차순
+    };
+  } else if (state.sort === "starred") {
     const starred = getStarredIds();
     list = list.filter(v => starred.has(v.id));
-    list.sort((a, b) => (b.priorityScore || 0) - (a.priorityScore || 0));
+    sortFn = (a, b) => (b.priorityScore || 0) - (a.priorityScore || 0);
+  } else {
+    // priority — 기본
+    sortFn = (a, b) => {
+      const ap = a.priorityScore || 0, bp = b.priorityScore || 0;
+      if (bp !== ap) return bp - ap;
+      return getViews(b) - getViews(a);
+    };
   }
-  // 플랫폼 전체 — 3 플랫폼 라운드로빈은 매출 점수 순(priority) 기본일 때만 적용.
-  // 사장님이 ❤ 좋아요·✨ 신상 명시적 선택 시 라운드로빈 X — 진짜 선택한 정렬대로.
-  if (state.platform === "ALL" && state.sort === "priority" && state.industry === "ALL") {
+
+  // 플랫폼 ALL 일 때 — 각 플랫폼 내에서 정렬 후 라운드로빈 (모든 sort 모드 공통)
+  // 사장님 ❤ 좋아요·✨ 신상도 3플랫폼 균등하게 (TikTok만 안 뜨게)
+  if (state.platform === "ALL") {
     const buckets = { Shorts: [], TikTok: [], Reels: [] };
     list.forEach(v => { if (buckets[v.platform]) buckets[v.platform].push(v); });
+    Object.values(buckets).forEach(arr => arr.sort(sortFn));
     const cap = Math.max(buckets.Shorts.length, buckets.TikTok.length, buckets.Reels.length);
     const interleaved = [];
     for (let i = 0; i < cap; i++) {
@@ -2347,8 +2352,11 @@ function filter() {
       if (buckets.TikTok[i]) interleaved.push(buckets.TikTok[i]);
       if (buckets.Reels[i]) interleaved.push(buckets.Reels[i]);
     }
-    return interleaved.slice(0, 1500);  // 100 → 1500 (사용자 요청 3플랫폼 각 500 보이게)
+    return interleaved.slice(0, 1500);
   }
+
+  // 특정 플랫폼만 — 그 플랫폼 내에서 정렬
+  list.sort(sortFn);
   return list.slice(0, 1500);
 }
 
