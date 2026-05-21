@@ -1583,17 +1583,29 @@ function renderIndustryTabs() {
 }
 
 // 국가·플랫폼·트랙 토글에 실시간 카운트 — 다른 필터 동시 적용 (사장님 직관 일치)
+// 사장님 요구: 플랫폼 카운트는 균등 cap 적용 (가장 적은 플랫폼 × 1.5) — 화면에 보이는 영상이랑 일치
 function renderToggles() {
+  // 균등 cap 계산 — 현재 country 적용 후 각 플랫폼 카운트 본 후 min × 1.5
+  const _byPlatRaw = { Shorts: 0, TikTok: 0, Reels: 0 };
+  videos.forEach(v => {
+    if (state.country !== "ALL" && v.country !== state.country) return;
+    if (_byPlatRaw[v.platform] !== undefined) _byPlatRaw[v.platform]++;
+  });
+  const _platMin = Math.min(_byPlatRaw.Shorts, _byPlatRaw.TikTok, _byPlatRaw.Reels);
+  const _platCap = Math.max(Math.floor(_platMin * 1.5), 100);
+
   // country 토글: 현재 platform 적용해서 country별 카운트 보임
   const cn = c => videos.filter(v =>
     (c === "ALL" || v.country === c) &&
     (state.platform === "ALL" || v.platform === state.platform)
   ).length;
-  // platform 토글: 현재 country 적용해서 플랫폼별 카운트 보임
-  const pn = p => videos.filter(v =>
-    (state.country === "ALL" || v.country === state.country) &&
-    (p === "ALL" || v.platform === p)
-  ).length;
+  // platform 토글: 현재 country 적용 + 균등 cap (사장님 균등 비율 요구)
+  const pn = p => {
+    if (p === "ALL") {
+      return Math.min(_byPlatRaw.Shorts, _platCap) + Math.min(_byPlatRaw.TikTok, _platCap) + Math.min(_byPlatRaw.Reels, _platCap);
+    }
+    return Math.min(_byPlatRaw[p] || 0, _platCap);
+  };
   // track 토글: country + platform 동시 적용
   const tn = t => videos.filter(v =>
     (state.country === "ALL" || v.country === state.country) &&
@@ -2325,12 +2337,18 @@ function filter() {
     };
   }
 
-  // 플랫폼 ALL 일 때 — 각 플랫폼 내에서 정렬 후 라운드로빈 (모든 sort 모드 공통)
-  // 사장님 ❤ 좋아요·✨ 신상도 3플랫폼 균등하게 (TikTok만 안 뜨게)
+  // 플랫폼 ALL 일 때 — 3플랫폼 균등 비율 보장 (사장님 요구: 유사한 개수)
+  // 각 플랫폼별 max = 가장 적은 플랫폼의 1.5배까지만 잘림 → 화면에 균등 비율
   if (state.platform === "ALL") {
     const buckets = { Shorts: [], TikTok: [], Reels: [] };
     list.forEach(v => { if (buckets[v.platform]) buckets[v.platform].push(v); });
     Object.values(buckets).forEach(arr => arr.sort(sortFn));
+    // 균등 cap — 가장 적은 플랫폼 기준 × 1.5
+    const minLen = Math.min(buckets.Shorts.length, buckets.TikTok.length, buckets.Reels.length);
+    const perCap = Math.max(Math.floor(minLen * 1.5), 100);  // 최소 100 보장
+    buckets.Shorts = buckets.Shorts.slice(0, perCap);
+    buckets.TikTok = buckets.TikTok.slice(0, perCap);
+    buckets.Reels = buckets.Reels.slice(0, perCap);
     const cap = Math.max(buckets.Shorts.length, buckets.TikTok.length, buckets.Reels.length);
     const interleaved = [];
     for (let i = 0; i < cap; i++) {
@@ -2338,7 +2356,7 @@ function filter() {
       if (buckets.TikTok[i]) interleaved.push(buckets.TikTok[i]);
       if (buckets.Reels[i]) interleaved.push(buckets.Reels[i]);
     }
-    return interleaved.slice(0, 5000);  // 1500 → 5000 (사장님 누적 요구)
+    return interleaved.slice(0, 5000);
   }
 
   // 특정 플랫폼만 — 그 플랫폼 내에서 정렬
