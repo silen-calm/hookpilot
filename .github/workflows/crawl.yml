@@ -1,0 +1,61 @@
+name: Daily Shortform Crawl
+
+# 매일 4회 cron (UTC — 한국 +9시간)
+# 한국 시간 03시 = UTC 18시 (전날)
+# 한국 시간 09시 = UTC 00시
+# 한국 시간 15시 = UTC 06시
+# 한국 시간 21시 = UTC 12시
+on:
+  schedule:
+    - cron: '0 18 * * *'  # KST 03시
+    - cron: '0 0 * * *'   # KST 09시
+    - cron: '0 6 * * *'   # KST 15시
+    - cron: '0 12 * * *'  # KST 21시
+  workflow_dispatch:  # 수동 trigger 가능
+
+# 동시 실행 방지 (한 cron 끝나기 전 다음 cron skip)
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25  # cron 25분 hard limit (Actions runner)
+    permissions:
+      contents: write    # git push 권한
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install requests scrapetube instaloader
+          # yt-dlp CLI
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod +x /usr/local/bin/yt-dlp
+
+      - name: Run crawler
+        run: |
+          python -u crawler.py --all --fast --output "trending_results_$(date +%Y-%m-%d_%H%M)_actions.json"
+
+      - name: Merge to pool
+        run: |
+          python merge_trending.py
+
+      - name: Commit + push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add trending_videos.js trending_results_*.json
+          git diff --cached --quiet || git commit -m "🤖 Auto crawl $(date -u +%Y-%m-%d_%H:%MZ)"
+          git push

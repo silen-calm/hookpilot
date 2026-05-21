@@ -1577,6 +1577,28 @@ class ThreadedTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
     allow_reuse_address = True
 
 
+def _git_pull_loop():
+    """매 5분 git pull — GitHub Actions 가 push 한 새 trending_videos.js 자동 동기화.
+    사장님 Mac 외부 fetch X. git 호출 (GitHub) 만. 사장님 SNS 안전.
+    """
+    import threading, time as _t, subprocess
+    def _run():
+        # 5분 후 첫 pull (백엔드 시작 직후 충돌 회피)
+        _t.sleep(60)
+        while True:
+            try:
+                r = subprocess.run(
+                    ["git", "pull", "--ff-only"],
+                    cwd=ROOT, capture_output=True, timeout=30, check=False
+                )
+                if r.returncode == 0 and b"Already up to date" not in r.stdout:
+                    print(f"[git-pull] 새 풀 동기화: {r.stdout.decode()[:100]}")
+            except Exception as e:
+                sys.stderr.write(f"[git-pull] skip: {e}\n")
+            _t.sleep(300)  # 5분 마다
+    threading.Thread(target=_run, daemon=True).start()
+
+
 def _daily_cron_loop():
     """매일 03:00 + 15:00 crawler + merge 자동 실행 — 백엔드 살아있는 한 매일 신선한 영상 자동 갱신.
     Hang-proof: subprocess.run timeout=1800 (30분 hard limit), 실패 시 1시간 후 재시도.
@@ -1813,8 +1835,16 @@ def main():
     print(f"[hookpilot] 백엔드 시작 — http://localhost:{PORT}")
     print(f"[hookpilot] 정적 파일: {ROOT}")
     print(f"[hookpilot] yt-dlp: {YTDLP}")
-    _daily_cron_loop()  # 내장 매일 03:00 자동 갱신 시작
-    _hourly_ig_cron_loop()  # IG 시간별 12 쿼리 분산 수집 (DDG hard limit 우회)
+    # === GitHub Actions 모드 (사장님 SNS 계정 보호) ===
+    # 사장님 Mac 에서 외부 fetch 비활성화 — Actions runner 가 매일 4회 cron 자동 실행.
+    # 사장님 Mac 은 사이트 표시 + git pull 만. 외부 사이트 호출 0건.
+    USE_LOCAL_CRON = os.environ.get("USE_LOCAL_CRON", "0") == "1"
+    if USE_LOCAL_CRON:
+        _daily_cron_loop()  # 매일 03·09·15·21시 자동 갱신
+        _hourly_ig_cron_loop()  # IG 시간별 분산 수집
+    else:
+        print("[hookpilot] 사장님 Mac 외부 fetch 비활성화 — GitHub Actions 가 cron 담당")
+        _git_pull_loop()  # 5분 마다 git pull → Actions 결과 자동 동기화
     # Cloud (Render·Fly.io) 호환 — $PORT 환경변수 + 0.0.0.0 listen.
     # 로컬은 127.0.0.1 localhost only (사장님 Mac IP 노출 X). Cloud 는 0.0.0.0 외부 접근.
     LISTEN_HOST = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
