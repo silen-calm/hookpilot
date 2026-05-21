@@ -1584,18 +1584,29 @@ function renderIndustryTabs() {
 }
 
 // 국가·플랫폼·트랙 토글에 실시간 카운트 — 다른 필터 동시 적용 (사장님 직관 일치)
-// 라벨은 풀 진짜 카운트 (cap 적용 X) — 사장님 누적 인식 위해. 화면 카드만 라운드로빈 균등.
+// 사장님 요구: 3플랫폼 비율 균등 → cap 적용 (min × 1.5). 풀 진짜 크기는 헤더 배지로 별도 표시.
 function renderToggles() {
+  // 플랫폼별 진짜 카운트 (country 적용)
+  const _byPlatRaw = { Shorts: 0, TikTok: 0, Reels: 0 };
+  videos.forEach(v => {
+    if (state.country !== "ALL" && v.country !== state.country) return;
+    if (_byPlatRaw[v.platform] !== undefined) _byPlatRaw[v.platform]++;
+  });
+  const _platMin = Math.min(_byPlatRaw.Shorts, _byPlatRaw.TikTok, _byPlatRaw.Reels);
+  const _platCap = Math.max(Math.floor(_platMin * 1.5), 100);
+
   // country 토글: 현재 platform 적용해서 country별 카운트 보임
   const cn = c => videos.filter(v =>
     (c === "ALL" || v.country === c) &&
     (state.platform === "ALL" || v.platform === state.platform)
   ).length;
-  // platform 토글: 현재 country 적용해서 플랫폼별 진짜 풀 카운트 (cap X — 누적 가시화)
-  const pn = p => videos.filter(v =>
-    (state.country === "ALL" || v.country === state.country) &&
-    (p === "ALL" || v.platform === p)
-  ).length;
+  // platform 토글: 균등 cap 적용 (사장님 균등 비율 요구)
+  const pn = p => {
+    if (p === "ALL") {
+      return Math.min(_byPlatRaw.Shorts, _platCap) + Math.min(_byPlatRaw.TikTok, _platCap) + Math.min(_byPlatRaw.Reels, _platCap);
+    }
+    return Math.min(_byPlatRaw[p] || 0, _platCap);
+  };
   // track 토글: country + platform 동시 적용
   const tn = t => videos.filter(v =>
     (state.country === "ALL" || v.country === state.country) &&
@@ -3226,26 +3237,33 @@ renderIndustryTabs();
 renderToggles();
 
 // === 풀 누적 추이 표시 (사장님 누적 가시화 요구) ===
-// localStorage에 일자별 풀 사이즈 저장 → 어제·7일·30일 대비 증가량 헤더에 표시
+// localStorage에 일자별 풀 사이즈 + 플랫폼별 사이즈 저장 → 1일/7일/30일 대비 증가량 표시
 function _updatePoolAccumBadge() {
-  const key = "hookpilot_pool_history";
+  const key = "hookpilot_pool_history_v2";
   let hist = {};
   try { hist = JSON.parse(localStorage.getItem(key) || "{}"); } catch (e) {}
   const today = new Date().toISOString().slice(0, 10);
   const currentSize = videos.length;
+  // 플랫폼별 진짜 크기 (cap 미적용 — 누적 가시화)
+  const platCounts = { Shorts: 0, TikTok: 0, Reels: 0 };
+  videos.forEach(v => { if (platCounts[v.platform] !== undefined) platCounts[v.platform]++; });
+
   // 같은 날 여러번 호출되면 최대값 유지 (감소 인상 방지)
-  if (!hist[today] || currentSize > hist[today]) hist[today] = currentSize;
+  const todayEntry = hist[today] || { total: 0, Shorts: 0, TikTok: 0, Reels: 0 };
+  if (currentSize > todayEntry.total) {
+    hist[today] = { total: currentSize, ...platCounts };
+  }
   // 30일 넘은 옛 기록 정리
   const cutoff = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
   Object.keys(hist).forEach(d => { if (d < cutoff) delete hist[d]; });
   try { localStorage.setItem(key, JSON.stringify(hist)); } catch (e) {}
 
-  // 일자 대비 증가량 계산
+  // 일자 대비 증가량
   const dayAgo = (n) => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10);
   const _findClosest = (targetN) => {
     for (let d = targetN; d <= 30; d++) {
       const v = hist[dayAgo(d)];
-      if (v) return { d, v };
+      if (v && v.total) return { d, v: v.total };
     }
     return null;
   };
@@ -3255,12 +3273,14 @@ function _updatePoolAccumBadge() {
 
   const badge = document.getElementById("poolAccumBadge");
   if (!badge) return;
-  const parts = [`📈 풀 ${currentSize.toLocaleString()}개`];
-  if (d1 && d1.v < currentSize) parts.push(`+${(currentSize - d1.v).toLocaleString()} (어제 대비)`);
-  if (d7 && d7.v < currentSize && d7.d >= 5) parts.push(`+${(currentSize - d7.v).toLocaleString()} (7일)`);
-  if (d30 && d30.v < currentSize && d30.d >= 20) parts.push(`+${(currentSize - d30.v).toLocaleString()} (30일)`);
+  // 풀 + 플랫폼별 진짜 크기 명시 (cap 와 헷갈리지 않게)
+  const platLine = `YT ${platCounts.Shorts.toLocaleString()} · TT ${platCounts.TikTok.toLocaleString()} · IG ${platCounts.Reels.toLocaleString()}`;
+  const parts = [`📈 풀 ${currentSize.toLocaleString()}개 (${platLine})`];
+  if (d1 && d1.v < currentSize) parts.push(`+${(currentSize - d1.v).toLocaleString()} 어제 대비`);
+  if (d7 && d7.v < currentSize && d7.d >= 5) parts.push(`+${(currentSize - d7.v).toLocaleString()} 7일`);
+  if (d30 && d30.v < currentSize && d30.d >= 20) parts.push(`+${(currentSize - d30.v).toLocaleString()} 30일`);
   badge.textContent = parts.join(" · ");
-  badge.title = `오늘 ${today} 풀 ${currentSize}개 누적. 매일 GitHub Actions + Mac 자동 수집으로 새 영상 추가.`;
+  badge.title = `오늘 ${today} 풀 ${currentSize}개 (진짜 풀 크기). 매일 GitHub Actions + Mac 자동 수집으로 새 영상 추가됨. 플랫폼 토글 숫자는 균등 비율 표시용 cap 적용된 것.`;
 }
 _updatePoolAccumBadge();
 
