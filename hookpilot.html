@@ -188,7 +188,8 @@
   @media (min-width: 1200px) and (max-width: 1399px) { .grid { grid-template-columns: repeat(5, 1fr); } }
   @media (min-width: 1024px) and (max-width: 1199px) { .grid { grid-template-columns: repeat(4, 1fr); } }
   @media (min-width: 768px) and (max-width: 1023px) { .grid { grid-template-columns: repeat(3, 1fr); } }
-  @media (max-width: 767px) { .grid { grid-template-columns: repeat(2, 1fr); gap: var(--sp-8); padding: var(--sp-12) var(--sp-12) var(--sp-24); } }
+  @media (min-width: 481px) and (max-width: 767px) { .grid { grid-template-columns: repeat(2, 1fr); gap: var(--sp-8); padding: var(--sp-12) var(--sp-12) var(--sp-24); } }
+  @media (max-width: 480px) { .grid { grid-template-columns: 1fr !important; gap: var(--sp-8); padding: var(--sp-12) var(--sp-12) var(--sp-24); } }
 
   .card { background: var(--bg-elevated); border: 1px solid var(--line-solid); border-radius: var(--radius-lg); overflow: hidden; cursor: pointer !important; transition: transform 0.12s, border-color 0.12s, box-shadow 0.12s; position: relative; box-shadow: var(--shadow-sm); z-index: 1; pointer-events: auto !important; -webkit-tap-highlight-color: rgba(0,102,255,0.2); }
   .card:hover { transform: translateY(-2px); border-color: var(--primary-normal); box-shadow: var(--shadow-lg); z-index: 2; }
