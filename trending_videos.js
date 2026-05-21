@@ -1,5 +1,5 @@
-// crawler 결과 자동 통합 — 2026-05-22T03:31:31
-// 총 4276개 (본업 매칭 + 1년 이내)
+// crawler 결과 자동 통합 — 2026-05-22T04:01:03
+// 총 4284개 (본업 매칭 + 1년 이내)
 window.TRENDING_VIDEOS = [
  {
   "id": 10000,
@@ -67386,6 +67386,126 @@ window.TRENDING_VIDEOS = [
   "firstSeen": "2026-05-22",
   "tiktokId": "7630144119364422930",
   "tiktokUser": "yfxgxhx"
+ },
+ {
+  "id": 14276,
+  "country": "US",
+  "platform": "Reels",
+  "title": "[Program Review] Garage Gym Warrior III",
+  "channel": "reddit_powerlifting",
+  "industry": "fitness",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": null,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "instagramShortcode": "Cy6PpjAPmH7"
+ },
+ {
+  "id": 14277,
+  "country": "KR",
+  "platform": "Shorts",
+  "title": "자연재생한의원 욕창치료, 치료의 동반자가 되어드리겠습니다.",
+  "channel": "자연재생한의원",
+  "industry": "med",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 2352915,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "youtubeId": "U1NpiSrlhgY"
+ },
+ {
+  "id": 14278,
+  "country": "KR",
+  "platform": "Shorts",
+  "title": "올리브영 1등 헤어 에센스! 고데기 열 손상 완벽 방어 I 미쟝센 퍼펙트 세럼",
+  "channel": "미쟝센(mise en scene)",
+  "industry": "beauty",
+  "track": "shop",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 295064,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "youtubeId": "LZ7m0Uez9wk"
+ },
+ {
+  "id": 14279,
+  "country": "US",
+  "platform": "Shorts",
+  "title": "Kaccha Aam papad recipe 🤤raw mango papad at home 🥭#shorts #aampapad #viral #mangorecipe #reels",
+  "channel": "Goan Taste",
+  "industry": "food",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 2026,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "youtubeId": "tLVj1_w9dWU"
+ },
+ {
+  "id": 14280,
+  "country": "US",
+  "platform": "Shorts",
+  "title": "Spicy Egg Curry Eating #mukbang #asmreating #shortsfeed #shorts #viral #viralshorts",
+  "channel": "Eat with SUMON",
+  "industry": "food",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 2671,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "youtubeId": "flzqDmFGtoA"
+ },
+ {
+  "id": 14281,
+  "country": "KR",
+  "platform": "Shorts",
+  "title": "두피토닉, 두피에센스 중에 뭘 쓰지?",
+  "channel": "JWSTORY 탈모이야기",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 6696,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "youtubeId": "qqnnQt_g--U"
+ },
+ {
+  "id": 14282,
+  "country": "KR",
+  "platform": "Shorts",
+  "title": "Get a Face Lift by Injecting Skin Botox Here",
+  "channel": "끌레어X서울",
+  "industry": "med",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 2224,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "youtubeId": "TsyJT0pTSGc"
+ },
+ {
+  "id": 14283,
+  "country": "KR",
+  "platform": "Shorts",
+  "title": "최첨단 AI 기웅NO.1 과 배달 맛집 돼지게티",
+  "channel": "돼지게티",
+  "industry": "food",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 49392,
+  "likes": null,
+  "firstSeen": "2026-05-22",
+  "youtubeId": "IU0A6QHGWFQ"
  }
 ];
-window.TRENDING_LAST_UPDATE = "2026-05-22T03:31:31";
+window.TRENDING_LAST_UPDATE = "2026-05-22T04:01:03";
