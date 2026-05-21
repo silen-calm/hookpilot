@@ -63,5 +63,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add trending_videos.js trending_results_*.json
-          git diff --cached --quiet || git commit -m "🤖 Auto crawl $(date -u +%Y-%m-%d_%H:%MZ)"
-          git push
+          git diff --cached --quiet && echo "변경 없음 — skip" && exit 0 || true
+          git commit -m "🤖 Auto crawl $(date -u +%Y-%m-%d_%H:%MZ)"
+          # remote 가 앞서있을 수 있음 (다른 commit 끼어들기). 최대 5회 rebase + push 재시도.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "push 성공 (시도 $i)"
+              exit 0
+            fi
+            echo "push 거부됨 — rebase 재시도 $i"
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+          done
+          echo "5회 시도 실패"
+          exit 1

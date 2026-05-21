@@ -53,7 +53,10 @@ def fetch_url(path):
 
 def test_01_backend_base_port():
     """BACKEND_BASE port가 download_server.py PORT랑 일치 (예전 8889 vs 9000 회귀)"""
-    server_port_m = re.search(r"^PORT\s*=\s*(\d+)", read_file("download_server.py"), re.MULTILINE)
+    # 패턴 두 가지: 옛 `PORT = 9000` + 신 `PORT = int(os.environ.get("PORT", "9000"))`
+    src = read_file("download_server.py")
+    server_port_m = re.search(r'^PORT\s*=\s*int\(os\.environ\.get\("PORT",\s*"(\d+)"\)\)', src, re.MULTILINE) \
+                  or re.search(r"^PORT\s*=\s*(\d+)", src, re.MULTILINE)
     if not server_port_m: return fail("BACKEND_BASE", "download_server PORT 못 찾음")
     server_port = int(server_port_m.group(1))
     for f in ("simple.html", "live.html", "hookpilot.html"):
@@ -567,6 +570,19 @@ def test_35_csp_allows_meta_fallbacks():
     ok("CSP connect-src 메타 fallback 12개 허용")
 
 
+def test_41_no_download_abort_on_modal_close():
+    """closeModal/다음 다운로드 시 진행 중 fetch abort X — 사장님 3 플랫폼 다운로드 1초 실패 회귀 차단.
+    이전 회귀: _dlController.abort() 박혀서 사장님 ESC 후 다음 영상 다운로드 시 1초 안 '실패' 표시.
+    """
+    html = read_file("simple.html")
+    # downloadVideo 함수 시작 부분에서 abort() 호출하면 회귀
+    import re as _re
+    m = _re.search(r"window\.downloadVideo\s*=\s*async\s+function[^{]*\{(.*?)try\s*\{", html, _re.S)
+    if m and "controller.abort" in m.group(1):
+        return fail("download-abort-prev", "downloadVideo 시작 부분 옛 fetch abort — 다음 다운로드 1초 실패 회귀")
+    ok("다운로드 진행 중 abort 안 함 (모달 닫혀도 백엔드 디스크 캐시 완성)")
+
+
 def test_34_download_re_entrant():
     """다운로드 두 번 연속 클릭·다른 영상 모달 열기 시 회귀 차단 — 어제부터 사장님이 호소한 진짜 회귀.
     근본 원인: setInterval timer 가 다음 모달 dlTopBtn 까지 jacking, btn.onclick = null 5초 후 박혀서 두 번째 다운로드 깨짐.
@@ -645,6 +661,7 @@ def main():
         test_34_download_re_entrant, test_35_csp_allows_meta_fallbacks, test_36_no_auto_modal_close,
         test_37_inline_retry_play_no_window_open, test_38_no_external_cors_fetches,
         test_39_yt_thumb_fallback, test_40_guide_info_button,
+        test_41_no_download_abort_on_modal_close,
     ]
     for t in tests:
         try: t()

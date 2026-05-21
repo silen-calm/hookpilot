@@ -504,8 +504,8 @@ _RL_DL_COUNT = {}  # ip → list[ts] (일 다운로드 cap용)
 
 RL_PER_MIN = 60       # 분당 60건 초과 시 의심 → 5분 cool-down
 RL_BURST_BLOCK = 120  # 분당 120건 초과 시 24시간 차단
-RL_DL_PER_DAY = 30    # IP당 일 30건 다운로드 cap (외부 abuse 강화 — 사장님 Mac yt-dlp 부하 방어)
-RL_DL_PER_MIN = 3     # IP당 분당 3건 다운로드 (yt-dlp 무한 호출 차단)
+RL_DL_PER_DAY = 5     # IP당 일 5건 다운로드 cap (외부 abuse + 사장님 Mac IP SNS 위험 최소화)
+RL_DL_PER_MIN = 1     # IP당 분당 1건 다운로드 (yt-dlp 무한 호출 차단)
 
 
 def _ip_rate_limit(ip, is_download=False):
@@ -614,13 +614,11 @@ class HookpilotHandler(http.server.SimpleHTTPRequestHandler):
 
     def _do_GET_inner(self):
         parsed = urllib.parse.urlparse(self.path)
-        # === 무료 보안: rate limit 검사 (API endpoint만) ===
+        # === 외부 사용자 rate limit 매우 strict (사장님 Mac yt-dlp 부하·SNS 위험 최소화) ===
+        # 다운로드·메타·thumb 모두 사장님 Mac yt-dlp 호출 = 사장님 Mac IP 사용.
+        # 외부 사용자 = 분당 1건, 일 5건 cap. 사장님 본인 (localhost) = 무한.
         if parsed.path.startswith("/api/"):
             try:
-                # === cloudflare tunnel 외부 사용자 진짜 IP 추출 ===
-                # client_address[0] 는 tunnel 출구 (127.0.0.1) — 진짜 클라이언트 IP X.
-                # Cf-Connecting-Ip 헤더가 진짜 IP. 없으면 X-Forwarded-For 첫 번째.
-                # 둘 다 없으면 localhost (사장님 직접 접속 또는 LAN).
                 cf_ip = self.headers.get("Cf-Connecting-Ip")
                 xff = self.headers.get("X-Forwarded-For", "").split(",")[0].strip()
                 client_ip = cf_ip or xff or self.client_address[0]
