@@ -891,10 +891,10 @@
 const IND = window.INDUSTRY_LABEL || { med:"병의원", pet:"동물", d2c:"D2C", creator:"인플", edu:"교육", smb:"자영업", b2b:"B2B", beauty:"미용", fitness:"피트니스", food:"F&B", kpop:"K-pop", entertainment:"엔터테인먼트", gaming:"게임", tech:"테크·IT", finance:"금융", travel:"여행", auto:"자동차", lifestyle:"라이프스타일" };
 const HOOK = { result:"결과 먼저 보여주기", expert:"전문가 본인 출연", stat:"큰 숫자 강조", twist:"통념 뒤집기", pov:"고객 시점(POV)", problem:"고객 고민 호명", shock:"충격 자막", deal:"할인·마감 강조" };
 
-// 표시 컷오프 — merge_trending.py와 동일한 시간대별 조회수 기준 + 좋아요·1년 컷
+// 표시 컷오프 — merge_trending.py 와 일치하게 완화 (사장님 화면 925→3000+ 보이게)
 // 사용자 요청 2000+ 매일 / 30일내 2000 / 30~90일 3000 / 90~180일 5000 / 180~365일 10000
-const _MIN_LIKES_DISPLAY = 20;  // 50 → 20으로 완화 (2000회 컷에 맞춤)
-const _MAX_AGE_DAYS = 365;
+const _MIN_LIKES_DISPLAY = 0;  // 20 → 0 (likes 정보 없는 영상도 표시. 사장님 누적 요구)
+const _MAX_AGE_DAYS = 730;     // 365 → 730 (merge_trending.py 시간 컷과 일치)
 function _minViewsForDays(days) {
   if (days == null) return 2000;
   if (days <= 30) return 2000;
@@ -969,15 +969,15 @@ videos.forEach(v => {
   // 일본어 (히라가나·가타카나) 포함 시 일본 콘텐츠로 reclassify
   const hasJapanese = /[぀-ゟ゠-ヿ]/.test(text);
   if (hasJapanese) { v.country = "US"; return; }
-  // 한글 비율 < 15% + title이 비어있지 않으면 → 영문 우위 콘텐츠로 US 분류
-  // (예: "Promise Shorts Discount" 같은 한국 채널의 영문 영상)
+  // 한글 비율 < 5% + title이 비어있지 않으면 → 영문 우위 콘텐츠로 US 분류
+  // 15% → 5% 완화 (사장님 누적 요구 — 한글 조금이라도 있으면 KR로 인식)
   const title = v.title || "";
   if (title.length >= 10) {
     const koCount = [...title].filter(c => {
       const cc = c.charCodeAt(0);
       return (cc >= 0xAC00 && cc <= 0xD7A3) || (cc >= 0x3130 && cc <= 0x318F);
     }).length;
-    if (koCount / title.length < 0.15) v.country = "US";
+    if (koCount / title.length < 0.05) v.country = "US";
   }
 });
 
@@ -1537,7 +1537,7 @@ function makeOneLine(v) {
   return hookFallback[v.hook] || `이 영상의 흐름을 분석해서 ${ind} 클라이언트 외주에 그대로 옮기세요.`;
 }
 
-let state = { country: "KR", platform: "ALL", sort: "priority", track: "ALL", industry: "ALL", search: "", days: 365 };
+let state = { country: "KR", platform: "ALL", sort: "priority", track: "ALL", industry: "ALL", search: "", days: 730 };
 
 // 업종 탭 정의 — 사용자 본업 외주 적합 카테고리 순서
 const IND_TABS = [
@@ -2831,7 +2831,7 @@ window.goHome = function() {
   state.platform = "ALL";
   state.track = "ALL";
   state.industry = "ALL";
-  state.days = 365;
+  state.days = 730;
   state.search = "";
   // sortToggle 첫 버튼 (매출 점수 순) on 클래스 토글
   document.querySelectorAll("#sortToggle button").forEach(b => b.classList.toggle("on", b.dataset.s === "priority"));
