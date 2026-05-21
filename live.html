@@ -957,28 +957,14 @@ let videos = (() => {
   return out;
 })();
 
-// 국가 재분류 — 한글 비율 기준 엄격 분류
-// 1) 한글이 title/channel 어디에도 없으면 외국(US)
-// 2) 일본어 한자(히라가나·가타카나) 우위면 일본 콘텐츠 → US 분류 (한국 외주에 부적합)
-// 3) 영문 콘텐츠가 한국 채널이라도 한국 시장 한정 콘텐츠 X → US 분류
+// 국가 재분류 — 일본어 콘텐츠만 US로 옮김 (사장님 한국 시장 외주 적합 안 함)
+// 서버 crawler의 channel region 기준 KR/US 부여를 신뢰
+// 한글 0% 컷 제거 — "한국 채널의 영문 제목 영상" (예: 먹방·패션·카페 영상) 도 KR 유지
 videos.forEach(v => {
   if (v.country !== "KR") return;
   const text = (v.title || "") + " " + (v.channel || "") + " " + (v.tiktokUser || "");
-  const hasKorean = /[ㄱ-힣]/.test(text);
-  if (!hasKorean) { v.country = "US"; return; }
   // 일본어 (히라가나·가타카나) 포함 시 일본 콘텐츠로 reclassify
-  const hasJapanese = /[぀-ゟ゠-ヿ]/.test(text);
-  if (hasJapanese) { v.country = "US"; return; }
-  // 한글 비율 < 5% + title이 비어있지 않으면 → 영문 우위 콘텐츠로 US 분류
-  // 15% → 5% 완화 (사장님 누적 요구 — 한글 조금이라도 있으면 KR로 인식)
-  const title = v.title || "";
-  if (title.length >= 10) {
-    const koCount = [...title].filter(c => {
-      const cc = c.charCodeAt(0);
-      return (cc >= 0xAC00 && cc <= 0xD7A3) || (cc >= 0x3130 && cc <= 0x318F);
-    }).length;
-    if (koCount / title.length < 0.05) v.country = "US";
-  }
+  if (/[぀-ゟ゠-ヿ]/.test(text)) v.country = "US";
 });
 
 // 메타 fetch 실패·삭제된 영상 표시 — fetchedMeta가 명시적 '삭제' 신호 있으면 풀에서 제거
@@ -2352,12 +2338,12 @@ function filter() {
       if (buckets.TikTok[i]) interleaved.push(buckets.TikTok[i]);
       if (buckets.Reels[i]) interleaved.push(buckets.Reels[i]);
     }
-    return interleaved.slice(0, 1500);
+    return interleaved.slice(0, 5000);  // 1500 → 5000 (사장님 누적 요구)
   }
 
   // 특정 플랫폼만 — 그 플랫폼 내에서 정렬
   list.sort(sortFn);
-  return list.slice(0, 1500);
+  return list.slice(0, 5000);  // 1500 → 5000 (사장님 누적 요구)
 }
 
 function renderCards() {
