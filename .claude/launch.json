@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hookpilot-static",
+      "runtimeExecutable": "/Users/vx/ai-claude/shortform/.venv/bin/python3",
+      "runtimeArgs": ["preview_static.py"],
+      "port": 8834
+    }
+  ]
+}

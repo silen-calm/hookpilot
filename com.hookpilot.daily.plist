@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.hookpilot.daily</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-c</string>
+    <string>mkdir -p /Users/vx/ai-claude/shortform/.tmp &amp;&amp; LOCK=/Users/vx/ai-claude/shortform/.tmp/refresh.lock &amp;&amp; if [ -f "$LOCK" ]; then exit 0; fi &amp;&amp; touch "$LOCK" &amp;&amp; cd /Users/vx/ai-claude/shortform &amp;&amp; timeout 2700 /opt/homebrew/bin/python3 crawler.py --all --output /Users/vx/ai-claude/shortform/trending_results_$(date +\%Y-\%m-\%d).json &amp;&amp; /opt/homebrew/bin/python3 merge_trending.py; rm -f "$LOCK"</string>
+  </array>
+
+  <!-- 매일 새벽 3시 실행 -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>3</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <!-- 부팅 후 1번 즉시 실행 (PC 꺼져있던 시간 보완) -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <!-- 동시 실행 방지 -->
+  <key>AbandonProcessGroup</key>
+  <false/>
+
+  <!-- 절전 wake — pmset 사용 시 활성. mac이 sleep이어도 3시에 깨우려면 별도 pmset schedule 필요 -->
+  <key>LowPriorityIO</key>
+  <true/>
+  <key>Nice</key>
+  <integer>10</integer>
+
+  <key>StandardOutPath</key>
+  <string>/Users/vx/ai-claude/shortform/.tmp/daily.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/vx/ai-claude/shortform/.tmp/daily.err.log</string>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/vx/ai-claude/shortform</string>
+</dict>
+</plist>

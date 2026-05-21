@@ -1,0 +1,27 @@
+# 개발 환경
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# 백업·임시
+*.bak
+*.tmp
+_trash/
+
+# 임시·캐시 (.tmp/ig 178MB 등)
+.tmp/
+
+# 로컬만
+/tmp/*.log
+
+# 빌드 결과
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/launch.json

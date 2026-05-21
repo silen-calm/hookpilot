@@ -1,0 +1,357 @@
+/* ==========================================================================
+   Montage Design System — Colors & Type
+   Tokens extracted from @wanteddev/wds-theme (atomic + semantic scales)
+   Source of truth: wanteddev/montage-web → packages/wds-theme/src
+   ========================================================================== */
+
+/* Pretendard — Montage's primary web font. Figma uses "Pretendard JP"
+   (Korean + Japanese + Latin — Wanted is a trilingual product).
+   Self-hosted via uploaded brand font file. */
+@font-face {
+  font-family: 'Pretendard Variable';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+/* Alias so `font-family: 'Pretendard JP'` (as used in Figma) also resolves. */
+@font-face {
+  font-family: 'Pretendard JP';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url('fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+:root {
+  /* ---------------- ATOMIC COLORS ---------------- */
+  /* common */
+  --wds-common-0: #000000;
+  --wds-common-100: #ffffff;
+
+  /* coolNeutral (primary neutral scale) */
+  --wds-coolNeutral-5:  #0F0F10;
+  --wds-coolNeutral-7:  #141415;
+  --wds-coolNeutral-10: #171719;
+  --wds-coolNeutral-15: #1B1C1E;
+  --wds-coolNeutral-17: #212225;
+  --wds-coolNeutral-20: #292A2D;
+  --wds-coolNeutral-22: #2E2F33;
+  --wds-coolNeutral-23: #333438;
+  --wds-coolNeutral-25: #37383C;
+  --wds-coolNeutral-30: #46474C;
+  --wds-coolNeutral-40: #5A5C63;
+  --wds-coolNeutral-50: #70737C;
+  --wds-coolNeutral-60: #878A93;
+  --wds-coolNeutral-70: #989BA2;
+  --wds-coolNeutral-80: #AEB0B6;
+  --wds-coolNeutral-90: #C2C4C8;
+  --wds-coolNeutral-95: #DBDCDF;
+  --wds-coolNeutral-96: #E1E2E4;
+  --wds-coolNeutral-97: #EAEBEC;
+  --wds-coolNeutral-98: #F4F4F5;
+  --wds-coolNeutral-99: #F7F7F8;
+
+  /* blue — primary brand hue */
+  --wds-blue-10: #001536;
+  --wds-blue-20: #002966;
+  --wds-blue-30: #003E9C;
+  --wds-blue-40: #0054D1;
+  --wds-blue-45: #005EEB;
+  --wds-blue-50: #0066FF;
+  --wds-blue-55: #1A75FF;
+  --wds-blue-60: #3385FF;
+  --wds-blue-65: #4F95FF;
+  --wds-blue-70: #69A5FF;
+  --wds-blue-80: #9EC5FF;
+  --wds-blue-90: #C9DEFE;
+  --wds-blue-95: #EAF2FE;
+  --wds-blue-99: #F7FBFF;
+
+  /* status */
+  --wds-green-50:  #00BF40;
+  --wds-green-60:  #1ED45A;
+  --wds-orange-50: #FF9200;
+  --wds-orange-60: #FFA938;
+  --wds-red-50:    #FF4242;
+  --wds-red-60:    #FF6363;
+
+  /* accent */
+  --wds-redOrange-50: #FF5E00;
+  --wds-lime-50:      #58CF04;
+  --wds-cyan-50:      #00BDDE;
+  --wds-lightBlue-50: #00AEFF;
+  --wds-violet-50:    #6541F2;
+  --wds-purple-50:    #CB59FF;
+  --wds-pink-50:      #F553DA;
+
+  /* ---------------- SEMANTIC — LIGHT (default) ---------------- */
+  --fg1:           var(--wds-coolNeutral-10);   /* label.normal */
+  --fg-strong:     var(--wds-common-0);          /* label.strong */
+  --fg-neutral:    rgba(46, 47, 51, 0.88);       /* label.neutral  @22 x 0.88 */
+  --fg-alt:        rgba(55, 56, 60, 0.61);       /* label.alternative */
+  --fg-assistive:  rgba(55, 56, 60, 0.28);       /* label.assistive */
+  --fg-disable:    rgba(55, 56, 60, 0.16);       /* label.disable */
+
+  --bg-normal:         var(--wds-common-100);
+  --bg-alt:            var(--wds-coolNeutral-99);
+  --bg-elevated:       var(--wds-common-100);
+  --bg-elevated-alt:   var(--wds-coolNeutral-99);
+  --bg-transparent:        rgba(255, 255, 255, 0.08);  /* common[100] @ 8% */
+  --bg-transparent-alt:    rgba(255, 255, 255, 0.28);  /* common[100] @ 28% */
+
+  --primary-normal:    var(--wds-blue-50);       /* Montage blue */
+  --primary-strong:    var(--wds-blue-45);
+  --primary-heavy:     var(--wds-blue-40);
+
+  --inverse-primary:   var(--wds-blue-60);
+  --inverse-bg:        var(--wds-coolNeutral-15);
+  --inverse-label:     var(--wds-coolNeutral-99);
+
+  --static-white:      #ffffff;   /* semantic.static.white  — same in light & dark */
+  --static-black:      #000000;   /* semantic.static.black  — same in light & dark */
+
+  --line-normal:       rgba(112, 115, 124, 0.22);
+  --line-neutral:      rgba(112, 115, 124, 0.16);
+  --line-alt:          rgba(112, 115, 124, 0.08);
+  --line-solid:        var(--wds-coolNeutral-96);
+  --line-solid-neutral:var(--wds-coolNeutral-97);
+  --line-solid-alt:    var(--wds-coolNeutral-98);
+
+  --fill-normal:       rgba(112, 115, 124, 0.08);
+  --fill-strong:       rgba(112, 115, 124, 0.16);
+  --fill-alt:          rgba(112, 115, 124, 0.05);
+
+  --status-positive:   var(--wds-green-50);
+  --status-cautionary: var(--wds-orange-50);
+  --status-negative:   var(--wds-red-50);
+
+  --interaction-inactive: var(--wds-coolNeutral-70);
+  --interaction-disable:  var(--wds-coolNeutral-98);
+
+  --material-dimmer:   rgba(23, 23, 25, 0.52);
+
+  /* ---------------- ACCENT (light) ----------------
+     Source: wds-theme/semantic/index.ts → light.accent
+     "background" tones use *.50 (vivid surfaces, highlights),
+     "foreground" tones are tuned per hue for text/icon legibility on light bg. */
+  /* accent.background */
+  --accent-bg-redOrange:  var(--wds-redOrange-50);
+  --accent-bg-lime:       var(--wds-lime-50);
+  --accent-bg-cyan:       var(--wds-cyan-50);
+  --accent-bg-lightBlue:  var(--wds-lightBlue-50);
+  --accent-bg-violet:     var(--wds-violet-50);
+  --accent-bg-purple:     var(--wds-purple-50);
+  --accent-bg-pink:       var(--wds-pink-50);
+  /* accent.foreground (per-hue tuned in source) */
+  --accent-fg-red:        #FF4242;   /* red.40 — original references atomic.red[40] */
+  --accent-fg-redOrange:  #F75300;   /* redOrange.48 */
+  --accent-fg-orange:     #C77400;   /* orange.39 */
+  --accent-fg-lime:       #4AAB02;   /* lime.37 */
+  --accent-fg-green:      #009933;   /* green.40 */
+  --accent-fg-cyan:       #00A4C2;   /* cyan.40 */
+  --accent-fg-lightBlue:  #0096DC;   /* lightBlue.40 */
+  --accent-fg-blue:       var(--wds-blue-45);
+  --accent-fg-violet:     #4F2BD3;   /* violet.45 */
+  --accent-fg-purple:     #B23DEB;   /* purple.40 */
+  --accent-fg-pink:       #E944C9;   /* pink.46 */
+
+  /* ---------------- SHADOWS (elevation) ---------------- */
+  --shadow-xs: 0px 1px 2px -1px rgba(23, 23, 23, 0.10);
+  --shadow-sm: 0px 2px 4px -2px rgba(23, 23, 23, 0.06), 0px 4px 6px -1px rgba(23, 23, 23, 0.06);
+  --shadow-md: 0px 4px 6px -2px rgba(23, 23, 23, 0.07), 0px 10px 15px -3px rgba(23, 23, 23, 0.07);
+  --shadow-lg: 0px 6px 10px -4px rgba(23, 23, 23, 0.08), 0px 16px 24px -6px rgba(23, 23, 23, 0.08);
+  --shadow-xl: 0px 10px 15px -5px rgba(23, 23, 23, 0.10), 0px 24px 38px -10px rgba(23, 23, 23, 0.12);
+  --shadow-spread-sm: 0px 0px 60px 0px rgba(23, 23, 23, 0.10);
+  --shadow-spread-md: 0px 15px 75px 0px rgba(23, 23, 23, 0.16);
+
+  /* ---------------- RADII (derived from component styles) ---------------- */
+  --radius-xs: 6px;   /* chip xsmall */
+  --radius-sm: 8px;   /* chip small/medium, button small */
+  --radius-md: 10px;  /* button medium, chip large */
+  --radius-lg: 12px;  /* button large, card overlay */
+  --radius-xl: 16px;
+  --radius-pill: 999px;
+
+  /* ---------------- SPACING (px) ---------------- */
+  --space-0:  0px;
+  --space-1:  1px;
+  --space-2:  2px;
+  --space-4:  4px;
+  --space-6:  6px;
+  --space-8:  8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+
+  /* ---------------- BREAKPOINTS ---------------- */
+  --bp-xs: 0px;
+  --bp-sm: 768px;
+  --bp-md: 992px;
+  --bp-lg: 1200px;
+  --bp-xl: 1600px;
+
+  /* ---------------- TYPOGRAPHY ---------------- */
+  --font-sans: 'Pretendard JP', 'Pretendard Variable', Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
+    'Apple SD Gothic Neo', 'Noto Sans KR', 'Noto Sans JP', 'Malgun Gothic',
+    sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas,
+    'Liberation Mono', monospace;
+
+  /* Variant-level typography tokens (size / line / letter-spacing) */
+  --t-display1-size:   3.5rem;   --t-display1-lh:   4.5rem;    --t-display1-ls:   -0.0319em;
+  --t-display2-size:   2.5rem;   --t-display2-lh:   3.25rem;   --t-display2-ls:   -0.0282em;
+  --t-display3-size:   2.25rem;  --t-display3-lh:   3rem;      --t-display3-ls:   -0.027em;
+  --t-title1-size:     2rem;     --t-title1-lh:     2.75rem;   --t-title1-ls:     -0.0253em;
+  --t-title2-size:     1.75rem;  --t-title2-lh:     2.375rem;  --t-title2-ls:     -0.0236em;
+  --t-title3-size:     1.5rem;   --t-title3-lh:     2rem;      --t-title3-ls:     -0.023em;
+  --t-heading1-size:   1.375rem; --t-heading1-lh:   1.875rem;  --t-heading1-ls:   -0.0194em;
+  --t-heading2-size:   1.25rem;  --t-heading2-lh:   1.75rem;   --t-heading2-ls:   -0.012em;
+  --t-headline1-size:  1.125rem; --t-headline1-lh:  1.625rem;  --t-headline1-ls:  -0.002em;
+  --t-headline2-size:  1.0625rem;--t-headline2-lh:  1.5rem;    --t-headline2-ls:  0em;
+  --t-body1-size:      1rem;     --t-body1-lh:      1.5rem;    --t-body1-ls:      0.0057em;
+  --t-body2-size:      0.9375rem;--t-body2-lh:      1.375rem;  --t-body2-ls:      0.0096em;
+  --t-label1-size:     0.875rem; --t-label1-lh:     1.25rem;   --t-label1-ls:     0.0145em;
+  --t-label2-size:     0.8125rem;--t-label2-lh:     1.125rem;  --t-label2-ls:     0.0194em;
+  --t-caption1-size:   0.75rem;  --t-caption1-lh:   1rem;      --t-caption1-ls:   0.0252em;
+  --t-caption2-size:   0.6875rem;--t-caption2-lh:   0.875rem;  --t-caption2-ls:   0.0311em;
+
+  /* Weights — displays/titles use 700 bold, everything else 600 bold */
+  --fw-regular: 400;
+  --fw-medium:  500;
+  --fw-bold:    600;
+  --fw-bold-heavy: 700; /* display1-3 / title1-3 bold */
+}
+
+/* ==========================================================================
+   SEMANTIC ROLES — apply to HTML elements so markup is ergonomic.
+   ========================================================================== */
+
+body {
+  font-family: var(--font-sans);
+  color: var(--fg1);
+  background: var(--bg-normal);
+  font-size: var(--t-body1-size);
+  line-height: var(--t-body1-lh);
+  letter-spacing: var(--t-body1-ls);
+  font-weight: var(--fw-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Display / Title / Heading / Headline — head tags map into Montage scale */
+.t-display1 { font-size: var(--t-display1-size); line-height: var(--t-display1-lh); letter-spacing: var(--t-display1-ls); font-weight: var(--fw-bold-heavy); }
+.t-display2 { font-size: var(--t-display2-size); line-height: var(--t-display2-lh); letter-spacing: var(--t-display2-ls); font-weight: var(--fw-bold-heavy); }
+.t-display3 { font-size: var(--t-display3-size); line-height: var(--t-display3-lh); letter-spacing: var(--t-display3-ls); font-weight: var(--fw-bold-heavy); }
+
+h1, .t-title1 { font-size: var(--t-title1-size);  line-height: var(--t-title1-lh);  letter-spacing: var(--t-title1-ls);  font-weight: var(--fw-bold-heavy); margin: 0; }
+h2, .t-title2 { font-size: var(--t-title2-size);  line-height: var(--t-title2-lh);  letter-spacing: var(--t-title2-ls);  font-weight: var(--fw-bold-heavy); margin: 0; }
+h3, .t-title3 { font-size: var(--t-title3-size);  line-height: var(--t-title3-lh);  letter-spacing: var(--t-title3-ls);  font-weight: var(--fw-bold-heavy); margin: 0; }
+h4, .t-heading1  { font-size: var(--t-heading1-size);  line-height: var(--t-heading1-lh);  letter-spacing: var(--t-heading1-ls);  font-weight: var(--fw-bold); margin: 0; }
+h5, .t-heading2  { font-size: var(--t-heading2-size);  line-height: var(--t-heading2-lh);  letter-spacing: var(--t-heading2-ls);  font-weight: var(--fw-bold); margin: 0; }
+h6, .t-headline1 { font-size: var(--t-headline1-size); line-height: var(--t-headline1-lh); letter-spacing: var(--t-headline1-ls); font-weight: var(--fw-bold); margin: 0; }
+.t-headline2 { font-size: var(--t-headline2-size); line-height: var(--t-headline2-lh); letter-spacing: var(--t-headline2-ls); font-weight: var(--fw-bold); }
+
+p, .t-body1    { font-size: var(--t-body1-size);   line-height: var(--t-body1-lh);   letter-spacing: var(--t-body1-ls);   font-weight: var(--fw-regular); margin: 0; }
+.t-body1-read  { font-size: var(--t-body1-size);   line-height: 1.625rem;            letter-spacing: var(--t-body1-ls); }
+.t-body2       { font-size: var(--t-body2-size);   line-height: var(--t-body2-lh);   letter-spacing: var(--t-body2-ls); }
+.t-body2-read  { font-size: var(--t-body2-size);   line-height: 1.5rem;              letter-spacing: var(--t-body2-ls); }
+.t-label1      { font-size: var(--t-label1-size);  line-height: var(--t-label1-lh);  letter-spacing: var(--t-label1-ls); }
+.t-label2      { font-size: var(--t-label2-size);  line-height: var(--t-label2-lh);  letter-spacing: var(--t-label2-ls); }
+.t-caption1    { font-size: var(--t-caption1-size);line-height: var(--t-caption1-lh);letter-spacing: var(--t-caption1-ls); }
+.t-caption2    { font-size: var(--t-caption2-size);line-height: var(--t-caption2-lh);letter-spacing: var(--t-caption2-ls); }
+
+/* Weight helpers */
+.fw-regular { font-weight: var(--fw-regular); }
+.fw-medium  { font-weight: var(--fw-medium); }
+.fw-bold    { font-weight: var(--fw-bold); }
+
+code, kbd, samp, pre { font-family: var(--font-mono); }
+
+/* Color role helpers */
+.c-fg1        { color: var(--fg1); }
+.c-fg-neutral { color: var(--fg-neutral); }
+.c-fg-alt     { color: var(--fg-alt); }
+.c-fg-assistive { color: var(--fg-assistive); }
+.c-primary    { color: var(--primary-normal); }
+
+/* ==========================================================================
+   DARK THEME
+   ========================================================================== */
+[data-theme="dark"] {
+  --fg1:          var(--wds-coolNeutral-99);
+  --fg-strong:    var(--wds-common-100);
+  --fg-neutral:   rgba(194, 196, 200, 0.88);
+  --fg-alt:       rgba(174, 176, 182, 0.61);
+  --fg-assistive: rgba(174, 176, 182, 0.28);
+  --fg-disable:   rgba(152, 155, 162, 0.16);
+
+  --bg-normal:       var(--wds-coolNeutral-15);
+  --bg-alt:          var(--wds-coolNeutral-5);
+  --bg-elevated:     var(--wds-coolNeutral-17);
+  --bg-elevated-alt: var(--wds-coolNeutral-7);
+  --bg-transparent:        rgba(33, 34, 37, 0.61);    /* coolNeutral[17] @ 61% */
+  --bg-transparent-alt:    rgba(33, 34, 37, 0.61);    /* same in dark per semantic spec */
+
+  --primary-normal: var(--wds-blue-60);
+  --primary-strong: var(--wds-blue-55);
+  --primary-heavy:  var(--wds-blue-50);
+
+  --inverse-primary: var(--wds-blue-50);
+  --inverse-bg:      var(--wds-common-100);  /* dark: bright bg for inverse cards */
+  --inverse-label:   var(--wds-coolNeutral-10);
+
+  --line-normal: rgba(112, 115, 124, 0.32);
+  --line-neutral: rgba(112, 115, 124, 0.28);
+  --line-alt:    rgba(112, 115, 124, 0.22);
+  --line-solid:  var(--wds-coolNeutral-25);
+  --line-solid-neutral: var(--wds-coolNeutral-23);
+  --line-solid-alt:     var(--wds-coolNeutral-22);
+
+  --fill-normal: rgba(112, 115, 124, 0.22);
+  --fill-strong: rgba(112, 115, 124, 0.28);
+  --fill-alt:    rgba(112, 115, 124, 0.12);
+
+  --status-positive:   var(--wds-green-60);
+  --status-cautionary: var(--wds-orange-60);
+  --status-negative:   var(--wds-red-60);
+
+  --interaction-inactive: var(--wds-coolNeutral-40);
+  --interaction-disable:  var(--wds-coolNeutral-22);
+
+  --material-dimmer: rgba(23, 23, 25, 0.74);
+
+  /* accent.background — dark uses *.60 (less vivid, easier on dark bg) */
+  --accent-bg-redOrange: #FF7A33;   /* redOrange.60 */
+  --accent-bg-lime:      #7AE040;   /* lime.60 */
+  --accent-bg-cyan:      #33CFE8;   /* cyan.60 */
+  --accent-bg-lightBlue: #33C0FF;   /* lightBlue.60 */
+  --accent-bg-violet:    #8772F5;   /* violet.60 */
+  --accent-bg-purple:    #D680FF;   /* purple.60 */
+  --accent-bg-pink:      #F778E0;   /* pink.60 */
+
+  /* accent.foreground — dark per source */
+  --accent-fg-red:       #FF6363;   /* red.60 */
+  --accent-fg-redOrange: #FF7A33;   /* redOrange.60 */
+  --accent-fg-orange:    var(--wds-orange-50);
+  --accent-fg-lime:      var(--wds-lime-50);
+  --accent-fg-green:     #1ED45A;   /* green.60 */
+  --accent-fg-cyan:      var(--wds-cyan-50);
+  --accent-fg-lightBlue: var(--wds-lightBlue-50);
+  --accent-fg-blue:      #4F95FF;   /* blue.65 */
+  --accent-fg-violet:    #9D8AFF;   /* violet.70 */
+  --accent-fg-purple:    #D680FF;   /* purple.60 */
+  --accent-fg-pink:      #F778E0;   /* pink.60 */
+}

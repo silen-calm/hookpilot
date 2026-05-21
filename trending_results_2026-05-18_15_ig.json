@@ -1,0 +1,5704 @@
+{
+  "total_collected": 299,
+  "passed_filter": 299,
+  "balanced_output": 299,
+  "platform_distribution": {
+    "Reels": 299
+  },
+  "rejected_hard_filter": 0,
+  "rejected_low_score": 0,
+  "rejected_by_balance": 0,
+  "filter_threshold": 0,
+  "per_platform_cap": 500,
+  "criteria": {
+    "min_views": 2000,
+    "min_likes": 20,
+    "min_views_for_old_videos": 50000,
+    "block_pattern_count": 29,
+    "scoring": "Engagement Rate(40) + Velocity(30) + Authority(15) + Commerce(15) × Time Decay",
+    "safety": "차단·로그인 응답 키워드 감지 시 즉시 제외 + 3 플랫폼 균등 배치"
+  },
+  "videos": [
+    {
+      "instagramShortcode": "DUne63WjDTB",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Papar Cenote] review",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "entertainment",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DLqd5GjSAn7",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Nubeo Galileo] Review",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "entertainment",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DIn2dB7ituQ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Need help finding this wide rotating peeler on amazon/ebay",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CmH0HJEo-38",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Reviewing High Protein IG Meal Prep Recipes (Part 2)",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "entertainment",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C-p3pyQOoO0",
+      "platform": "Reels",
+      "country": "US",
+      "title": "The Infatuation has reviewed Feld 😬",
+      "channel": "reddit_ChicagoFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ChicagoFood:instagram.com/reel",
+      "industry": "entertainment",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Co5XqvlAd0f",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Sheffield Powerlifing 2023: Preview and discussion post",
+      "channel": "reddit_xxfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:xxfitness:instagram.com/reel",
+      "industry": "entertainment",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8uthYBuiNK",
+      "platform": "Reels",
+      "country": "US",
+      "title": "First production units! Now on to sales",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "ChIEQPdjHwc",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How much does viral social media content grow your startup?",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DU4Da2Uisb-",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Baggy clothes",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DUtW2BzDb7L",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Can you recommend a Suede jacket like this?",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DUZC0kggG",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Fashion",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DTv3JUcDGgt",
+      "platform": "Reels",
+      "country": "US",
+      "title": "LV show reframing the future of male style",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DR8q9wUDrvS",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Anyone know what jacket Freddie freeman is wearing?",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DQJVCS_iHPZ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Can someone tell me what this M65 jacket is",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DLsfPnwIVWz",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Where can I find this kind of underwear (briefs)?",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DHJ5Ho6yST5",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[request] Where can I get this jacket?",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DGQgAIipOqA",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Skinny vs wide leg pants",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DFTUpmXIwA0",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What jacket is he wearing?",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDu9vbVo-gd",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What is Timothee wearing? ",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDSRy1dutV4",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What suit is he wearing? ",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DB32Q-qODIn",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Where are these jeans from ",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DBDNPlWvucz",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What style of denim pant is this??",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C1MvMlHsqEp",
+      "platform": "Reels",
+      "country": "US",
+      "title": "The meaning of designer clothing",
+      "channel": "reddit_malefashionadvice",
+      "category_hint": "fashion",
+      "_source": "reddit_search:malefashionadvice:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DG9dksgpkPD",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[QC] ¥139 Los Angeles Dodgers X Murakami jersey",
+      "channel": "reddit_FashionReps",
+      "category_hint": "fashion",
+      "_source": "reddit_search:FashionReps:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8CrXHFKBP1",
+      "platform": "Reels",
+      "country": "US",
+      "title": "W2C vintage Football track suits?",
+      "channel": "reddit_FashionReps",
+      "category_hint": "fashion",
+      "_source": "reddit_search:FashionReps:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C43h91XNqem",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What do you think about this?",
+      "channel": "reddit_FashionReps",
+      "category_hint": "fashion",
+      "_source": "reddit_search:FashionReps:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DMmtVW8T6DQ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Question] Asking for Kingsley Timepiece Regal Collections opinions",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DVMG-KuDc1B",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Help ID this watch",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DTO7bK8DSTw",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What watch is he wearing?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DS4rOpwESuI",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[IWC Ingenieur Perpetual Calendar 41 (IW344903)]",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DP6bVqKCHJD",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Victora Beckham Watch ID",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOpFAkZjPKk",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Discussion] Rolex for tool watch?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOofYJmEVSo",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Article] The 13 Best Watches from the Emmys last night. But they missed Jason Bateman's watch, a Rolex Daytona ref 6263. What's your favorite?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOceKOhieq6",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Hamilton] Just picked up a unique piece: a Hamilton Masonic Commemorative Watch (ref. 6172)",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "kpop",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DMbgMikNsW0",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[IDENTIFY] Does anyone know what watch this is? Silver watch",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DMlXkbZymHc",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Patek Philippe] One You Don’t See Every Day: Patek Philippe 5036-1G (Triple Calendar, Moonphase)",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "beauty",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DLkV4hsxdrH",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Question] Need help identifying this watch base or similar",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DK2StrgJ7q8",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Longines Zulu] with HydroConquest GMT Rubber Strap – Perfect Summer Combo",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DKkGteMIFwZ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Id of mma fighter watch",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DKPWt3sJXLv",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Mechanical vs  Quartz]  where do you stand?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DJpKBnuuRTM",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Franck Muller Vanguard] A look at my complete service",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DIG4EhfSja1",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Ajwain watches] Khaki",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DCRxlWNt3mJ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Monica’s watch",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DHV8SvpRI8H",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Help identify this watch?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDumjs-vxY4",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Studio Underd0g] lume shots making me hungry",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDky2COPOmO",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What watch did Dillon Gabriel wear last night at the Heisman Ceremony?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9A6MgRSXkm",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Whats Andy Cooks wearing?!",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C7vpEn0xwAt",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[TAG HEUER] New Aquaracer Date and GMT - First Thoughts?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C7MJAvYKg39",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Identify] Can someone identify this watch please ",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C5R_bEaO3jX",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Need help identifying a mexican senator's watch",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C5B5Io5x6al",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Can anyone help me identify this watch. Please let me know. ",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C4Tz-EKPeO-",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Custom made bronze watches] I made for clients [Links to videos]",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C4N0JxbsAKl",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Does anybody know what model is this and if I can buy it in the States?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CzjMqrPONKy",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[identification] Any idea what watch she’s wearing ?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C2gCwVJMr0a",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[SWATCHxOMEGA] Moonshine Snoopy edition - Omega Speedmaster Snoopy",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C195Ysbv8XR",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Baltic] Hermétique Tourer in green - first impressions good!",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CuPUJA0Iv0N",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Seriously in readable watch",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CgUKh1WKxuU",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Identification] Casio GShock modded?",
+      "channel": "reddit_Watches",
+      "category_hint": "fashion",
+      "_source": "reddit_search:Watches:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8J440PPcWl",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "유치환 행복",
+      "channel": "reddit_hanguk",
+      "category_hint": "fashion",
+      "_source": "reddit_search:hanguk:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C78RvKCxPfw",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "윤보영 꽃",
+      "channel": "reddit_hanguk",
+      "category_hint": "fashion",
+      "_source": "reddit_search:hanguk:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CurEDlFvibZ",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "무단횡단이 정말 한국에서 유달리 잡는걸까요..?",
+      "channel": "reddit_hanguk",
+      "category_hint": "fashion",
+      "_source": "reddit_search:hanguk:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DWNTUCWCXGy",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Trying something new with my dog and would love honest feedback!",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DO6AH1ukdw8",
+      "platform": "Reels",
+      "country": "US",
+      "title": "This Dog Song Is Incredible",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DNn3N8sRBxd",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Where can I find this collar and leash?",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DNc0_1oMSkt",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What mix of breed",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DJMGIBZOfx4",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Which Engagement Toys Stand up to the Toughest Chewers?",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DGkW4cpRuLg",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What else can I do to help my foster dog find a home?",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C5i99T9LTVb",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Gus &amp; Ruby in Kanab",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cz4Yf9rIB",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Pet security cameras- recommendations please",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CzRCDc4ufn9",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Salvation Bark - Saving Shelter Dogs",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CPYGW2oFXGE",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Help! Boarding lost her bed and we can’t find a new one anywhere. It’s a cave type bed from PetSmart and she really loved it.",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cng_j2cJlMB",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Adorable video!!",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CnVcKyYBsMn",
+      "platform": "Reels",
+      "country": "US",
+      "title": "French Bulldog",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Ccsctnog9DQ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Breed",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CaD5GiiA0Ar",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Been taking my dog to training and I’m so proud of him!!!!",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CQZYJt5HbPH",
+      "platform": "Reels",
+      "country": "US",
+      "title": "We have recently rescued a dog",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CL7WDKtD3Zw",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Link] What’s going on here? Dog showing teeth and growling when receiving affection?",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CLKEkZsHJ0X",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Discussion] Dogs and balloons",
+      "channel": "reddit_dogs",
+      "category_hint": "pet",
+      "_source": "reddit_search:dogs:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DJFSY06sJR4",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Dog used to enjoy car rides but since a firework she is now terrified of it",
+      "channel": "reddit_DogTraining",
+      "category_hint": "pet",
+      "_source": "reddit_search:DogTraining:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cey4xfZACUQ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Need help with a heartbreaking GSD shelter adoption",
+      "channel": "reddit_DogTraining",
+      "category_hint": "pet",
+      "_source": "reddit_search:DogTraining:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DNjQGByxABi",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Lulu's insta:)",
+      "channel": "reddit_labrador",
+      "category_hint": "pet",
+      "_source": "reddit_search:labrador:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DMYyUgcCJdy",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Gentle dog friendly helper dog Barney (9 month lab) needs someone to offer to adopt him (any US state) by Friday to save his life. (Lancaster, CA)",
+      "channel": "reddit_labrador",
+      "category_hint": "pet",
+      "_source": "reddit_search:labrador:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDudneLOANw",
+      "platform": "Reels",
+      "country": "US",
+      "title": "No lies detected ",
+      "channel": "reddit_labrador",
+      "category_hint": "pet",
+      "_source": "reddit_search:labrador:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9PqmN-RS9H",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Yellow lab pulling girl to school",
+      "channel": "reddit_labrador",
+      "category_hint": "pet",
+      "_source": "reddit_search:labrador:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CuN_0KMg1Ou",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Young Lab for Adoption - Saved on Euth Day at shelter",
+      "channel": "reddit_labrador",
+      "category_hint": "pet",
+      "_source": "reddit_search:labrador:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CqajefsDf9q",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Half Lab half Velociraptor",
+      "channel": "reddit_labrador",
+      "category_hint": "pet",
+      "_source": "reddit_search:labrador:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DFAvY9aIxzs",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[homemade] Sweet chili vegetables with tofu ",
+      "channel": "reddit_food",
+      "category_hint": "fnb",
+      "_source": "reddit_search:food:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C7wMjlMSGwY",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Sheet Pan Chicken Shawarma [homemade]",
+      "channel": "reddit_food",
+      "category_hint": "fnb",
+      "_source": "reddit_search:food:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DCdjukHxecp",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[homemade] Airfryer Chick 65",
+      "channel": "reddit_food",
+      "category_hint": "fnb",
+      "_source": "reddit_search:food:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8fpZAlSFuZ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[homemade] curry udon and kakuni",
+      "channel": "reddit_food",
+      "category_hint": "fnb",
+      "_source": "reddit_search:food:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CzGmJFWOckY",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Lemon Orzo soup with Garlic toast",
+      "channel": "reddit_FoodPorn",
+      "category_hint": "fnb",
+      "_source": "reddit_search:FoodPorn:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CtoyTN4qR25",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Amazing Indian Chicken Biryani",
+      "channel": "reddit_FoodPorn",
+      "category_hint": "fnb",
+      "_source": "reddit_search:FoodPorn:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cq221LbgzyF",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I made green curry and coconut milk orzo risotto with marinated prawns.",
+      "channel": "reddit_FoodPorn",
+      "category_hint": "fnb",
+      "_source": "reddit_search:FoodPorn:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CqQk38EA6s-",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I made a scallops, calamary and prawns paella with roasted garlic and coriander alioli",
+      "channel": "reddit_FoodPorn",
+      "category_hint": "fnb",
+      "_source": "reddit_search:FoodPorn:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DP2ZIfAE7sb",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "To those who criticize the the no visa for Chinese tourist, especially the far rights, please watch this.",
+      "channel": "reddit_korea",
+      "category_hint": "fnb",
+      "_source": "reddit_search:korea:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DBupTRuxGd2",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Who is this Korean Travel vlogger?",
+      "channel": "reddit_korea",
+      "category_hint": "fnb",
+      "_source": "reddit_search:korea:instagram.com/reel",
+      "industry": "entertainment",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cu7bHnIM2Bu",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Is kimchi considered a side dish aka banchan?",
+      "channel": "reddit_korea",
+      "category_hint": "fnb",
+      "_source": "reddit_search:korea:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Csp9GF4KiYH",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Thoughts on Begpackers?",
+      "channel": "reddit_korea",
+      "category_hint": "fnb",
+      "_source": "reddit_search:korea:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DXp4GSwkptr",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Does Anyone Follow \"Perpetual Stew Guy\" and is there anything he could do at this point to bring this project back into something palatable (or at least translu",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DXZk_HOodMa",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Just can’t get Chimmichurri right. Is it the parsley?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DWeE6Exldql",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Infrared broiler safe plate?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DSFt5zpDSTU",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Can anyone make these tortilla wraps?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DCWznNox5tb",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Chicken over rice",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DTz4_2PEZKX",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Grilled tteok: can I make this at home?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C2C8WtVLaWZ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Leftover chicha de jora",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DSV0nfmEuXS",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Was going to follow an air fried pork shoulder recipe that looked good but I’m noticing some potential issues and need help",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DRZh6N2EhdO",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Please help? (If allowed)",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DRPFuEWjdOm",
+      "platform": "Reels",
+      "country": "US",
+      "title": "FOWL's baking soda/ vinegar chicken brine",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DSposXBjrB7",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Brisket recipe passed down, can you help make it better?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DPTHxcqDOPK",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Gordon Ramsay's amazing silky mashed potatoes",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C3yN_9ouQb3",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Recommendations for accompaniment to a certain recipe",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DLpkcskOR7q",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Hey what's the green veggie being cut at the end of this reel?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DMapOg4iVbk",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Brush butter upward: Is this a thing I should know more about?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DJkGyqkSELm",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Please help out a cooking novice with a roast chicken recipe",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DKJeuIQvGLg",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What is this Chinese dish called (cow intestines, tadpoles, eggs, etc)?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDbiQpGTa3Z",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Pavlova",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DCU-1AlSul7",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Protein powder in recipes?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDKVa-9NX_T",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Whole roasted pomegranate",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DCwsrzINlS4",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Saw this Instagram reel but don't know what ingredients are used. Can anyone help?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C_Pk-FiIotY",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Which is the name of this turkish food?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C--XTi7ujnv",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Garnish for lobster",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C6HJWADoKKX",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Dark chocolate in Tomato sauce",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C10SsotPOjX",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Bright red chicken wings from Latin market?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C11o9vCoClY",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Can anyone tell what pans are in this video?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CnSGiH5I1HA",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Purple potatoe cream!! NEED HELP!!",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C1IaBobvZaA",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Post Fry Chicken Seasoning",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CxDgCF7ohEU",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Adjusting a recipe to 5 portions for meal prep instead of 2.",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CfzGn9tF0HT",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Sour Candy Alternative?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "kpop",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CwUwGfLJYb9",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Recipe for Japanese pancakes",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cx0C0eIB-RC",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How to maximize the jiggle?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CwnS0ZDLyn-",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Layered loaf question",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CrOkSODoGNO",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Cutting Board Spray (Between Foods)",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CoObvVOvBMZ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Any way to make this recipe without brown sugar?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CnwpcQvJFMm",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How do I add more flavor conveniently to this recipe? It’s convenient and tasty, but a little bland",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CmOJAdFDe5S",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Help wanted Pea flower",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cly0urSjSDJ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Chinese sticky rice - mushrooms",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "ChiJqBKjQyz",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What is the name of this dish?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Ck75AjqoGh9",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How do you make this breaded soft boiled egg?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Ch2_0SYjFd9",
+      "platform": "Reels",
+      "country": "US",
+      "title": "heavy cream or heavy whipping cream",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CjYZc8EIPqI",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How much Beef/Ox cheek for 2 people?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CjIhvHkgYEf",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How much of a difference does adding alcohol to a recipe actually make?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "ChkP2lRj7Us",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What cleanliness concerns are there when prepare everything on a wooden table like this?",
+      "channel": "reddit_Cooking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Cooking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DQOWlrAjblW",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "bibimbap bowl ; how it is made",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DVYaShNEdAV",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Korean BBQ!!! Take a look ♥️",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C2cZ5eErKa3",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Yubuchobap 유부초밥",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOXZr8ckcbt",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "반찬 meal prep! 가지나물 (steamed eggplant - top left), 된장 시금치나물 (doenjang spinach - top right), 참치전 (tuna pancake - bottom left), 계란찜 (steamed egg - bottom right), 닭",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DKE4y85SE7k",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Turtle Chips : Just for Justin Flavor",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DEgCugGuoiG",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "sharing spicy pork stir-fry recipe..!",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C6jKxAVPC69",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "What’s the deal with super head-y 소맥?",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C1cQ-lNu3Az",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "I made Mayak tea eggs!",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C1NTmknOGYJ",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Pineapple Kimchi",
+      "channel": "reddit_KoreanFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:KoreanFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CnxSh79uJzw",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Ivan Orkin is doing a short term pop up in Brighton UK",
+      "channel": "reddit_ramen",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ramen:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DVhrnvpDWJM",
+      "platform": "Reels",
+      "country": "US",
+      "title": "2nd ever attempt at Blueberry muffins",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CjECOFdA2zh",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Apple Cake with Maple Frosting",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DI-9qBOh9H3",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Replacement for corn/potato flour in a lemon tart?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DNCNX3JMLnn",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Pumpkin coffee cake 🍰",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C45M2aiPqPD",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Chocolate chip cookies are too flat and gooey",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DPCn8uoDL2N",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Anyone know the liquid that the cheesecake balls are dipped in",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DJov_NeuvBL",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Bread Flour Bagels",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DJlzaYiIsII",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I made focaccia for the first time",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DPBkK2xD8fT",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Look at this!",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CvAsbEsNQUy",
+      "platform": "Reels",
+      "country": "US",
+      "title": "My First Time Making Mirror Glaze",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DMmIwlLxeuY",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Let’s say I wanted cake al pastor, how would I even do this",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DLTAG30yZMs",
+      "platform": "Reels",
+      "country": "US",
+      "title": "My cookie is cake?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DK8RVTusZud",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Idk how I thought croissants were made en masse but this wasn’t it - hilarious",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DAds2hcIbT_",
+      "platform": "Reels",
+      "country": "US",
+      "title": "My birthday cake and the inspiration behind it",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DFn44uiPnPy",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Best cookies I’ve ever had",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C7V5q2ASwCR",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Does anyone have an idea of how to make a copycat of this creme brulee cookie?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DEFglZVxlMO",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Why is my mousse grainy and runny ",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cc3EgCMACMf",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Perfect Banh Mi Bread ",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DD4p7_jpDul",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Help turning into mousse consistency",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DBKB3SUS3ar",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Keto protein powder lemon muffins",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DAEWApgImFX",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Thoughts on turning any jam into curd?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C--xURqsXAy",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Orange, cardamom and ginger loaf. Love a simple yet delicious bake. ",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "auto",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C85KK0RSenq",
+      "platform": "Reels",
+      "country": "US",
+      "title": "any tips or ideas for a tennis themed baked good or cake?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8CXI76JbAe",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I started a new job recently, so I made sourdough focaccia with bacon, cheddar cheese, and red onion to share with the office.",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9umv5jJ_Mr",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Chocolate chip banana bread cookies!",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9sdluFuDvM",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Has anyone ever tried this hack to get a cake out of the pan when it’s stuck?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C6GphjTu-iw",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Buttercream that sets like a ganache?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C5OwkDOJq2b",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I made 408 floral cupcakes!",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C4IEX1NAcl8",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Baking fantastic Italian bread?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CxqzGhOs_gh",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Midnight baking. Persian love cake.",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DJnDZJ5MuLZ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Anyone know what happened to Betty Crocker's Cherry Chip Cake mix?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CzNA6HqMZtC",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What temperature and how long to bake a giant croissant?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CrYNyZ0Kpgz",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Does anyone have a recipe for the Mille feuille pastry that gets very puffed up/tall?",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cxpww0wthY1",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Apple Cinammon Streusel Cake - Recipe by the amazing bakedbylaora :]",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cx1M3L9OAuN",
+      "platform": "Reels",
+      "country": "US",
+      "title": "An homage to Only Murders in the Building - my “Showstopper” bake",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CxdlZXjPHoK",
+      "platform": "Reels",
+      "country": "US",
+      "title": "My first Crème brûlée!",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cvhsv_dA34l",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Sad baking fail",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Ctb2CbQtgEb",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Made a chocolate &amp; hazelnut mousse cake 😋",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cif_B3sMa2n",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Brigadeiros topped cake",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CdjP3zNARWC",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Thick Chocolate Chip Cookies!",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cc0QA8sgT0A",
+      "platform": "Reels",
+      "country": "US",
+      "title": "BANANA NUT BREAD!",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cc3MF4soNne",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Help with buttercream",
+      "channel": "reddit_baking",
+      "category_hint": "fnb",
+      "_source": "reddit_search:baking:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DUjgEl2EtAF",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Yogurt Clusters w/ Dolci Frutta drizzle",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DQU7E6LE5Fc",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Trying to follow a recipe on Instagram where he cooks seasoned chicken thigh bites in a pan with oil but he doesn’t give any detail, can someone help?",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "kpop",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOv4O8rkXhp",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How did he make this breading for the sandwich?",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C1YE0PyPWxE",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Red Wine Substitution?",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C4J5dEfLbso",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What chilli should I used for a spicy linguine pasta?",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CvhqdCItOfO",
+      "platform": "Reels",
+      "country": "US",
+      "title": "What to use instead of cornstarch in 2 recipes?",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CbIqxN9jVPG",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Recipe said fry chicken and put it in oven but mine came out horrible",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cl6dOCuDYon",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Mixing your dredge together vs coating each step?",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CijDOLoJ9Tl",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Delicious, quick, &amp; easy Chicken Adobo",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CaxcjoHJAKl",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I have 7 heads of garlic and don't know what to do with them all",
+      "channel": "reddit_cookingforbeginners",
+      "category_hint": "fnb",
+      "_source": "reddit_search:cookingforbeginners:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CYc-xnXhfQ3",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Left over charcuterie board mac and cheese",
+      "channel": "reddit_Frugal",
+      "category_hint": "fnb",
+      "_source": "reddit_search:Frugal:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C3k5CFCtN-e",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Sometimes you just gotta go to Panda Express and say \"hey can I get two large sides of chow mein and that's it\"",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DLLX5fqzOj7",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Enchiladas Suizas",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DEQONr7pt54",
+      "platform": "Reels",
+      "country": "US",
+      "title": "It’s ain’t much, but it’s a lot prettier than what I normally make.",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8o3-DSJ_t8",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Shiitake Mushroom and Chicken Rice + Sausage and Sun Dried Tomato Pasta",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C_TtadaS3uu",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Delicious Tuscan Pasta recipe ",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DAGtq7bNtp0",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Meal prep safe?",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C7wf8yQINFP",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Sunday's meal prep 😌",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CndDVQQAKtR",
+      "platform": "Reels",
+      "country": "US",
+      "title": "my meal prep today",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C-8So6BqLjN",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I like the idea, recipes could use some work imo",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C6CGA8SJhij",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Slow cooker teriyaki chicken meal prep ",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C-VTbSVooRM",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Hawaiian Pineapple Chicken &amp; Rice this week! ",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9qkqVnvCiJ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Let’s go to Vietnam… or just make a bunch of Vietnamese food bc we poor",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C67Xd_Xp_Rb",
+      "platform": "Reels",
+      "country": "US",
+      "title": "It’s too hot to cook - so what can we do with 1 big pot of hot water",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cz6qdtQOsP1",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Noodlemania!",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CrOhm1HIh8n",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Late night Saturday meal prep!",
+      "channel": "reddit_MealPrepSunday",
+      "category_hint": "fnb",
+      "_source": "reddit_search:MealPrepSunday:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DWdCAA3jg5L",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Amici on Broadway suddenly closed",
+      "channel": "reddit_ChicagoFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ChicagoFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DQk8cOLDJpA",
+      "platform": "Reels",
+      "country": "US",
+      "title": "CASA YARI IS COMING BACK",
+      "channel": "reddit_ChicagoFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ChicagoFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8cWNfzs34G",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Peter Regas and the hidden history of Deep Dish on the Pizza Pod Party",
+      "channel": "reddit_ChicagoFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ChicagoFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C4I_2MWLFRn",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Best chicken teriyaki meal?",
+      "channel": "reddit_ChicagoFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ChicagoFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CzGjJbcr8En",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Fry's Chicken and Fries - Niles",
+      "channel": "reddit_ChicagoFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ChicagoFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cvm1SxkAw1D",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Seven Treasures closing this week",
+      "channel": "reddit_ChicagoFood",
+      "category_hint": "fnb",
+      "_source": "reddit_search:ChicagoFood:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CW_MAuRJ0YT",
+      "platform": "Reels",
+      "country": "US",
+      "title": "The Problem with 'Form': Exploring 'Forms' Place and Use in Lifting.",
+      "channel": "reddit_Fitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:Fitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DQHTWefEUf7",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Can you really fix palvic tilt like that or is it a fake",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cu4paX7orsv",
+      "platform": "Reels",
+      "country": "US",
+      "title": "HARDEST BODYWEIGHT MOVEMENTS with video links and sorted into categories, second edition (upper body)",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "pet",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DI_yR3VJYip",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Bettering your 1RM Attempt",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DHv20iZJlU7",
+      "platform": "Reels",
+      "country": "US",
+      "title": "My Road to 30 Pullups",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DBq8WkixFwH",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How does this guy not destroy his shoulders?",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C756RgasJvzOJGx",
+      "platform": "Reels",
+      "country": "US",
+      "title": "PPU form check, how does this look and what would be best to improve my form?",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CyQ6t81p9ST",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How to put mass on legs without barbell squats?",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cgg5A-vlYKu",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Bread &amp; Butter: My experience with running a concurrent weighted pullup/dip Smolov Jr.",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CVwLThDlZyN",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I've been breaking through a weighted chin-up plateau, and lifted my gym buddy last night.",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C3I3PaDLVdr",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Hardest bodyweight leg moves list with video links, second edition.",
+      "channel": "reddit_bodyweightfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:bodyweightfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DCpRI0eI9Jv",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How do you do a quad focused squat on a smith machine?",
+      "channel": "reddit_xxfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:xxfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "ChD7Y8JAm_W",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Powerlifting Meet Report] Olympus Summer Showdown | 30 yo F 82.5kg Open",
+      "channel": "reddit_xxfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:xxfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CeMvE7eAYSw",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I am answering all your questions about what a WOMEN'S BARBELL is (and why most women do not need them)",
+      "channel": "reddit_xxfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:xxfitness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CI6ZVJEH1bE",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Gaslighting and gym bullying talk by Sohee Lee.",
+      "channel": "reddit_xxfitness",
+      "category_hint": "fitness",
+      "_source": "reddit_search:xxfitness:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cid_7BSjDrW",
+      "platform": "Reels",
+      "country": "US",
+      "title": "anyone know what type of pants the dude in this tik tok is wearing?",
+      "channel": "reddit_GYM",
+      "category_hint": "fitness",
+      "_source": "reddit_search:GYM:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CbIgQrxgW8P",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Some deadlift grip training",
+      "channel": "reddit_GYM",
+      "category_hint": "fitness",
+      "_source": "reddit_search:GYM:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CTPtu5THKr8",
+      "platform": "Reels",
+      "country": "US",
+      "title": "weird spinal flexion deadlift.",
+      "channel": "reddit_GYM",
+      "category_hint": "fitness",
+      "_source": "reddit_search:GYM:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CS2d2RTl1UB",
+      "platform": "Reels",
+      "country": "US",
+      "title": "i’m confused",
+      "channel": "reddit_GYM",
+      "category_hint": "fitness",
+      "_source": "reddit_search:GYM:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DDxUopfSrqh",
+      "platform": "Reels",
+      "country": "US",
+      "title": "DIY Chest Supported Lever Row Station (Rack Mounted)",
+      "channel": "reddit_homegym",
+      "category_hint": "fitness",
+      "_source": "reddit_search:homegym:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C-sYvvRJmgl",
+      "platform": "Reels",
+      "country": "US",
+      "title": "AMA for Crandall Fitness ",
+      "channel": "reddit_homegym",
+      "category_hint": "fitness",
+      "_source": "reddit_search:homegym:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cz1IeKburFv",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Dialed Motion AMA - A New Universal Rack Mounted Cable System",
+      "channel": "reddit_homegym",
+      "category_hint": "fitness",
+      "_source": "reddit_search:homegym:instagram.com/reel",
+      "industry": "kpop",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9zzdqFv052",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Hardrock 100: My Dream Race",
+      "channel": "reddit_running",
+      "category_hint": "fitness",
+      "_source": "reddit_search:running:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9-f2ILMXvq",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Race Report - San Francisco Marathon 2024",
+      "channel": "reddit_running",
+      "category_hint": "fitness",
+      "_source": "reddit_search:running:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CsT02FrA6Cj",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Next level 10,000m race?",
+      "channel": "reddit_running",
+      "category_hint": "fitness",
+      "_source": "reddit_search:running:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C4iWN90r1Zq",
+      "platform": "Reels",
+      "country": "US",
+      "title": "The Nike Women’s Marathon will be back?!",
+      "channel": "reddit_running",
+      "category_hint": "fitness",
+      "_source": "reddit_search:running:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cx3LMRisQrh",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Race Report: Glasgow Half Marathon - Great Scottish Run",
+      "channel": "reddit_running",
+      "category_hint": "fitness",
+      "_source": "reddit_search:running:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CUSjzLZjrdP",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Race Report - The 2021 Yeti 100 Mile Endurance Run",
+      "channel": "reddit_running",
+      "category_hint": "fitness",
+      "_source": "reddit_search:running:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CLUFDhzHo7r",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Tips for keeping good form when running at a slower pace?",
+      "channel": "reddit_running",
+      "category_hint": "fitness",
+      "_source": "reddit_search:running:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DBZVyFHxSDP",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Mike Van Wyck just physically assaulted Jeff Nippard",
+      "channel": "reddit_naturalbodybuilding",
+      "category_hint": "fitness",
+      "_source": "reddit_search:naturalbodybuilding:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C1574rJuKIo",
+      "platform": "Reels",
+      "country": "US",
+      "title": "4 - 6 exercice per muscle by workout ?",
+      "channel": "reddit_naturalbodybuilding",
+      "category_hint": "fitness",
+      "_source": "reddit_search:naturalbodybuilding:instagram.com/reel",
+      "industry": "fitness",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cr4AYL6B_mU",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Latest nonsense from Paul salandino, do people actually listen to him?",
+      "channel": "reddit_naturalbodybuilding",
+      "category_hint": "fitness",
+      "_source": "reddit_search:naturalbodybuilding:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DVT0qluCWTJ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "ROSCOE BELLAMY new pickleball learning framework website Checkout this post that that talks about it!",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DVIGf01AHYw",
+      "platform": "Reels",
+      "country": "US",
+      "title": "travel channel need feedback",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "travel",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DUivZJCAL4s",
+      "platform": "Reels",
+      "country": "US",
+      "title": "travel channel as a business",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "travel",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DT3LSrDgNTM",
+      "platform": "Reels",
+      "country": "US",
+      "title": "New Travel Channel",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "travel",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DRfA09ngF0N",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Small Advertising Business - Travel Channel",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "travel",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DHeKbtLJck6",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Posting and valuable content advice for bakery owners",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOTWEOWE8xV",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Building our Startup Incubator",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOydnfWCKdJ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I find out great video about business strategies, check it out",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DH9DdBHIhd7",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Resources for SMBs Dealing w/ Tariff Crisis?",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DF1di5Jx9b-",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Meta Ads or Instagram Ads?",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DEz4QI7OwM2",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Do you think this is an interesting idea?",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C8uBXo3vtTO",
+      "platform": "Reels",
+      "country": "US",
+      "title": "12 x 12 x 12 plastic product \"thank you\" bags",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CtxNQe4MdOX",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Arbitration agreements",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CooHmEnJjBG",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Helping to improve start up business",
+      "channel": "reddit_smallbusiness",
+      "category_hint": "smb",
+      "_source": "reddit_search:smallbusiness:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cy6-fAJME4x",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How I Grew A SaaS Product to $450 MRR With Social Media Marketing",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C6iuOd4ioqX",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Three things I learned last week.",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C5MwNlwCihi",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Can I launch my mobile app after 60 days?",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C3pyVhTNAIo",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I did a deep dive on Instagram growth and found repeatable patterns",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "kpop",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C2ztCWRMfx0",
+      "platform": "Reels",
+      "country": "US",
+      "title": "My product is in an actual store? 😱",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CzorfauIDVb",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How We Reached 300K Views Across TikTok/Reels/Shorts For Our AI Startup",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cz3y_9SAEhZ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Most underrated quality for entrepreneurship is determination — Sam Altman",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cv5-AKfNy_q",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Postal business",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Csq8tP-LiGc",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Unexpected Marketing Campaign",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CpvBV4tM1vB",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Anyone auditioned for Shark Tank before? We are headed to the Casting Call next week.",
+      "channel": "reddit_Entrepreneur",
+      "category_hint": "smb",
+      "_source": "reddit_search:Entrepreneur:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C_cht4mI1IQ",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Are women really resonating with an ad like this and this tonality?",
+      "channel": "reddit_marketing",
+      "category_hint": "smb",
+      "_source": "reddit_search:marketing:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C-Ia4NnuGgR",
+      "platform": "Reels",
+      "country": "US",
+      "title": "How can I auto post my brands instagram reels and stories on my profile?",
+      "channel": "reddit_marketing",
+      "category_hint": "smb",
+      "_source": "reddit_search:marketing:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C6ZgRW3yM9D",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Does instagrams algo have anything to do with momentum? ",
+      "channel": "reddit_marketing",
+      "category_hint": "smb",
+      "_source": "reddit_search:marketing:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CyiifwpuHY0",
+      "platform": "Reels",
+      "country": "US",
+      "title": "'Fake' Out-of-Home placements?",
+      "channel": "reddit_marketing",
+      "category_hint": "smb",
+      "_source": "reddit_search:marketing:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DUbEmNgES7p",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Taste stimuli to get you into work mode [Article]",
+      "channel": "reddit_GetMotivated",
+      "category_hint": "education",
+      "_source": "reddit_search:GetMotivated:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "Cq3IwxquBxn",
+      "platform": "Reels",
+      "country": "US",
+      "title": "[Text] Tips to improve self esteem",
+      "channel": "reddit_GetMotivated",
+      "category_hint": "education",
+      "_source": "reddit_search:GetMotivated:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DOYa2iLjNiO",
+      "platform": "Reels",
+      "country": "US",
+      "title": "The purpose of love is to find someone who believes in you ... Not someone who loves you",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DN_MkWxj2Jf",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I feel sick, “oh me too!”",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DKqAkzrs6L8",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Period",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DFcV67pJ1e8",
+      "platform": "Reels",
+      "country": "US",
+      "title": "This always makes me smile.",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DFnxgILiCQs",
+      "platform": "Reels",
+      "country": "US",
+      "title": "ilyas event",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DAljJhmxgNp",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I'm worried my husband is involved with his male bff- he recently sent him a reel that concerns me ",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C9cLe34urFK",
+      "platform": "Reels",
+      "country": "US",
+      "title": "I’m I wrong? Help :(((",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "C5VyBM2u9Iu",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Social Media? ",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CsMaxy9Oxto",
+      "platform": "Reels",
+      "country": "US",
+      "title": "Help - My Wife Is Trying To Turn Me Into A Bird",
+      "channel": "reddit_Marriage",
+      "category_hint": "education",
+      "_source": "reddit_search:Marriage:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "DK6e3AosOTU",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "Writing ㅆ with three lines?",
+      "channel": "reddit_Korean",
+      "category_hint": "education",
+      "_source": "reddit_search:Korean:instagram.com/reel",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "instagramShortcode": "CeeCfiPjn8Z",
+      "platform": "Reels",
+      "country": "KR",
+      "title": "In this Korean train safety video \"닫히 문에 돌진하지 말GO!\" why is GO! in English?",
+      "channel": "reddit_Korean",
+      "category_hint": "education",
+      "_source": "reddit_search:Korean:instagram.com/reel",
+      "industry": "tech",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    }
+  ]
+}

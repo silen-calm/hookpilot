@@ -1,0 +1,4 @@
+requests
+scrapetube
+instaloader
+yt-dlp
