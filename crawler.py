@@ -873,10 +873,13 @@ def fetch_instagram_via_reddit(seen_shortcodes=None):
         "beauty": ["AsianBeauty", "koreanbeauty", "kbeauty", "skincareaddiction",
                    "MakeupAddiction", "BeautyGuruChatter", "30PlusSkinCare",
                    "Beauty", "AskWomenOver30", "hanguk", "Korean",
-                   # 사장님 누적 부족 fix — 추가 subreddit
                    "indiebeauty", "drugstoreMUA", "muacjdiscussion", "skincareexchange",
                    "ABraThatFits", "Sephora", "Ulta", "DesiBeauty", "Hair",
-                   "Curlyhair", "HaircareScience", "RedditLaqueristas"],
+                   "Curlyhair", "HaircareScience", "RedditLaqueristas",
+                   # 2차 추가 — 사장님 IG 새 영상 16개 → 100+ 목표
+                   "SkincareScience", "asianbeauty", "Makeup", "MakeupRehab", "MakeupAddictionUK",
+                   "BeautyAddicts", "SkincareAddicts", "tanning", "RoutineQuestions",
+                   "SkinCareTips", "BeautyBoxes", "AsianCosmetics", "FoundationRoutine"],
         "fashion": ["malefashionadvice", "streetwear", "femalefashionadvice",
                     "FashionReps", "frugalmalefashion", "japanesefashion",
                     "Watches", "hanguk",
@@ -903,9 +906,12 @@ def fetch_instagram_via_reddit(seen_shortcodes=None):
                     "yoga", "pilates", "weightroom", "powerlifting", "Stretching",
                     "loseit", "1500isplenty", "intermittentfasting", "HIIT"],
         "smb": ["smallbusiness", "Entrepreneur", "EntrepreneurRideAlong", "marketing",
-                # 추가
                 "sidehustle", "FreelanceTips", "Etsy", "AskMarketing", "advertising",
-                "PassiveIncome", "SocialMediaMarketing", "OnlineBusiness", "ecommerce"],
+                "PassiveIncome", "SocialMediaMarketing", "OnlineBusiness", "ecommerce",
+                # 2차 추가
+                "ShopifyNoobs", "Shopify", "DropshippingSecrets", "Restaurant",
+                "RestaurantOwners", "ServingFood", "Coffee_Shop", "barbershop",
+                "Hair_Salons", "NailArt", "TattooArtists"],
         "education": ["GetMotivated", "productivity", "selfimprovement", "BasicLifeSkills",
                       "Marriage", "Korean",
                       # 추가

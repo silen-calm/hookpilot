@@ -32,9 +32,22 @@ CATEGORIES = {
         "hair", "haircare", "헤어", "헤어에센스", "헤어팩", "헤어트리트먼트", "샴푸", "린스",
         "두피", "탈모", "탈모예방", "헤어컬러", "염색약", "고데기",
         "바디케어", "바디로션", "바디스크럽", "데오드란트",
+        # 글로벌 뷰티 브랜드 (사장님 외주 한국 뷰티 브랜드도 글로벌 영상 참고)
+        "huda beauty", "huda", "marc jacobs beauty", "marc jacobs", "dior beauty", "ysl beauty",
+        "ysl", "chanel beauty", "chanel makeup", "tom ford beauty", "tom ford", "mac cosmetics",
+        "nars", "urban decay", "kylie cosmetics", "kylie skin", "anastasia beverly hills",
+        "morphe", "tarte", "becca", "stila", "milk makeup", "glossier", "ouai", "olaplex",
+        "the ordinary", "ordinary skincare", "drunk elephant", "sunday riley", "tatcha", "paula's choice",
+        "elf cosmetics", "e.l.f.", "elf", "nyx", "wet n wild", "covergirl", "loreal", "l'oreal",
+        "lancome", "estee lauder", "shiseido", "sk-ii", "sulwhasoo", "innisfree", "etude",
+        "korean beauty", "k-beauty haul", "skincare routine", "makeup tutorial", "get ready with me",
+        "grwm", "glam routine", "makeup look", "beauty review", "skincare review",
+        # 한국어 변형 (착색치아·자국 등)
+        "착색치아", "누렁니", "치아변색", "치주염", "잇몸치료", "임플란트치료", "치과기공",
+        "마사지", "얼굴마사지", "두피마사지", "스킨마사지", "이마주름", "팔자주름", "다크서클",
     ],
     "d2c": [
-        "무신사", "29cm", "29씨엠", "쿠팡", "스마트스토어", "네이버스토어", "지그재그", "에이블리", "브랜디", "스타일쉐어",
+        "무신사", "musinsa", "무진장", "29cm", "29씨엠", "쿠팡", "스마트스토어", "네이버스토어", "지그재그", "에이블리", "브랜디", "스타일쉐어",
         "lookfantastic", "케이쇼핑", "ssg", "cj온스타일", "롯데온", "옷", "옷차림", "옷잘입는법",
         "코디", "패션", "원피스", "스타일", "haul", "ootd", "outfit", "fashion", "스니커즈", "운동화", "백", "가방",
         "악세사리", "주얼리", "데님", "셋업", "아우터", "캐주얼", "여름룩", "겨울룩", "봄룩", "가을룩", "데일리룩",
@@ -301,12 +314,12 @@ def merge():
         if not t: return ""
         t = re.sub(r"[#@][\w가-힣]+", " ", t.lower())
         t = re.sub(r"[^\w가-힣\s]", " ", t)
-        return re.sub(r"\s+", " ", t).strip()[:60]
+        return re.sub(r"\s+", " ", t).strip()[:80]  # 60→80 (사장님 누적 요구 — 짧은 제목 우연 일치 방지)
     seen_norm = set()
     unique2 = []
     for v in unique:
         n = _norm(v.get("title"))
-        if len(n) >= 8 and n in seen_norm:
+        if len(n) >= 12 and n in seen_norm:  # 8→12 (더 긴 매칭만 dedupe)
             continue
         if len(n) >= 8: seen_norm.add(n)
         unique2.append(v)
