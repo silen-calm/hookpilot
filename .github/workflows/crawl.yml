@@ -1,17 +1,22 @@
 name: Daily Shortform Crawl
 
-# 매일 8회 cron (3시간 간격) — 사장님 누적 가속
+# 매일 12회 cron (2시간 간격) — 사장님 누적 가속 + GitHub schedule 누락 보완
 # UTC 시간 — 한국 +9시간
+# Public repo: Actions 사용 무제한이라 빈도 늘려도 비용 0
 on:
   schedule:
+    - cron: '0 16 * * *'  # KST 01시
     - cron: '0 18 * * *'  # KST 03시
-    - cron: '0 21 * * *'  # KST 06시
+    - cron: '0 20 * * *'  # KST 05시
+    - cron: '0 22 * * *'  # KST 07시
     - cron: '0 0 * * *'   # KST 09시
-    - cron: '0 3 * * *'   # KST 12시
+    - cron: '0 2 * * *'   # KST 11시
+    - cron: '0 4 * * *'   # KST 13시
     - cron: '0 6 * * *'   # KST 15시
-    - cron: '0 9 * * *'   # KST 18시
+    - cron: '0 8 * * *'   # KST 17시
+    - cron: '0 10 * * *'  # KST 19시
     - cron: '0 12 * * *'  # KST 21시
-    - cron: '0 15 * * *'  # KST 24시
+    - cron: '0 14 * * *'  # KST 23시
   workflow_dispatch:  # 수동 trigger 가능
 
 # 동시 실행 방지 (한 cron 끝나기 전 다음 cron skip)
