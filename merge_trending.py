@@ -409,6 +409,11 @@ def merge():
             item["youtubeId"] = v["youtubeId"]
         if v.get("instagramShortcode"):
             item["instagramShortcode"] = v["instagramShortcode"]
+        # 사장님 IG 즉시 재생 — crawler가 미리 추출한 video_url (2시간 valid)
+        if v.get("_ig_mp4"):
+            item["_ig_mp4"] = v["_ig_mp4"]
+        if v.get("_ig_mp4_ts"):
+            item["_ig_mp4_ts"] = v["_ig_mp4_ts"]
         out.append(item)
         next_id += 1
 

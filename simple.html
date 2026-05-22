@@ -1428,12 +1428,17 @@ window._inlineRetryPlay = function(vid) {
     frame = `<iframe src="https://www.tiktok.com/embed/v2/${v.tiktokId}?autoplay=1&loop=1&t=${Date.now()}" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen" style="width:100%;height:100%;border:0;background:#000;"></iframe>`;
     note = "TikTok embed 재로딩 — 영상 표시까지 1-2초";
   } else if (v.platform === "Reels" && v.instagramShortcode) {
-    // IG: 사이트 안 재생 강제 (사장님 요구) — /api/ig-stream으로 mp4 직접 재생
-    // iframe fallback 제거 — 인스타로 이동하는 원인이었음
+    // 사장님 IG 빠른 재생 + 안전:
+    // 1) crawler가 미리 추출한 _ig_mp4 있고 2시간 이내면 → 사장님 브라우저가 IG CDN 직접 호출 (백엔드 0 hop, 사장님 Mac 0 hit)
+    // 2) 없거나 만료면 → 백엔드 ig-stream proxy (사장님 Mac에서 IG hit)
     const origIg = `https://www.instagram.com/reel/${v.instagramShortcode}/`;
-    const streamSrc = `${BACKEND_BASE}/api/ig-stream?url=${encodeURIComponent(origIg)}`;
-    frame = `<video src="${streamSrc}" controls autoplay muted playsinline loop style="width:100%;height:100%;background:#000;border-radius:var(--radius-md);object-fit:contain;" onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div style=&quot;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;padding:24px;&quot;><div style=&quot;font-size:36px;margin-bottom:12px;&quot;>📥</div><div style=&quot;font-size:14px;margin-bottom:16px;&quot;>IG 영상 추출 일시 실패<br>아래 다운로드 버튼으로 받으면 즉시 보실 수 있어요</div></div>');"></video>`;
-    note = "사이트 안에서 직접 재생 (인스타 이동 X)";
+    const ageSec = v._ig_mp4_ts ? (Date.now()/1000 - v._ig_mp4_ts) : null;
+    const directMp4 = (v._ig_mp4 && ageSec !== null && ageSec < 7200) ? v._ig_mp4 : null;
+    const streamSrc = directMp4 || `${BACKEND_BASE}/api/ig-stream?url=${encodeURIComponent(origIg)}`;
+    const proxyFallback = `${BACKEND_BASE}/api/ig-stream?url=${encodeURIComponent(origIg)}`;
+    // direct mp4 만료 시 백엔드 proxy로 자동 fallback (onerror)
+    frame = `<video src="${streamSrc}" controls autoplay muted playsinline loop style="width:100%;height:100%;background:#000;border-radius:var(--radius-md);object-fit:contain;" referrerpolicy="no-referrer" onerror="if(this.src!=='${proxyFallback}'){this.src='${proxyFallback}';return;}this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div style=&quot;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;padding:24px;&quot;><div style=&quot;font-size:36px;margin-bottom:12px;&quot;>📥</div><div style=&quot;font-size:14px;margin-bottom:16px;&quot;>IG 영상 추출 일시 실패<br>아래 다운로드 버튼으로 받으면 즉시 보실 수 있어요</div></div>');"></video>`;
+    note = directMp4 ? "직접 streaming (즉시 재생)" : "사이트 안 streaming proxy";
   } else {
     note = "영상 ID 없음 — 재생 불가";
   }
