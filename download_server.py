@@ -799,8 +799,25 @@ class HookpilotHandler(http.server.SimpleHTTPRequestHandler):
             with urllib.request.urlopen(req, timeout=8) as r:
                 ctype = r.headers.get("Content-Type", "image/webp")
                 data = r.read()
-            # 디스크에 영구 저장 — 500KB 초과는 캐시 거부 (페이지 무거움 방지)
-            # 카드 썸네일은 80-200KB 가 정상. 500KB 초과는 IG fullres·CDN 이상 응답
+            # 사장님 사이트 속도 fix — 500KB 초과 큰 썸네일은 ffmpeg로 resize (5MB→100KB)
+            # 카드 표시는 600px 폭 이하 충분. 5MB 이미지가 사장님 페이지 무겁게 만든 진짜 원인.
+            if len(data) > 500 * 1024:
+                try:
+                    proc = subprocess.run([
+                        "/opt/homebrew/bin/ffmpeg",
+                        "-loglevel", "error",
+                        "-i", "pipe:0",
+                        "-vf", "scale='min(600,iw)':'-2'",
+                        "-q:v", "5",
+                        "-f", "image2pipe", "-vcodec", "mjpeg",
+                        "pipe:1",
+                    ], input=data, capture_output=True, timeout=8)
+                    if proc.returncode == 0 and len(proc.stdout) > 1024:
+                        data = proc.stdout
+                        ctype = "image/jpeg"
+                except Exception as _resize_e:
+                    sys.stderr.write(f"[thumb-resize] {_resize_e}\n")
+            # 디스크에 영구 저장 (resize 후 작아진 사이즈)
             try:
                 if len(data) <= 500 * 1024:
                     with open(cache_path, "wb") as f: f.write(data)
