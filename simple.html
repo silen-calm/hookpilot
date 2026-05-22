@@ -1420,16 +1420,16 @@ window._inlineRetryPlay = function(vid) {
   let frame = "", note = "";
   // 플랫폼별로 다른 embed 옵션 시도
   if (v.platform === "Shorts" && v.youtubeId) {
-    // YT — youtube-nocookie iframe (사장님 Google cookies 0 첨부, 즉시 재생)
-    frame = `<iframe src="https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0&autoplay=1&mute=1&playsinline=1&loop=1&playlist=${v.youtubeId}&modestbranding=1&iv_load_policy=3" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="no-referrer" style="width:100%;height:100%;border:0;"></iframe>`;
+    // YT — youtube-nocookie iframe (cookieless 도메인, 영상 player 작동 위해 referrerpolicy origin)
+    frame = `<iframe src="https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0&autoplay=1&mute=1&playsinline=1&loop=1&playlist=${v.youtubeId}&modestbranding=1&iv_load_policy=3" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="origin" style="width:100%;height:100%;border:0;"></iframe>`;
     note = "";
   } else if (v.platform === "TikTok" && v.tiktokId) {
-    // TT — sandbox iframe (사장님 TT cookies sandbox로 차단, 즉시 재생)
-    frame = `<iframe src="https://www.tiktok.com/embed/v2/${v.tiktokId}?autoplay=1&loop=1&t=${Date.now()}" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen" referrerpolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-forms" style="width:100%;height:100%;border:0;background:#000;"></iframe>`;
+    // TT — iframe (영상 player 작동 + referrerpolicy origin 으로 사장님 path 안 새, host만)
+    frame = `<iframe src="https://www.tiktok.com/embed/v2/${v.tiktokId}?autoplay=1&loop=1&t=${Date.now()}" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen" referrerpolicy="origin" style="width:100%;height:100%;border:0;background:#000;"></iframe>`;
     note = "";
   } else if (v.platform === "Reels" && v.instagramShortcode) {
-    // IG — sandbox iframe (사장님 IG cookies sandbox로 차단, 즉시 재생)
-    frame = `<iframe src="https://www.instagram.com/reel/${v.instagramShortcode}/embed/captioned" allow="autoplay; encrypted-media; fullscreen" allowfullscreen referrerpolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-forms" scrolling="no" style="width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);"></iframe>`;
+    // IG — iframe (영상 player 작동 + referrerpolicy origin)
+    frame = `<iframe src="https://www.instagram.com/reel/${v.instagramShortcode}/embed/captioned" allow="autoplay; encrypted-media; fullscreen" allowfullscreen referrerpolicy="origin" scrolling="no" style="width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);"></iframe>`;
     note = "";
   } else {
     note = "영상 ID 없음 — 재생 불가";
@@ -2707,20 +2707,20 @@ function openModalInternal(v) {
   // iframe embed가 localhost / hotlink 정책으로 검은 박스 되는 경우 대비 — 항상 fallback 큰 플레이 버튼 표시
   let frame = "", note = "", origUrl = "";
   if (v.platform === "Shorts" && v.youtubeId) {
-    // YT — youtube-nocookie iframe (Google cookies 0 첨부, 즉시 재생)
+    // YT — youtube-nocookie iframe (영상 player 작동 위해 referrerpolicy origin)
     const ytId = v.youtubeId;
     origUrl = `https://www.youtube.com/shorts/${ytId}`;
-    frame = `<iframe id="ytEmbedFrame" src="https://www.youtube-nocookie.com/embed/${ytId}?rel=0&autoplay=1&mute=0&playsinline=1&loop=1&playlist=${ytId}&modestbranding=1&iv_load_policy=3" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="no-referrer" style="width:100%;height:100%;border:0;"></iframe>`;
+    frame = `<iframe id="ytEmbedFrame" src="https://www.youtube-nocookie.com/embed/${ytId}?rel=0&autoplay=1&mute=0&playsinline=1&loop=1&playlist=${ytId}&modestbranding=1&iv_load_policy=3" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen; picture-in-picture" referrerpolicy="origin" style="width:100%;height:100%;border:0;"></iframe>`;
     note = "";
   } else if (v.platform === "TikTok" && v.tiktokId) {
     origUrl = v.tiktokUser ? `https://www.tiktok.com/@${v.tiktokUser}/video/${v.tiktokId}` : `https://www.tiktok.com/embed/v2/${v.tiktokId}`;
-    // TT — sandbox iframe (즉시 재생, cookies 격리)
-    frame = `<iframe src="https://www.tiktok.com/embed/v2/${v.tiktokId}?autoplay=1&loop=1&t=${Date.now()}" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen" referrerpolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-forms" style="width:100%;height:100%;border:0;background:#000;"></iframe>`;
+    // TT — iframe (영상 player 작동, referrerpolicy origin)
+    frame = `<iframe src="https://www.tiktok.com/embed/v2/${v.tiktokId}?autoplay=1&loop=1&t=${Date.now()}" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen" referrerpolicy="origin" style="width:100%;height:100%;border:0;background:#000;"></iframe>`;
     note = "";
   } else if (v.platform === "Reels" && v.instagramShortcode) {
-    // IG — sandbox iframe (즉시 재생, cookies 격리)
+    // IG — iframe (영상 player 작동, referrerpolicy origin)
     origUrl = `https://www.instagram.com/reel/${v.instagramShortcode}/`;
-    frame = `<iframe src="https://www.instagram.com/reel/${v.instagramShortcode}/embed/captioned" allow="autoplay; encrypted-media; fullscreen" allowfullscreen referrerpolicy="no-referrer" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-forms" scrolling="no" style="width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);"></iframe>`;
+    frame = `<iframe src="https://www.instagram.com/reel/${v.instagramShortcode}/embed/captioned" allow="autoplay; encrypted-media; fullscreen" allowfullscreen referrerpolicy="origin" scrolling="no" style="width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);"></iframe>`;
     note = "";
   } else {
     frame = `<div style="color:#888;text-align:center;padding:40px;">영상 ID 미확인 — 출처에서 확인</div>`;
