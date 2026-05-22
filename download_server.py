@@ -684,6 +684,10 @@ class HookpilotHandler(http.server.SimpleHTTPRequestHandler):
             self.handle_meta(parsed)
         elif parsed.path == "/api/ig-stream":
             self.handle_ig_stream(parsed)
+        elif parsed.path == "/api/tt-stream":
+            self.handle_tt_stream(parsed)
+        elif parsed.path == "/api/yt-stream":
+            self.handle_yt_stream(parsed)
         elif parsed.path == "/api/refresh-trending":
             self.handle_refresh_trending(parsed)
         elif parsed.path == "/api/thumb":
@@ -964,6 +968,102 @@ class HookpilotHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
+
+    def handle_tt_stream(self, parsed):
+        """TikTok 영상 streaming proxy (사장님 SNS 안전 — iframe cookies 첨부 차단).
+        TikWM API로 mp4 URL 추출 → 즉시 forward. 디스크 0. 사장님 cookies 0."""
+        qs = urllib.parse.parse_qs(parsed.query)
+        tt_id = (qs.get("tt") or [""])[0]
+        if not tt_id or not tt_id.isdigit():
+            self._error(400, "missing tt id"); return
+        try:
+            # TikWM API — anonymous, 사장님 TT cookies 무관
+            api = f"https://www.tikwm.com/api/?url=https://www.tiktok.com/@/video/{tt_id}&hd=1"
+            req = urllib.request.Request(api, headers={"User-Agent": ua()})
+            with urllib.request.urlopen(req, timeout=8) as r:
+                data = json.loads(r.read())
+            video_url = data.get("data", {}).get("play") or data.get("data", {}).get("hdplay")
+            if not video_url:
+                self._error(404, "no tt video url"); return
+            self._stream_proxy(video_url, ref="https://www.tiktok.com/")
+        except Exception as e:
+            try: self._error(502, f"tt stream 실패: {e}")
+            except Exception: pass
+
+    def handle_yt_stream(self, parsed):
+        """YouTube 영상 streaming proxy (사장님 Google cookies 안전).
+        yt-dlp --get-url로 mp4 URL 추출 → forward. 디스크 0. 사장님 Google cookies 0."""
+        qs = urllib.parse.parse_qs(parsed.query)
+        yt_id = (qs.get("yt") or [""])[0]
+        if not yt_id or not re.match(r"^[\w-]{11}$", yt_id):
+            self._error(400, "invalid yt id"); return
+        url = f"https://www.youtube.com/shorts/{yt_id}"
+        # 메모리 캐시 (10분) — 사장님 같은 영상 재방문 시 즉시
+        if not hasattr(self, "_YT_VURL_CACHE"):
+            HookpilotHandler._YT_VURL_CACHE = {}
+        cache = HookpilotHandler._YT_VURL_CACHE
+        now = time.time()
+        cached = cache.get(yt_id)
+        video_url = cached[1] if cached and (now - cached[0]) < 600 else None
+        if not video_url:
+            try:
+                # progressive mp4 강제 — HLS 제외 (HTML5 video tag는 mp4만)
+                # protocol=https 로 HLS 차단 + best[ext=mp4] 우선
+                proc = subprocess.run(
+                    [YTDLP, "--get-url",
+                     "-f", "best[ext=mp4][protocol=https][height<=720]/best[ext=mp4][protocol=https]/best[ext=mp4]/22/18",
+                     "--no-warnings", "--quiet", url],
+                    capture_output=True, timeout=20
+                )
+                if proc.returncode == 0:
+                    line = proc.stdout.decode("utf-8", errors="ignore").strip().split("\n")[0].strip()
+                    # HLS playlist 차단 — .m3u8 거부
+                    if line.startswith("http") and not line.endswith(".m3u8") and "m3u8" not in line[:100]:
+                        video_url = line
+                        cache[yt_id] = (now, line)
+            except Exception:
+                pass
+        if not video_url:
+            self._error(404, "no yt video url"); return
+        try:
+            self._stream_proxy(video_url, ref="https://www.youtube.com/")
+        except Exception as e:
+            try: self._error(502, f"yt stream 실패: {e}")
+            except Exception: pass
+
+    def _stream_proxy(self, video_url, ref=""):
+        """공통 streaming proxy — anonymous fetch + Range forward. 디스크 0."""
+        up_headers = {"User-Agent": ua()}
+        if ref: up_headers["Referer"] = ref
+        range_header = self.headers.get("Range")
+        if range_header: up_headers["Range"] = range_header
+        req = urllib.request.Request(video_url, headers=up_headers)
+        upstream = urllib.request.urlopen(req, timeout=15)
+        up_status = getattr(upstream, "status", 200)
+        self.send_response(up_status)
+        self.send_header("Content-Type", upstream.headers.get("Content-Type") or "video/mp4")
+        cl = upstream.headers.get("Content-Length")
+        if cl:
+            try:
+                cl_int = int(str(cl).split(",")[0].strip())
+                if cl_int > 0: self.send_header("Content-Length", str(cl_int))
+            except Exception: pass
+        self.send_header("Accept-Ranges", "bytes")
+        cr = upstream.headers.get("Content-Range")
+        if cr: self.send_header("Content-Range", cr)
+        # 사장님 SNS 안전 — 클라이언트 cookies/credentials 차단
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        while True:
+            try:
+                chunk = upstream.read(64 * 1024)
+            except Exception:
+                break
+            if not chunk: break
+            try:
+                self.wfile.write(chunk)
+            except (BrokenPipeError, ConnectionResetError):
+                break
 
     def handle_ig_stream(self, parsed):
         """Instagram 영상 streaming proxy — 디스크 0 (사장님 효율 요구).
