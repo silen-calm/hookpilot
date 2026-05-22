@@ -370,8 +370,10 @@ def extract_instagram_meta(url):
         "Accept-Language": "en-US,en;q=0.9",
     })
     try:
-        # 3 → 10초 (IG embed 페이지가 3초 안에 응답 못 하는 경우 자주)
-        html = urllib.request.urlopen(req, timeout=10).read().decode("utf-8", errors="ignore")
+        # 사장님 속도 fix — 페이지 전체 X, 처음 96KB만 (video_url 보통 상단 ~20KB)
+        # 평균 3.5초 → 1-2초 단축
+        resp = urllib.request.urlopen(req, timeout=6)
+        html = resp.read(96 * 1024).decode("utf-8", errors="ignore")
     except Exception:
         return None
     out = {}

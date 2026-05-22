@@ -2462,6 +2462,32 @@ function renderCards() {
   setTimeout(_attachInfiniteScroll, 50);
 }
 
+// === IG hover prefetch — 카드 위에 마우스 200ms+ 머물면 백엔드 video_url 캐시 채움 ===
+// 사장님 클릭 전 prefetch 끝나면 클릭 시 즉시 재생 (TTFB 0초)
+// 사장님 SNS 무관 — 백엔드가 IG에 hit, 사장님 IP/계정 안 노출
+const _IG_PREFETCHED = new Set();
+let _hoverTimer = null;
+document.addEventListener("mouseover", (ev) => {
+  const card = ev.target.closest("article[data-vid]");
+  if (!card) return;
+  const vid = card.getAttribute("data-vid");
+  if (!vid || _IG_PREFETCHED.has(vid)) return;
+  if (_hoverTimer) clearTimeout(_hoverTimer);
+  _hoverTimer = setTimeout(() => {
+    const v = (typeof videos !== "undefined") ? videos.find(x => String(x.id) === vid) : null;
+    if (!v || v.platform !== "Reels" || !v.instagramShortcode) return;
+    _IG_PREFETCHED.add(vid);
+    const origUrl = `https://www.instagram.com/reel/${v.instagramShortcode}/`;
+    const streamUrl = `${BACKEND_BASE}/api/ig-stream?url=${encodeURIComponent(origUrl)}`;
+    // fetch with Range: 0-1 — 백엔드 video_url 추출만 trigger, 데이터 거의 안 받음
+    fetch(streamUrl, {
+      method: "GET",
+      headers: { "Range": "bytes=0-1" },
+      signal: AbortSignal.timeout(10000),
+    }).then(r => r.body?.cancel()).catch(() => {});
+  }, 250);
+}, { passive: true });
+
 // === 무한 스크롤 sentinel ===
 window._loadMoreCards = function() {
   const list = window._fullList || [];
