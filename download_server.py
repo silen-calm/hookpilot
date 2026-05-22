@@ -319,9 +319,23 @@ def _ig_embed_extract_field(html, start_marker):
 
 
 def extract_instagram_video_url(url):
-    """Instagram embed/captioned 페이지에서 로그인 없이 video_url 추출"""
+    """Instagram embed/captioned 페이지에서 로그인 없이 video_url 추출.
+    실패 시 yt-dlp fallback (사장님 IG 재생 안 됨 진짜 fix)"""
     info = extract_instagram_meta(url)
-    return info.get("video_url") if info else None
+    vu = info.get("video_url") if info else None
+    if vu: return vu
+    # yt-dlp fallback — IG embed extractor 실패 시 (4/5 실패 케이스 대응)
+    try:
+        proc = subprocess.run(
+            [YTDLP, "--get-url", "-f", "best[ext=mp4]/best", "--no-warnings", "--quiet", url],
+            capture_output=True, timeout=20
+        )
+        if proc.returncode == 0:
+            line = proc.stdout.decode("utf-8", errors="ignore").strip().split("\n")[0].strip()
+            if line.startswith("http"): return line
+    except Exception:
+        pass
+    return None
 
 
 def extract_instagram_meta(url):
@@ -337,7 +351,8 @@ def extract_instagram_meta(url):
         "Accept-Language": "en-US,en;q=0.9",
     })
     try:
-        html = urllib.request.urlopen(req, timeout=3).read().decode("utf-8", errors="ignore")
+        # 3 → 10초 (IG embed 페이지가 3초 안에 응답 못 하는 경우 자주)
+        html = urllib.request.urlopen(req, timeout=10).read().decode("utf-8", errors="ignore")
     except Exception:
         return None
     out = {}
@@ -913,100 +928,63 @@ class HookpilotHandler(http.server.SimpleHTTPRequestHandler):
         self.wfile.write(body)
 
     def handle_ig_stream(self, parsed):
-        """Instagram 영상 mp4 — 디스크 캐시 후 정적 파일 서빙 (재방문 즉시 재생)
-        첫 호출: IG에서 받아 디스크 저장 → 클라이언트 stream
-        재방문: 캐시 hit → 즉시 응답 (Range request 지원)"""
-        import hashlib
+        """Instagram 영상 streaming proxy — 디스크 0 (사장님 효율 요구).
+        IG에서 받자마자 클라이언트로 즉시 forward. yt-dlp 큰 process 없음.
+        Range 헤더 forward로 사장님 seek/forward 가능.
+        IG embed extractor URL이 짧은 TTL (sigs) 가 있어서 디스크 캐시 의미 없음 — 매번 fresh."""
         qs = urllib.parse.parse_qs(parsed.query)
         url = (qs.get("url") or [""])[0]
         if not url or not INSTAGRAM_RE.match(url):
             self._error(400, "invalid url"); return
-        # 캐시 키 — URL hash + shortcode
-        m = INSTAGRAM_RE.match(url)
-        shortcode = m.group(3) if m else "unknown"
-        cache_key = hashlib.sha1(url.encode()).hexdigest()[:12]
-        cache_path = os.path.join(DL_DIR, f"igstream_{shortcode}_{cache_key}.mp4")
-        # 1시간 내 캐시면 정적 파일로 즉시
-        if os.path.isfile(cache_path) and (time.time() - os.path.getmtime(cache_path)) < 3600:
-            try:
-                size = os.path.getsize(cache_path)
-                # Range 헤더 처리
-                range_header = self.headers.get("Range")
-                if range_header:
-                    m = re.match(r"bytes=(\d+)-(\d*)", range_header)
-                    if m:
-                        start = int(m.group(1))
-                        end = int(m.group(2)) if m.group(2) else size - 1
-                        end = min(end, size - 1)
-                        length = end - start + 1
-                        self.send_response(206)
-                        self.send_header("Content-Type", "video/mp4")
-                        self.send_header("Content-Length", str(length))
-                        self.send_header("Content-Range", f"bytes {start}-{end}/{size}")
-                        self.send_header("Accept-Ranges", "bytes")
-                        self.end_headers()
-                        with open(cache_path, "rb") as f:
-                            f.seek(start)
-                            remaining = length
-                            while remaining > 0:
-                                chunk = f.read(min(64 * 1024, remaining))
-                                if not chunk: break
-                                try: self.wfile.write(chunk); remaining -= len(chunk)
-                                except (BrokenPipeError, ConnectionResetError): return
-                        return
-                # 일반 응답
-                self.send_response(200)
-                self.send_header("Content-Type", "video/mp4")
-                self.send_header("Content-Length", str(size))
-                self.send_header("Accept-Ranges", "bytes")
-                self.end_headers()
-                with open(cache_path, "rb") as f:
-                    while True:
-                        chunk = f.read(64 * 1024)
-                        if not chunk: break
-                        try: self.wfile.write(chunk)
-                        except (BrokenPipeError, ConnectionResetError): break
-                return
-            except Exception as e:
-                sys.stderr.write(f"[ig-stream-cache] {e}\n")
-        # 캐시 없음 — IG에서 받아 디스크 저장 + 동시 stream
+        # 사장님 지적: 디스크 저장 비효율. 진짜 streaming proxy로 변경 (디스크 0).
+        # IG에서 받자마자 클라이언트로 즉시 forward. yt-dlp 같은 큰 process 0.
+        # Range 헤더도 upstream에 그대로 forward (사장님 seek 가능).
         try:
             video_url = extract_instagram_video_url(url)
             if not video_url:
                 self._error(404, "no video_url"); return
-            req = urllib.request.Request(video_url, headers={
+            up_headers = {
                 "User-Agent": ua(),
                 "Referer": "https://www.instagram.com/",
-            })
-            upstream = urllib.request.urlopen(req, timeout=30)
+            }
+            # 클라이언트 Range 요청 그대로 forward
+            range_header = self.headers.get("Range")
+            if range_header:
+                up_headers["Range"] = range_header
+            req = urllib.request.Request(video_url, headers=up_headers)
+            upstream = urllib.request.urlopen(req, timeout=15)
             cl_raw = upstream.headers.get("Content-Length")
             cl_int = None
             if cl_raw:
                 try: cl_int = int(str(cl_raw).split(",")[0].strip())
                 except Exception: pass
-            self.send_response(200)
-            self.send_header("Content-Type", "video/mp4")
+            up_status = upstream.status if hasattr(upstream, "status") else 200
+            self.send_response(up_status)
+            self.send_header("Content-Type", upstream.headers.get("Content-Type") or "video/mp4")
             if cl_int and cl_int > 0:
                 self.send_header("Content-Length", str(cl_int))
             self.send_header("Accept-Ranges", "bytes")
+            # upstream의 Content-Range도 forward (Range 응답 시)
+            cr = upstream.headers.get("Content-Range")
+            if cr:
+                self.send_header("Content-Range", cr)
             self.end_headers()
-            with open(cache_path + ".tmp", "wb") as cache_f:
-                while True:
+            # 직접 chunks forward — 디스크 0
+            while True:
+                try:
                     chunk = upstream.read(64 * 1024)
-                    if not chunk: break
-                    cache_f.write(chunk)
-                    try: self.wfile.write(chunk)
-                    except (BrokenPipeError, ConnectionResetError):
-                        # 클라이언트 끊김 — 디스크 캐시는 완성
-                        for _r in range(50):
-                            ch = upstream.read(64 * 1024)
-                            if not ch: break
-                            cache_f.write(ch)
-                        break
-            try: os.rename(cache_path + ".tmp", cache_path)
+                except Exception:
+                    break
+                if not chunk: break
+                try:
+                    self.wfile.write(chunk)
+                except (BrokenPipeError, ConnectionResetError):
+                    break
+        except urllib.error.HTTPError as e:
+            try: self._error(e.code if e.code else 502, f"upstream {e.code}")
             except Exception: pass
         except Exception as e:
-            try: self._error(500, f"stream 실패: {e}")
+            try: self._error(502, f"stream 실패: {e}")
             except Exception: pass
 
     def handle_meta(self, parsed):
