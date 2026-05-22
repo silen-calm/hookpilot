@@ -2985,21 +2985,33 @@ function _safeFilename(s, fallback) {
 }
 // 백엔드 절대 URL 고정 — file:// 으로 열어도, 다른 포트에서 열어도 우리 백엔드 호출
 const BACKEND_BASE = "http://localhost:9000";
-// 백엔드 살아있는지 캐시 (페이지 1회만 체크)
+// 백엔드 살아있는지 캐시 (페이지 1회만 체크) — timeout 2→10초 + retry 2회
+// 사장님 다운로드 안 되는 진짜 원인: 백엔드 busy 시 probe 2초 부족 → 가짜 "일시 정지"
 let _backendAlive = null;
 async function checkBackend() {
-  if (_backendAlive !== null) return _backendAlive;
-  try {
-    const r = await fetch(BACKEND_BASE + "/api/probe", { signal: AbortSignal.timeout(2000) });
-    if (!r.ok) { _backendAlive = false; return false; }
-    const d = await r.json();
-    _backendAlive = !!d.ok;
-    return _backendAlive;
-  } catch(e) {
-    console.warn("[Hookpilot] 백엔드 probe 실패:", e.message);
-    _backendAlive = false;
-    return false;
+  if (_backendAlive === true) return true;  // 한번 true 면 캐시 사용
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const r = await fetch(BACKEND_BASE + "/api/probe", { signal: AbortSignal.timeout(10000) });
+      if (!r.ok) {
+        if (attempt < 3) { await new Promise(s => setTimeout(s, 500)); continue; }
+        _backendAlive = false; return false;
+      }
+      const d = await r.json();
+      _backendAlive = !!d.ok;
+      return _backendAlive;
+    } catch(e) {
+      if (attempt < 3) {
+        console.warn(`[Hookpilot] 백엔드 probe ${attempt}/3 실패, 재시도:`, e.message);
+        await new Promise(s => setTimeout(s, 500));
+        continue;
+      }
+      console.warn("[Hookpilot] 백엔드 probe 최종 실패:", e.message);
+      _backendAlive = false;
+      return false;
+    }
   }
+  return false;
 }
 window.downloadVideo = async function(id) {
   const v = videos.find(x => x.id === id);
