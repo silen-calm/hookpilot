@@ -58,6 +58,14 @@ jobs:
         run: |
           python merge_trending.py
 
+      - name: Regression tests (회귀 자동 검증)
+        run: |
+          # 매 cron 후 자동 회귀 — 같은 문제 반복 방지
+          # 실패해도 push 계속 진행 (수집 결과는 잃지 말기)
+          if [ -f regression_tests.py ]; then
+            python3 regression_tests.py 2>&1 | tail -30 || echo "회귀 일부 실패 — 다음 cron 재검증"
+          fi
+
       - name: Commit + push results
         run: |
           git config user.name "github-actions[bot]"

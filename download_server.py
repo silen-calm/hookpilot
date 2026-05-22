@@ -1844,14 +1844,44 @@ def main():
         print("[hookpilot] 사장님 Mac 외부 fetch 비활성화 — GitHub Actions 가 cron 담당")
         _git_pull_loop()  # 5분 마다 git pull → Actions 결과 자동 동기화
     # Cloud (Render·Fly.io) 호환 — $PORT 환경변수 + 0.0.0.0 listen.
-    # 로컬은 127.0.0.1 localhost only (사장님 Mac IP 노출 X). Cloud 는 0.0.0.0 외부 접근.
     LISTEN_HOST = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
-    with ThreadedTCPServer((LISTEN_HOST, PORT), HookpilotHandler) as httpd:
+    # === 사장님 신뢰 보장 — main loop 영원 try/except + 자동 복구 ===
+    # 어떤 exception 와도 process 안 죽음. launchd 재시작 의존 X.
+    while True:
         try:
-            httpd.serve_forever()
-        except KeyboardInterrupt:
-            print("\n[hookpilot] 종료")
+            with ThreadedTCPServer((LISTEN_HOST, PORT), HookpilotHandler) as httpd:
+                try:
+                    httpd.serve_forever()
+                except KeyboardInterrupt:
+                    print("\n[hookpilot] 종료 (Ctrl-C)")
+                    return
+                except Exception as e:
+                    import traceback
+                    sys.stderr.write(f"\n[hookpilot CRASH] {e}\n{traceback.format_exc()}\n")
+                    sys.stderr.flush()
+                    # 5초 대기 후 재시작
+                    import time as _t
+                    _t.sleep(5)
+                    continue
+        except Exception as outer:
+            import traceback as _tb
+            sys.stderr.write(f"\n[hookpilot OUTER-CRASH] {outer}\n{_tb.format_exc()}\n")
+            sys.stderr.flush()
+            import time as _t
+            _t.sleep(10)
+            continue
 
 
 if __name__ == "__main__":
-    main()
+    # 사장님 신뢰 보장 — 어떤 fatal 에러도 process 안 죽음 (launchd 재시작 안 필요)
+    while True:
+        try:
+            main()
+            break  # KeyboardInterrupt 시 정상 종료
+        except SystemExit:
+            break
+        except Exception as e:
+            import traceback, time, sys
+            sys.stderr.write(f"\n[hookpilot FATAL] {e}\n{traceback.format_exc()}\n")
+            sys.stderr.flush()
+            time.sleep(15)  # 15초 후 재시작
