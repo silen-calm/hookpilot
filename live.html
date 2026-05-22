@@ -1595,17 +1595,27 @@ function renderIndustryTabs() {
   }).join("");
 }
 
-// 국가·플랫폼·트랙 토글에 실시간 카운트 — cap 제거 (사장님 누적 가시화 우선)
-// 풀 진짜 크기 그대로 표시. 사장님 1565개 TT가 342로 잘리던 cap 제거.
+// 국가·플랫폼·트랙 토글 — 사장님 균등 비율 (cap × 2) + 헤더 배지에 진짜 풀 + 어제 대비 누적
 function renderToggles() {
+  const _byPlatRaw = { Shorts: 0, TikTok: 0, Reels: 0 };
+  videos.forEach(v => {
+    if (state.country !== "ALL" && v.country !== state.country) return;
+    if (_byPlatRaw[v.platform] !== undefined) _byPlatRaw[v.platform]++;
+  });
+  // 균등 cap — 가장 적은 플랫폼 × 1.5 (사장님 "비슷한 개수" 요구, 1.16:1.5:1 비율)
+  const _platMin = Math.min(_byPlatRaw.Shorts, _byPlatRaw.TikTok, _byPlatRaw.Reels);
+  const _platCap = Math.max(Math.floor(_platMin * 1.5), 100);
+
   const cn = c => videos.filter(v =>
     (c === "ALL" || v.country === c) &&
     (state.platform === "ALL" || v.platform === state.platform)
   ).length;
-  const pn = p => videos.filter(v =>
-    (state.country === "ALL" || v.country === state.country) &&
-    (p === "ALL" || v.platform === p)
-  ).length;
+  const pn = p => {
+    if (p === "ALL") {
+      return Math.min(_byPlatRaw.Shorts, _platCap) + Math.min(_byPlatRaw.TikTok, _platCap) + Math.min(_byPlatRaw.Reels, _platCap);
+    }
+    return Math.min(_byPlatRaw[p] || 0, _platCap);
+  };
   // track 토글: country + platform 동시 적용
   const tn = t => videos.filter(v =>
     (state.country === "ALL" || v.country === state.country) &&
