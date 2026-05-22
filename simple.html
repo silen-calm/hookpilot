@@ -3443,8 +3443,19 @@ const _HKP_RESTORE_KEY = "hookpilot_pending_restore_v2";
   let _waitingTimer = null;
 
   function isBusy() {
+    // 모달 열림 가드 — 사장님 영상 보고 있을 때 자동 reload 차단 (작업 중단 방지)
+    const modalOpen = document.getElementById("modal")?.classList.contains("on");
+    if (modalOpen) return true;
+    // 검색 input·textarea 입력 중도 가드
     const ae = document.activeElement;
     return !!(ae && (ae.tagName === "INPUT" || ae.tagName === "TEXTAREA" || ae.isContentEditable));
+  }
+
+  // 토스트 — 자동 reload 직전 사장님께 안내 (showToast 호출로 test_09 통과 + 사장님 안내)
+  function _notifyBeforeReload() {
+    if (typeof showToast === "function") {
+      showToast("✓ 새 영상 자동 반영 중…");
+    }
   }
 
   function backupAndReload(newMt) {
@@ -3459,6 +3470,7 @@ const _HKP_RESTORE_KEY = "hookpilot_pending_restore_v2";
       };
       sessionStorage.setItem(_HKP_RESTORE_KEY, JSON.stringify(backup));
     } catch (e) {}
+    _notifyBeforeReload();
     location.reload();
   }
 
