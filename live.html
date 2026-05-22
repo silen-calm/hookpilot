@@ -1595,27 +1595,17 @@ function renderIndustryTabs() {
   }).join("");
 }
 
-// 국가·플랫폼·트랙 토글 — 사장님 균등 비율 (cap × 2) + 헤더 배지에 진짜 풀 + 어제 대비 누적
+// 국가·플랫폼·트랙 토글 — 사장님 누적 가시화 우선 (cap 제거, 진짜 풀 비례 노출)
+// 풀 균등화는 crawler가 백그라운드 진행 (YT/IG 채우기). 그 동안 사장님 누적 우선.
 function renderToggles() {
-  const _byPlatRaw = { Shorts: 0, TikTok: 0, Reels: 0 };
-  videos.forEach(v => {
-    if (state.country !== "ALL" && v.country !== state.country) return;
-    if (_byPlatRaw[v.platform] !== undefined) _byPlatRaw[v.platform]++;
-  });
-  // 균등 cap — 가장 적은 플랫폼 × 1.5 (사장님 "비슷한 개수" 요구, 1.16:1.5:1 비율)
-  const _platMin = Math.min(_byPlatRaw.Shorts, _byPlatRaw.TikTok, _byPlatRaw.Reels);
-  const _platCap = Math.max(Math.floor(_platMin * 1.5), 100);
-
   const cn = c => videos.filter(v =>
     (c === "ALL" || v.country === c) &&
     (state.platform === "ALL" || v.platform === state.platform)
   ).length;
-  const pn = p => {
-    if (p === "ALL") {
-      return Math.min(_byPlatRaw.Shorts, _platCap) + Math.min(_byPlatRaw.TikTok, _platCap) + Math.min(_byPlatRaw.Reels, _platCap);
-    }
-    return Math.min(_byPlatRaw[p] || 0, _platCap);
-  };
+  const pn = p => videos.filter(v =>
+    (state.country === "ALL" || v.country === state.country) &&
+    (p === "ALL" || v.platform === p)
+  ).length;
   // track 토글: country + platform 동시 적용
   const tn = t => videos.filter(v =>
     (state.country === "ALL" || v.country === state.country) &&
