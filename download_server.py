@@ -1358,11 +1358,17 @@ class HookpilotHandler(http.server.SimpleHTTPRequestHandler):
                     return
             except Exception as e:
                 sys.stderr.write(f"[prepare-ig] {e}\n")
-        # === yt-dlp 일반 처리 ===
+        # === yt-dlp 일반 처리 — 속도 최적화 ===
+        # 사장님 다운로드 51초 → 15-20초 목표:
+        # 1) 720p 이하 mp4 우선 (Shorts는 720p 충분, 4K 무거움)
+        # 2) --concurrent-fragments 4 (멀티 fragment 동시 다운)
+        # 3) --socket-timeout 10 (느린 fragment 자동 skip)
         out_tmpl = os.path.join(DL_DIR, f"{file_id}.%(ext)s")
         cmd = [
             YTDLP,
-            "-f", "best[ext=mp4]/best",
+            "-f", "best[height<=720][ext=mp4]/best[ext=mp4]/best",
+            "--concurrent-fragments", "4",
+            "--socket-timeout", "10",
             "--no-playlist", "--no-warnings", "--quiet", "--no-progress",
             "-o", out_tmpl,
             url,
