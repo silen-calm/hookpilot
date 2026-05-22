@@ -1433,11 +1433,12 @@ window._inlineRetryPlay = function(vid) {
     frame = `<video src="${streamSrc}" controls autoplay muted playsinline loop style="width:100%;height:100%;background:#000;object-fit:contain;border-radius:var(--radius-md);" onerror="this.parentElement.innerHTML='<iframe src=&quot;${fbIframe}&quot; allow=&quot;autoplay; encrypted-media; fullscreen&quot; referrerpolicy=&quot;origin&quot; style=&quot;width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);&quot;></iframe>';"></video>`;
     note = "";
   } else if (v.platform === "Reels" && v.instagramShortcode) {
-    // IG — 백엔드 streaming proxy (사장님 IG cookies 0 첨부)
+    // IG — 사이트 안 재생 강제 (백엔드 streaming proxy, 디스크 0)
+    // iframe fallback 제거: IG embed는 인스타로 이동시키는 함정
     const origIg = `https://www.instagram.com/reel/${v.instagramShortcode}/`;
     const streamSrc = `${BACKEND_BASE}/api/ig-stream?url=${encodeURIComponent(origIg)}`;
-    const fbIframe = `https://www.instagram.com/reel/${v.instagramShortcode}/embed/captioned`;
-    frame = `<video src="${streamSrc}" controls autoplay muted playsinline loop style="width:100%;height:100%;background:#000;object-fit:contain;border-radius:var(--radius-md);" onerror="this.parentElement.innerHTML='<iframe src=&quot;${fbIframe}&quot; allow=&quot;autoplay; encrypted-media; fullscreen&quot; allowfullscreen referrerpolicy=&quot;origin&quot; scrolling=&quot;no&quot; style=&quot;width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);&quot;></iframe>';"></video>`;
+    // video 실패 시 → 친절한 안내 + 다운로드 권유 (인스타로 절대 안 보냄)
+    frame = `<video src="${streamSrc}" controls autoplay muted playsinline loop style="width:100%;height:100%;background:#000;object-fit:contain;border-radius:var(--radius-md);" onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div style=&quot;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;padding:24px;width:80%;&quot;><div style=&quot;font-size:36px;margin-bottom:12px;&quot;>📥</div><div style=&quot;font-size:14px;margin-bottom:16px;line-height:1.6;&quot;>IG 일시 추출 실패 — 사이트 안 재생 위해<br>아래 <strong>⬇ 영상 다운로드</strong> 클릭하시면 즉시 보실 수 있어요</div><button onclick=&quot;document.getElementById(\\'dlTopBtn\\')?.click()&quot; style=&quot;padding:10px 20px;background:#fff;color:#000;border:0;border-radius:9999px;font-weight:600;cursor:pointer;&quot;>⬇ 지금 다운로드</button></div>');"></video>`;
     note = "";
   } else {
     note = "영상 ID 없음 — 재생 불가";
@@ -2726,9 +2727,10 @@ function openModalInternal(v) {
     frame = `<iframe src="https://www.tiktok.com/embed/v2/${v.tiktokId}?autoplay=1&loop=1&t=${Date.now()}" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen" referrerpolicy="origin" style="width:100%;height:100%;border:0;background:#000;"></iframe>`;
     note = "";
   } else if (v.platform === "Reels" && v.instagramShortcode) {
-    // IG — iframe (영상 player 작동, referrerpolicy origin)
+    // IG — 사이트 안 재생 강제 (백엔드 streaming proxy), iframe 절대 사용 X
     origUrl = `https://www.instagram.com/reel/${v.instagramShortcode}/`;
-    frame = `<iframe src="https://www.instagram.com/reel/${v.instagramShortcode}/embed/captioned" allow="autoplay; encrypted-media; fullscreen" allowfullscreen referrerpolicy="origin" scrolling="no" style="width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);"></iframe>`;
+    const streamSrc = `${BACKEND_BASE}/api/ig-stream?url=${encodeURIComponent(origUrl)}`;
+    frame = `<video src="${streamSrc}" controls autoplay muted playsinline loop style="width:100%;height:100%;background:#000;object-fit:contain;border-radius:var(--radius-md);" onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div style=&quot;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;padding:24px;width:80%;&quot;><div style=&quot;font-size:36px;margin-bottom:12px;&quot;>📥</div><div style=&quot;font-size:14px;margin-bottom:16px;line-height:1.6;&quot;>IG 추출 일시 실패<br>⬇ 영상 다운로드 클릭하시면 즉시 재생</div></div>');"></video>`;
     note = "";
   } else {
     frame = `<div style="color:#888;text-align:center;padding:40px;">영상 ID 미확인 — 출처에서 확인</div>`;
