@@ -1051,8 +1051,7 @@ class HookpilotHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Accept-Ranges", "bytes")
         cr = upstream.headers.get("Content-Range")
         if cr: self.send_header("Content-Range", cr)
-        # 사장님 SNS 안전 — 클라이언트 cookies/credentials 차단
-        self.send_header("Access-Control-Allow-Origin", "*")
+        # CORS 헤더는 end_headers override에서 자동 추가 (중복 박지 X — 브라우저 무효 처리 원인)
         self.end_headers()
         while True:
             try:
