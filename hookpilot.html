@@ -2393,9 +2393,13 @@ function renderCards() {
   }
   const _todayStr = new Date().toISOString().slice(0,10);
   const _yestStr = new Date(Date.now() - 86400000).toISOString().slice(0,10);
-  // === 첫 300개만 DOM 박음 — gzip 으로 다운로드 빠르고, 카드 양 cap 으로 첫 화면 빠르게 ===
-  // 페이지네이션 lazy load 회귀 회피 — 단순히 list 첫 300 slice 만 그림
+  // === 무한 스크롤 — 첫 300 + IntersectionObserver로 끝 도달 시 다음 300 append ===
+  // 사장님 needs: 풀 4000+개 모두 보고 싶음. cap 300 → 풀 끝까지 incremental.
+  window._fullList = list;  // 전체 list 백업 (무한 스크롤 batch용)
+  window._renderedCount = window._renderedCount || 300;
+  // renderCards() 재호출 시 (필터 변경 등) cap 초기화
   const _renderList = list.slice(0, 300);
+  window._renderedCount = 300;
   document.getElementById("grid").innerHTML = _renderList.map((v, i) => {
     const t = thumbUrl(v);
     const plat = v.platform === "TikTok" ? "tt" : v.platform === "Reels" ? "ig" : "yt";
@@ -2449,6 +2453,85 @@ function renderCards() {
   }).join("");
   // 누락 썸네일 백그라운드 fetch (TikTok·Instagram)
   setTimeout(backfillThumbs, 100);
+  // 무한 스크롤 sentinel — grid 끝에 IntersectionObserver
+  setTimeout(_attachInfiniteScroll, 50);
+}
+
+// === 무한 스크롤 sentinel ===
+window._loadMoreCards = function() {
+  const list = window._fullList || [];
+  const cur = window._renderedCount || 300;
+  if (cur >= list.length) return false;
+  const batch = list.slice(cur, cur + 300);
+  if (!batch.length) return false;
+  const grid = document.getElementById("grid");
+  if (!grid) return false;
+  const _todayStr = new Date().toISOString().slice(0,10);
+  const _yestStr = new Date(Date.now() - 86400000).toISOString().slice(0,10);
+  const html = batch.map((v, i) => {
+    const idx = cur + i;
+    const t = thumbUrl(v);
+    const plat = v.platform === "TikTok" ? "tt" : v.platform === "Reels" ? "ig" : "yt";
+    const platName = v.platform === "Shorts" ? "유튜브쇼츠" : v.platform === "TikTok" ? "틱톡" : "릴스";
+    const ago = fmtTimeAgo(v);
+    const _isNewToday = v.firstSeen === _todayStr;
+    const _isNewYest = v.firstSeen === _yestStr;
+    const newBadge = _isNewToday
+      ? '<span class="wjob__fresh" style="background:#16a34a;color:#fff;font-size:9px;font-weight:800;padding:2px 6px;border-radius:6px;">NEW</span>'
+      : _isNewYest
+      ? '<span class="wjob__fresh" style="background:#16a34a33;color:#16a34a;font-size:9px;font-weight:700;padding:2px 6px;border-radius:6px;">1d</span>'
+      : "";
+    const _hookTop = (v.hookPatterns && v.hookPatterns[0]) || null;
+    const hookBadge = _hookTop ? `<span class="wjob__hook" style="font-size:13px;line-height:1;cursor:help;" title="${escapeHTML(_hookTop.label || '')}">${_hookTop.icon || ''}</span>` : "";
+    const m = v.fetchedMeta;
+    const vw = (m && m.views != null) ? m.views : v.views;
+    const lk = (m && m.likes != null) ? m.likes : v.likes;
+    const dur = m ? m.duration : null;
+    const metaHtml = (vw != null || lk != null)
+      ? `${vw != null ? `<span class="stat">조회수 <strong>${fmtViews(vw)}</strong></span>` : ""}${lk != null ? `<span class="stat">좋아요 <strong>${fmtViews(lk)}</strong></span>` : ""}${dur != null ? `<span class="stat">길이 <strong>${fmtDur(dur)}</strong></span>` : ""}${ago ? `<span class="stat">${ago}</span>` : ""}`
+      : '<span class="stat loading">분석 중…</span>';
+    return `<article class="wjob" data-vid="${v.id}" tabindex="0" role="button" onclick="openModal(${v.id})">
+      <div class="wjob__media">
+        <div class="wjob__thumb" style="background:url('${t}') center/cover;"></div>
+      </div>
+      <div class="wjob__body">
+        <div class="wjob__row-top"><span class="wjob__plat wjob__plat--${plat}">${platName}</span><span class="wjob__flag">${v.country === "KR" ? "한국" : "미국"}</span>${hookBadge}${newBadge}<span class="wjob__score wjob__score--${(v.priorityScore||0) >= 70 ? "high" : (v.priorityScore||0) >= 50 ? "mid" : "low"}">${(v.priorityScore||0) || 0}점</span><span class="wjob__rank">#${idx+1}</span></div>
+        <div class="wjob__co">${v.channel ? "@" + escapeHTML(v.channel) : escapeHTML(IND[v.industry] || "기타")}</div>
+        <div class="wjob__title">${escapeHTML(shortTitle(v.title) || "(제목 분석 중)")}</div>
+        <div class="wjob__meta meta-stats" data-vid="${v.id}">${metaHtml}</div>
+      </div>
+    </article>`;
+  }).join("");
+  grid.insertAdjacentHTML("beforeend", html);
+  window._renderedCount = cur + batch.length;
+  setTimeout(backfillThumbs, 50);
+  return true;
+};
+
+let _infObserver = null;
+function _attachInfiniteScroll() {
+  // 기존 observer 해제
+  if (_infObserver) { _infObserver.disconnect(); _infObserver = null; }
+  const grid = document.getElementById("grid");
+  if (!grid) return;
+  // sentinel 카드 — 끝에서 4번째 카드 관찰 (미리 다음 배치 로드)
+  const cards = grid.querySelectorAll("article[data-vid]");
+  if (!cards.length) return;
+  const sentinel = cards[Math.max(0, cards.length - 4)];
+  if (!sentinel) return;
+  _infObserver = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting) {
+        const added = window._loadMoreCards && window._loadMoreCards();
+        if (added) {
+          // 다음 sentinel attach
+          _infObserver.disconnect();
+          setTimeout(_attachInfiniteScroll, 50);
+        }
+      }
+    }
+  }, { rootMargin: "800px 0px" });
+  _infObserver.observe(sentinel);
 }
 
 // === 재활용 가이드 자동 생성 ===
