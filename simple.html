@@ -1396,16 +1396,18 @@ window._thumbFallback = function(img, ytId) {
   try { img.parentElement.querySelector(".thumb-fallback").style.display = "flex"; } catch(e) {}
 };
 
-// IG video 재생 실패 시 embed iframe으로 자동 fallback (시각 진짜 작동)
+// IG video 재생 실패 시 — iframe fallback 제거 (사장님 요구: 인스타 이동 X)
+// 친절한 안내 + 다운로드 권유로 대체
 window._igVideoFallback = function(videoEl, shortcode) {
-  if (!videoEl || !shortcode) return;
-  const iframe = document.createElement("iframe");
-  iframe.src = `https://www.instagram.com/reel/${shortcode}/embed/captioned`;
-  iframe.style.cssText = "width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);";
-  iframe.setAttribute("allowfullscreen", "");
-  iframe.setAttribute("allow", "autoplay; encrypted-media");
-  iframe.setAttribute("scrolling", "no");
-  if (videoEl.parentNode) videoEl.parentNode.replaceChild(iframe, videoEl);
+  if (!videoEl) return;
+  videoEl.style.display = "none";
+  if (!videoEl.parentNode) return;
+  const placeholder = document.createElement("div");
+  placeholder.style.cssText = "position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;padding:24px;width:80%;";
+  placeholder.innerHTML = `<div style="font-size:36px;margin-bottom:12px;">📥</div>
+    <div style="font-size:14px;margin-bottom:16px;line-height:1.6;">IG 영상 추출 일시 실패<br>아래 <strong>⬇ 영상 다운로드</strong> 버튼으로 받으면 즉시 재생 가능</div>
+    <button onclick="document.getElementById('dlTopBtn')?.click()" style="padding:10px 20px;background:#fff;color:#000;border:0;border-radius:9999px;font-weight:600;cursor:pointer;">⬇ 지금 다운로드</button>`;
+  videoEl.parentNode.appendChild(placeholder);
 };
 
 // 우측 하단 "▶ 다시 재생" 버튼 onclick — 사이트 안에서 mv 영역 새로 박음 (새 탭 열지 X).
@@ -1426,9 +1428,12 @@ window._inlineRetryPlay = function(vid) {
     frame = `<iframe src="https://www.tiktok.com/embed/v2/${v.tiktokId}?autoplay=1&loop=1&t=${Date.now()}" allow="accelerometer; gyroscope; autoplay; encrypted-media; fullscreen" style="width:100%;height:100%;border:0;background:#000;"></iframe>`;
     note = "TikTok embed 재로딩 — 영상 표시까지 1-2초";
   } else if (v.platform === "Reels" && v.instagramShortcode) {
-    // IG: embed iframe (captioned) — instaloader 막힌 영상도 instagram 자체 embed 는 작동
-    frame = `<iframe src="https://www.instagram.com/reel/${v.instagramShortcode}/embed/captioned" allow="accelerometer; gyroscope; autoplay; encrypted-media" allowfullscreen scrolling="no" style="width:100%;height:100%;border:0;background:#000;border-radius:var(--radius-md);"></iframe>`;
-    note = "Instagram embed 모드 — 사이트 안에서 직접 재생";
+    // IG: 사이트 안 재생 강제 (사장님 요구) — /api/ig-stream으로 mp4 직접 재생
+    // iframe fallback 제거 — 인스타로 이동하는 원인이었음
+    const origIg = `https://www.instagram.com/reel/${v.instagramShortcode}/`;
+    const streamSrc = `${BACKEND_BASE}/api/ig-stream?url=${encodeURIComponent(origIg)}`;
+    frame = `<video src="${streamSrc}" controls autoplay muted playsinline loop style="width:100%;height:100%;background:#000;border-radius:var(--radius-md);object-fit:contain;" onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div style=&quot;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;padding:24px;&quot;><div style=&quot;font-size:36px;margin-bottom:12px;&quot;>📥</div><div style=&quot;font-size:14px;margin-bottom:16px;&quot;>IG 영상 추출 일시 실패<br>아래 다운로드 버튼으로 받으면 즉시 보실 수 있어요</div></div>');"></video>`;
+    note = "사이트 안에서 직접 재생 (인스타 이동 X)";
   } else {
     note = "영상 ID 없음 — 재생 불가";
   }
@@ -3047,11 +3052,9 @@ window.downloadVideo = async function(id) {
   }
 
   try {
-    btn.innerHTML = '<span class="hkp-spinner"></span>준비…';
-    const alive = await checkBackend();
-    if (!alive) {
-      throw new Error("다운로드 서비스 일시 정지 — 잠시 후 다시 시도해 주세요");
-    }
+    // 구조적 fix — checkBackend() probe hop 제거 (사장님 다운로드 안 됨 진짜 원인)
+    // probe timeout 가짜 에러 사라짐. 다운로드 자체가 실패하면 그게 진짜 에러.
+    // 백엔드 죽음 확인은 첫 fetch attempt 자체로 충분 (5초 안에 응답 안 오면 retry)
     btn.innerHTML = '<span class="hkp-spinner"></span>영상 분석 중… (5~15초)';
     const titleHint = _safeFilename(v.title, (v.platform || "video").toLowerCase());
     // 1단계: 백엔드가 디스크에 mp4 저장 (Downie 방식 — 디스크 캐시)
@@ -3068,11 +3071,37 @@ window.downloadVideo = async function(id) {
       else if (s >= 15) btn.innerHTML = `<span class="hkp-spinner"></span>큰 영상이라 조금 더… (${s}초)`;
     }, 1000);
     window._dlActive.timer = _progTimer;
-    const prep = await fetch(prepUrl, { signal: _dlController.signal });
+    // 구조적 fix — 자동 retry 3회 (일시 백엔드 부하/네트워크 실패 자동 복구)
+    let prep = null, lastErr = null;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        // 90초 타임아웃 (yt-dlp 큰 영상 받는 시간 충분)
+        const retryCtl = new AbortController();
+        const retryTimer = setTimeout(() => retryCtl.abort(), 90000);
+        prep = await fetch(prepUrl, { signal: retryCtl.signal });
+        clearTimeout(retryTimer);
+        if (prep.ok) break;
+        // 4xx/5xx — retry 의미 있는 코드만
+        if (prep.status === 401 || prep.status === 400) {
+          // 인증 실패·잘못된 URL — retry 무의미
+          break;
+        }
+        lastErr = new Error(`HTTP ${prep.status}`);
+      } catch (e) {
+        lastErr = e;
+        if (e.name === "AbortError" && _dlController.signal.aborted) throw e;  // 사용자가 취소
+      }
+      if (attempt < 3) {
+        btn.innerHTML = `<span class="hkp-spinner"></span>다시 시도 중… (${attempt}/3)`;
+        await new Promise(s => setTimeout(s, 2000));
+      }
+    }
     clearInterval(_progTimer);
-    if (!prep.ok) {
-      let errMsg = "추출 실패";
-      try { const j = await prep.json(); if (j.error) errMsg = j.error; } catch(e){}
+    if (!prep || !prep.ok) {
+      let errMsg = lastErr ? lastErr.message : "추출 실패";
+      if (prep) {
+        try { const j = await prep.json(); if (j.error) errMsg = j.error; } catch(e){}
+      }
       throw new Error(errMsg);
     }
     const info = await prep.json();
