@@ -318,21 +318,40 @@ def _ig_embed_extract_field(html, start_marker):
         return None
 
 
+# video_url 메모리 캐시 — TTFB 4초 → 즉시 (사장님 streaming 시작 지연 fix)
+# IG video URL은 signature TTL ~수시간. 10분 캐시 안전.
+_IG_VURL_CACHE = {}  # url → (timestamp, video_url)
+
 def extract_instagram_video_url(url):
     """Instagram embed/captioned 페이지에서 로그인 없이 video_url 추출.
-    실패 시 yt-dlp fallback (사장님 IG 재생 안 됨 진짜 fix)"""
+    메모리 캐시 10분 — 사장님 같은 영상 재방문 / 새로고침 시 즉시 streaming 시작."""
+    import time as _t
+    now = _t.time()
+    cached = _IG_VURL_CACHE.get(url)
+    if cached and (now - cached[0]) < 600:  # 10분
+        return cached[1]
+    # 캐시 청소 — 100개 넘으면 오래된 거 절반 제거
+    if len(_IG_VURL_CACHE) > 100:
+        sorted_keys = sorted(_IG_VURL_CACHE.items(), key=lambda x: x[1][0])
+        for k, _ in sorted_keys[:50]:
+            _IG_VURL_CACHE.pop(k, None)
+
     info = extract_instagram_meta(url)
     vu = info.get("video_url") if info else None
-    if vu: return vu
-    # yt-dlp fallback — IG embed extractor 실패 시 (4/5 실패 케이스 대응)
+    if vu:
+        _IG_VURL_CACHE[url] = (now, vu)
+        return vu
+    # yt-dlp fallback — IG embed extractor 실패 시
     try:
         proc = subprocess.run(
             [YTDLP, "--get-url", "-f", "best[ext=mp4]/best", "--no-warnings", "--quiet", url],
-            capture_output=True, timeout=20
+            capture_output=True, timeout=15
         )
         if proc.returncode == 0:
             line = proc.stdout.decode("utf-8", errors="ignore").strip().split("\n")[0].strip()
-            if line.startswith("http"): return line
+            if line.startswith("http"):
+                _IG_VURL_CACHE[url] = (now, line)
+                return line
     except Exception:
         pass
     return None
