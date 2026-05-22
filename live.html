@@ -1595,9 +1595,35 @@ function renderIndustryTabs() {
   }).join("");
 }
 
-// 국가·플랫폼·트랙 토글 — 사장님 누적 가시화 우선 (cap 제거, 진짜 풀 비례 노출)
-// 풀 균등화는 crawler가 백그라운드 진행 (YT/IG 채우기). 그 동안 사장님 누적 우선.
+// 국가·플랫폼·트랙 토글 — cap 제거 + 어제 대비 변화량 표시 (사장님 누적 인지)
 function renderToggles() {
+  // 어제 풀 카운트 — localStorage 자동 추적
+  const _histKey = "hookpilot_plat_history";
+  let _hist = {};
+  try { _hist = JSON.parse(localStorage.getItem(_histKey) || "{}"); } catch (e) {}
+  const _today = new Date().toISOString().slice(0, 10);
+  const _platToday = { Shorts: 0, TikTok: 0, Reels: 0 };
+  videos.forEach(v => { if (_platToday[v.platform] !== undefined && (state.country === "ALL" || v.country === state.country)) _platToday[v.platform]++; });
+  // 오늘 데이터 저장 (최대값 유지)
+  if (!_hist[_today]) _hist[_today] = { Shorts: 0, TikTok: 0, Reels: 0 };
+  ["Shorts", "TikTok", "Reels"].forEach(p => { if (_platToday[p] > _hist[_today][p]) _hist[_today][p] = _platToday[p]; });
+  // 30일 넘은 옛 기록 정리
+  const _cutoff = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+  Object.keys(_hist).forEach(d => { if (d < _cutoff) delete _hist[d]; });
+  try { localStorage.setItem(_histKey, JSON.stringify(_hist)); } catch (e) {}
+  // 어제 데이터 (없으면 1~7일 전 가장 가까운 거)
+  const _dayAgo = (n) => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10);
+  let _yest = null;
+  for (let d = 1; d <= 7; d++) {
+    if (_hist[_dayAgo(d)]) { _yest = _hist[_dayAgo(d)]; break; }
+  }
+  const _delta = (p) => {
+    if (!_yest || !_yest[p]) return "";
+    const d = _platToday[p] - _yest[p];
+    if (d > 0) return ` <span style="color:#16a34a;font-size:10px;font-weight:700;">+${d}</span>`;
+    return "";
+  };
+
   const cn = c => videos.filter(v =>
     (c === "ALL" || v.country === c) &&
     (state.platform === "ALL" || v.platform === state.platform)
@@ -1619,9 +1645,9 @@ function renderToggles() {
   `;
   document.getElementById("platformToggle").innerHTML = `
     <button class="${state.platform==='ALL'?'on':''}" data-p="ALL">전체 <em>${pn("ALL")}</em></button>
-    <button class="${state.platform==='Shorts'?'on':''}" data-p="Shorts">유튜브쇼츠 <em>${pn("Shorts")}</em></button>
-    <button class="${state.platform==='TikTok'?'on':''}" data-p="TikTok">틱톡 <em>${pn("TikTok")}</em></button>
-    <button class="${state.platform==='Reels'?'on':''}" data-p="Reels">릴스 <em>${pn("Reels")}</em></button>
+    <button class="${state.platform==='Shorts'?'on':''}" data-p="Shorts">유튜브쇼츠 <em>${pn("Shorts")}</em>${_delta("Shorts")}</button>
+    <button class="${state.platform==='TikTok'?'on':''}" data-p="TikTok">틱톡 <em>${pn("TikTok")}</em>${_delta("TikTok")}</button>
+    <button class="${state.platform==='Reels'?'on':''}" data-p="Reels">릴스 <em>${pn("Reels")}</em>${_delta("Reels")}</button>
   `;
   // 교집합 트랙 카운트 — shop + priorityScore 70+ (매출 검증 × 도달 검증)
   const intersectCount = videos.filter(v => v.track === "shop" && (v.priorityScore || 0) >= 70).length;

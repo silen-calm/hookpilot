@@ -1759,37 +1759,38 @@ def main():
         ap.print_help()
         return
 
-    # === IG video_url 미리 추출 (사장님 IG 즉시 재생 + 사장님 Mac IP 0 hit) ===
-    # Actions runner Azure IP에서 IG embed 페이지 fetch → mp4 URL 추출
-    # 풀에 _ig_mp4 저장 → 클라이언트가 백엔드 거치지 않고 직접 사용 (TTFB 0초)
-    # 만료 시 (1-2시간) 백엔드 ig-stream fallback 자동
-    ig_videos = [v for v in results if v.get("platform") == "Reels" and v.get("instagramShortcode") and not v.get("_ig_mp4")]
-    if ig_videos:
-        print(f"[IG-prefetch] {len(ig_videos)}개 영상 video_url 추출 시작 (사장님 즉시 재생용)")
-        extracted = 0
-        for v in ig_videos:
-            url = f"https://www.instagram.com/reel/{v['instagramShortcode']}/"
-            embed_url = f"https://www.instagram.com/reel/{v['instagramShortcode']}/embed/captioned/"
-            try:
-                req = urllib.request.Request(embed_url, headers={
-                    "User-Agent": ua(),
-                    "Accept": "text/html,application/xhtml+xml",
-                    "Accept-Language": "en-US,en;q=0.9",
-                })
-                resp = urllib.request.urlopen(req, timeout=8)
-                html = resp.read(96 * 1024).decode("utf-8", errors="ignore")
-                m = re.search(r'video_url\\":\\"([^"]+)\\"', html)
-                if m:
-                    vu = m.group(1).encode().decode("unicode_escape").replace("\\u0026", "&")
-                    if vu.startswith("http"):
-                        v["_ig_mp4"] = vu
-                        v["_ig_mp4_ts"] = int(time.time())
-                        extracted += 1
-            except Exception:
-                pass
-            # IG rate limit — 0.5초 sleep (분당 120회 이하, IG 부하 안전)
-            time.sleep(0.5)
-        print(f"[IG-prefetch] {extracted}/{len(ig_videos)}개 추출 성공 (사장님 즉시 재생)")
+    # === IG prefetch — GitHub Actions runner (Azure IP) 에서만 실행 (사장님 Mac IP 0 hit) ===
+    # 사장님 Mac에서 실행 시 사장님 IP가 IG에 990번 hit = 차단 위험. Actions runner는 Azure IP라 안전.
+    import os as _os_chk
+    _is_actions = _os_chk.environ.get("GITHUB_ACTIONS") == "true"
+    if _is_actions:
+        ig_videos = [v for v in results if v.get("platform") == "Reels" and v.get("instagramShortcode") and not v.get("_ig_mp4")]
+        if ig_videos:
+            print(f"[IG-prefetch Actions] {len(ig_videos)}개 영상 video_url 추출 시작 (Azure IP, 사장님 안전)")
+            extracted = 0
+            for v in ig_videos:
+                embed_url = f"https://www.instagram.com/reel/{v['instagramShortcode']}/embed/captioned/"
+                try:
+                    req = urllib.request.Request(embed_url, headers={
+                        "User-Agent": ua(),
+                        "Accept": "text/html,application/xhtml+xml",
+                        "Accept-Language": "en-US,en;q=0.9",
+                    })
+                    resp = urllib.request.urlopen(req, timeout=8)
+                    html = resp.read(96 * 1024).decode("utf-8", errors="ignore")
+                    m = re.search(r'video_url\\":\\"([^"]+)\\"', html)
+                    if m:
+                        vu = m.group(1).encode().decode("unicode_escape").replace("\\u0026", "&")
+                        if vu.startswith("http"):
+                            v["_ig_mp4"] = vu
+                            v["_ig_mp4_ts"] = int(time.time())
+                            extracted += 1
+                except Exception:
+                    pass
+                time.sleep(0.5)
+            print(f"[IG-prefetch Actions] {extracted}/{len(ig_videos)}개 성공")
+    else:
+        print("[IG-prefetch] Mac 환경 — 사장님 IP 보호 위해 skip (Actions cron에서만 실행)")
 
     # min_score=0 + per_platform=500 — merge_trending.py에서 본업 매칭·시간 컷오프 적용. 크롤러는 거친 풀만.
     write_results(results, args.output, min_score=0, per_platform=500)
