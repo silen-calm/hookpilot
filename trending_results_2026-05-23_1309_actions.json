@@ -1,0 +1,4319 @@
+{
+  "total_collected": 383,
+  "passed_filter": 150,
+  "balanced_output": 150,
+  "platform_distribution": {
+    "TikTok": 150
+  },
+  "rejected_hard_filter": 233,
+  "rejected_low_score": 0,
+  "rejected_by_balance": 0,
+  "filter_threshold": 0,
+  "per_platform_cap": 500,
+  "criteria": {
+    "min_views": 2000,
+    "min_likes": 20,
+    "min_views_for_old_videos": 50000,
+    "block_pattern_count": 29,
+    "scoring": "Engagement Rate(40) + Velocity(30) + Authority(15) + Commerce(15) × Time Decay",
+    "safety": "차단·로그인 응답 키워드 감지 시 즉시 제외 + 3 플랫폼 균등 배치"
+  },
+  "videos": [
+    {
+      "tiktokId": "7642297078152006945",
+      "tiktokUser": "b.1nspos",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Link in my Bio 💘#hm #body #shapewearbody #hmbody #hmhaul ",
+      "channel": "b.1nspos",
+      "views": 364131,
+      "likes": 37014,
+      "comments": 14,
+      "shares": 6282,
+      "duration": 11,
+      "uploadDate": "2026-05-21",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 80,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 11.9% (viral)",
+        "일평균 18.2만회 (급상승)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7642433922424425761",
+      "tiktokUser": "sejaaljr",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "@H&M #outfitinspo #petitegirl #hm #fashiontiktok #linenpants ",
+      "channel": "sejaaljr",
+      "views": 1463864,
+      "likes": 178176,
+      "comments": 126,
+      "shares": 20552,
+      "duration": 10,
+      "uploadDate": "2026-05-21",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 75,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 13.6% (viral)",
+        "일평균 73.2만회 (급상승)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7642063170173029664",
+      "tiktokUser": "sejaaljr",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "@H&M #outfitinspo #petitegirl #hm #fashiontiktok #straightlegjeans",
+      "channel": "sejaaljr",
+      "views": 1578097,
+      "likes": 216348,
+      "comments": 96,
+      "shares": 17064,
+      "duration": 9,
+      "uploadDate": "2026-05-20",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "tech",
+      "_score": 75,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 14.8% (viral)",
+        "일평균 52.6만회 (급상승)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7641408487548865812",
+      "tiktokUser": "uneu___",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#영포티 #봉의고릴스챌린지 #봉릴챌 #추천#추처ᄂ",
+      "channel": "uneu___",
+      "views": 1793885,
+      "likes": 186585,
+      "comments": 665,
+      "shares": 8590,
+      "duration": 27,
+      "uploadDate": "2026-05-19",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "entertainment",
+      "_score": 75,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 10.9% (viral)",
+        "일평균 44.8만회 (급상승)",
+        "신선 (4일)"
+      ]
+    },
+    {
+      "tiktokId": "7640832391023529237",
+      "tiktokUser": "0_zeojn",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "틱톡 이렇게 하는거 맞나요..? #fypシ゚  #brasil🇧🇷  #추천  #축구부인척 ",
+      "channel": "0_zeojn",
+      "views": 704247,
+      "likes": 109015,
+      "comments": 372,
+      "shares": 5623,
+      "duration": 8,
+      "uploadDate": "2026-05-17",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 75,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 16.3% (viral)",
+        "일평균 11.7만회 (급상승)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7640881441240337686",
+      "tiktokUser": "ellisbrxdy",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Kids section 😗👏🏼links in bio #handm #newin #summerhaul @H&M ",
+      "channel": "ellisbrxdy",
+      "views": 386135,
+      "likes": 47323,
+      "comments": 62,
+      "shares": 2525,
+      "duration": 13,
+      "uploadDate": "2026-05-17",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 72,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 12.9% (viral)",
+        "일평균 6.4만회 (떠오름)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7635330121192459528",
+      "tiktokUser": "upseohyun",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "골라봐 #추천#10#한림예고#fyp#초이스",
+      "channel": "upseohyun",
+      "views": 2819121,
+      "likes": 503491,
+      "comments": 3090,
+      "shares": 23091,
+      "duration": 14,
+      "uploadDate": "2026-05-02",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 70,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 18.8% (viral)",
+        "일평균 13.4만회 (급상승)"
+      ]
+    },
+    {
+      "tiktokId": "7642731859301928224",
+      "tiktokUser": "noelaaaaaaaaa",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Anzeige | bestie trip + summer @H&M wardrobe 🤍",
+      "channel": "noelaaaaaaaaa",
+      "views": 46962,
+      "likes": 4963,
+      "comments": 12,
+      "shares": 169,
+      "duration": 11,
+      "uploadDate": "2026-05-22",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 67,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 11.0% (viral)",
+        "일평균 4.7만회 (떠오름)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7642669515989372178",
+      "tiktokUser": "iseryeong",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#오른쪽#추천",
+      "channel": "iseryeong",
+      "views": 47551,
+      "likes": 5523,
+      "comments": 44,
+      "shares": 144,
+      "duration": 15,
+      "uploadDate": "2026-05-22",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 67,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 12.0% (viral)",
+        "일평균 4.8만회 (떠오름)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7631107465119141141",
+      "tiktokUser": "ha_uun",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "다들 중간고사 언제 봐여?#뀨 #중간고사 #추천 ",
+      "channel": "ha_uun",
+      "views": 9143078,
+      "likes": 973892,
+      "comments": 2496,
+      "shares": 25013,
+      "duration": 15,
+      "uploadDate": "2026-04-21",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 67,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 11.0% (viral)",
+        "일평균 28.6만회 (급상승)"
+      ]
+    },
+    {
+      "tiktokId": "7641967285917502741",
+      "tiktokUser": "hbbvc16",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#추천 #10 #fyp ",
+      "channel": "hbbvc16",
+      "views": 262302,
+      "likes": 26052,
+      "comments": 78,
+      "shares": 406,
+      "duration": 8,
+      "uploadDate": "2026-05-20",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 67,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 10.1% (viral)",
+        "일평균 8.7만회 (떠오름)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7642253559119006983",
+      "tiktokUser": "upseohyun",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#한림예고#fyp#추천#10 @xumin @hhx ",
+      "channel": "upseohyun",
+      "views": 69433,
+      "likes": 9825,
+      "comments": 63,
+      "shares": 352,
+      "duration": 11,
+      "uploadDate": "2026-05-21",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 67,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 14.7% (viral)",
+        "일평균 3.5만회 (떠오름)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7640466772914670869",
+      "tiktokUser": "nahayoon0624",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "머리 스타일 추천",
+      "channel": "nahayoon0624",
+      "views": 1715577,
+      "likes": 137168,
+      "comments": 780,
+      "shares": 2440,
+      "duration": 13,
+      "uploadDate": "2026-05-16",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 66,
+      "_axes": {
+        "er": 32,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 8.2% (매우 우수)",
+        "일평균 24.5만회 (급상승)",
+        "신선 (7일)"
+      ]
+    },
+    {
+      "tiktokId": "7642300944578874644",
+      "tiktokUser": "hy.1xzu_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "외국 유행 따라잡기 #봄바레 #챌린지 #14 #fyp #추천 ",
+      "channel": "hy.1xzu_",
+      "views": 259275,
+      "likes": 14987,
+      "comments": 424,
+      "shares": 572,
+      "duration": 15,
+      "uploadDate": "2026-05-21",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "entertainment",
+      "_score": 66,
+      "_axes": {
+        "er": 32,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 6.2% (매우 우수)",
+        "일평균 13.0만회 (급상승)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7641901169501080853",
+      "tiktokUser": "yh_.s09",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "인생 마지막 체대..#체육대회 #추천추천추천추천추천추천추천추천추천추천 ",
+      "channel": "yh_.s09",
+      "views": 364551,
+      "likes": 25135,
+      "comments": 50,
+      "shares": 717,
+      "duration": 22,
+      "uploadDate": "2026-05-20",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 66,
+      "_axes": {
+        "er": 32,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 7.1% (매우 우수)",
+        "일평균 12.2만회 (급상승)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7638129233101065492",
+      "tiktokUser": "s2ieon",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이날 메컵 레잔두~ #fyp #추천 #makeup #07 ",
+      "channel": "s2ieon",
+      "views": 888839,
+      "likes": 138282,
+      "comments": 272,
+      "shares": 5467,
+      "duration": 15,
+      "uploadDate": "2026-05-10",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 63,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 16.2% (viral)",
+        "일평균 6.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7636930069096664340",
+      "tiktokUser": "ttokkiiiiiii",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "남친이랑 뭘 나눠먹으면 안되는 이유: #연상 #연애 #fyp #추천추천추천추천추천추천추천추천추천추천 #커플",
+      "channel": "ttokkiiiiiii",
+      "views": 1639775,
+      "likes": 240114,
+      "comments": 914,
+      "shares": 10087,
+      "duration": 47,
+      "uploadDate": "2026-05-06",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 63,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 15.3% (viral)",
+        "일평균 9.6만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7633434020524608788",
+      "tiktokUser": "wxxng._.08",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "화면에는 나와야 되는거 아니냐#축구부 #fyp #08 #추천추천추천추천추천추천추천추천추천추천 ",
+      "channel": "wxxng._.08",
+      "views": 2114157,
+      "likes": 311379,
+      "comments": 742,
+      "shares": 15553,
+      "duration": 13,
+      "uploadDate": "2026-04-27",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 63,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 15.5% (viral)",
+        "일평균 8.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7635268714094464264",
+      "tiktokUser": "xixiozo",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#fyp #추천 #09 #douyin抖音",
+      "channel": "xixiozo",
+      "views": 489557,
+      "likes": 83020,
+      "comments": 0,
+      "shares": 2885,
+      "duration": 6,
+      "uploadDate": "2026-05-02",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 63,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 17.5% (viral)",
+        "일평균 2.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7622323203687501076",
+      "tiktokUser": "ixxieo1",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "막차 탑니다~ #fyp #추천 ",
+      "channel": "ixxieo1",
+      "views": 1517125,
+      "likes": 203413,
+      "comments": 568,
+      "shares": 13836,
+      "duration": 12,
+      "uploadDate": "2026-03-28",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 60,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 14.4% (viral)",
+        "일평균 2.7만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7630851979626958101",
+      "tiktokUser": "ji_hoon._.x",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#챌린지 #추천 #설마추천이뜨겠어 #명진고등학교 #셋이와써에",
+      "channel": "ji_hoon._.x",
+      "views": 989798,
+      "likes": 141131,
+      "comments": 546,
+      "shares": 4739,
+      "duration": 14,
+      "uploadDate": "2026-04-20",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "entertainment",
+      "_score": 60,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 14.8% (viral)",
+        "일평균 3.0만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7642699343778041118",
+      "tiktokUser": "sandy_azcona1",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "What’s new at @H&M + try-on haul ✨ found so many cute pieces for summer! All on my ShopMy or LTK #hmhaul #hmtryonhaul #tryonhaul #hmnew #summerstyle ",
+      "channel": "sandy_azcona1",
+      "views": 74684,
+      "likes": 4128,
+      "comments": 72,
+      "shares": 278,
+      "duration": 162,
+      "uploadDate": "2026-05-22",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 6.0% (좋음)",
+        "일평균 7.5만회 (떠오름)",
+        "커머스 키워드 3개",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7641933258107784455",
+      "tiktokUser": "tingting",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "obsessed with every single piece from this order!!! @H&M 💛 *anzeige",
+      "channel": "tingting",
+      "views": 38542,
+      "likes": 2758,
+      "comments": 19,
+      "shares": 66,
+      "duration": 55,
+      "uploadDate": "2026-05-20",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 7.4% (매우 우수)",
+        "일평균 1.3만회 (떠오름)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7642329665717226766",
+      "tiktokUser": "madeleineefloyd",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "new @H&M !!! #OOTD #outfitinspo #hm ",
+      "channel": "madeleineefloyd",
+      "views": 2014,
+      "likes": 238,
+      "comments": 2,
+      "shares": 1,
+      "duration": 4,
+      "uploadDate": "2026-05-21",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 12.0% (viral)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7643012560416984352",
+      "tiktokUser": "lauraceliav",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "euro summer has started 🍋 full look by: @H&M  ad",
+      "channel": "lauraceliav",
+      "views": 2981,
+      "likes": 382,
+      "comments": 8,
+      "shares": 17,
+      "duration": 12,
+      "uploadDate": "2026-05-23",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 13.7% (viral)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7642258620792491282",
+      "tiktokUser": "s.xlax",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "하복 vs 동복 내기했는데 여러분의 픽은?#추천#경경 ",
+      "channel": "s.xlax",
+      "views": 11355,
+      "likes": 1266,
+      "comments": 10,
+      "shares": 85,
+      "duration": 15,
+      "uploadDate": "2026-05-21",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 12.0% (viral)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7642751680567840021",
+      "tiktokUser": "seung_aa",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#09#추천#관리자님추천뜨게해주세요#고딩#학교 ",
+      "channel": "seung_aa",
+      "views": 5056,
+      "likes": 662,
+      "comments": 2,
+      "shares": 22,
+      "duration": 14,
+      "uploadDate": "2026-05-22",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 13.6% (viral)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7642715823013907720",
+      "tiktokUser": "eu.0725",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#CapCut 너무 슬퍼..이번화보고 펑펑 울었다..😢 #꾸금 #제목알려주지마세요 #추천추천추천추천추천추천추천추천추천추천 #추천추천추천추천추천추천추천추천추천추천 ",
+      "channel": "eu.0725",
+      "views": 74127,
+      "likes": 6473,
+      "comments": 60,
+      "shares": 432,
+      "duration": 13,
+      "uploadDate": "2026-05-22",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 9.4% (매우 우수)",
+        "일평균 7.4만회 (떠오름)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7641909016586636564",
+      "tiktokUser": "binn_iee0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "틱톡에만 오릴ㄹ거 #fyp#school#OOTD#추천#09",
+      "channel": "binn_iee0",
+      "views": 83387,
+      "likes": 5091,
+      "comments": 29,
+      "shares": 53,
+      "duration": 10,
+      "uploadDate": "2026-05-20",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 6.2% (매우 우수)",
+        "일평균 2.8만회 (떠오름)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7639559797737655572",
+      "tiktokUser": "hx.xn0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "옆에 남자애 어떻게 꼬시나요 #추천 #08 #졸사#졸ᄉyp #짝사랑 ",
+      "channel": "hx.xn0",
+      "views": 343058,
+      "likes": 26451,
+      "comments": 163,
+      "shares": 562,
+      "duration": 16,
+      "uploadDate": "2026-05-14",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 54,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 7.9% (매우 우수)",
+        "일평균 3.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7639160517675879687",
+      "tiktokUser": "dye8go8ymlff",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이제진짜여름시작. #추천 #챌린지 #challenge #한림예고 #영상제작과 ",
+      "channel": "dye8go8ymlff",
+      "views": 40198,
+      "likes": 4201,
+      "comments": 20,
+      "shares": 118,
+      "duration": 10,
+      "uploadDate": "2026-05-13",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "entertainment",
+      "_score": 54,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 10.8% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7639579751191039253",
+      "tiktokUser": "uw7n6xdyu2",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#한국 #데일리 #유머 #추천떠라 #분위기 #패션 #인기영상 #감성 #메이크업",
+      "channel": "uw7n6xdyu2",
+      "views": 37196,
+      "likes": 4271,
+      "comments": 47,
+      "shares": 83,
+      "duration": 12,
+      "uploadDate": "2026-05-14",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "lifestyle",
+      "_score": 54,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 11.8% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7642746795809869063",
+      "tiktokUser": "__995300",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "다들 이정도는 속이고 살죠? #반반메이크업 #화장전후 #makeup #douyin #추천 ",
+      "channel": "__995300",
+      "views": 313266,
+      "likes": 11694,
+      "comments": 859,
+      "shares": 1943,
+      "duration": 15,
+      "uploadDate": "2026-05-22",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "beauty",
+      "_score": 54,
+      "_axes": {
+        "er": 22,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 4.6% (좋음)",
+        "일평균 31.3만회 (급상승)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7639295115558669576",
+      "tiktokUser": "jjh1143_oko20",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#fyppppppppppppppppppppppp #추천 #춤계 #dance ",
+      "channel": "jjh1143_oko20",
+      "views": 48490,
+      "likes": 4887,
+      "comments": 7,
+      "shares": 286,
+      "duration": 14,
+      "uploadDate": "2026-05-13",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 54,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 10.7% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7642241814941961494",
+      "tiktokUser": "abibabex",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "@H&M i defo think the summer newness could be better! 🙂‍↕️ Round 2 for the H&M co-ords? 🥥☁️ All on my LTK #coords #clothinghaul #hmhaul #newin #keeporreturn  ",
+      "channel": "abibabex",
+      "views": 134946,
+      "likes": 6626,
+      "comments": 41,
+      "shares": 139,
+      "duration": 71,
+      "uploadDate": "2026-05-21",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 52,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 5.0% (좋음)",
+        "일평균 6.7만회 (떠오름)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7642061679940881686",
+      "tiktokUser": "jessieeewoo",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Current faves in h&m🤍🍸🫒 #handm #summervibes #summeroutfits #newin #haul ",
+      "channel": "jessieeewoo",
+      "views": 114857,
+      "likes": 5744,
+      "comments": 22,
+      "shares": 354,
+      "duration": 19,
+      "uploadDate": "2026-05-20",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 52,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 5.3% (좋음)",
+        "일평균 3.8만회 (떠오름)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7624312789619821844",
+      "tiktokUser": "a6eu.n_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "석촌호수 사람 너무 많다🌸 #한림예고 #추천 ",
+      "channel": "a6eu.n_",
+      "views": 371463,
+      "likes": 105789,
+      "comments": 239,
+      "shares": 7862,
+      "duration": 13,
+      "uploadDate": "2026-04-02",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 52,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 30.7% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7629605544679968020",
+      "tiktokUser": "_.xw_o1",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "지망 다 떨어지고 여고붙어서 여고생활하는 여고생 둘#추천#대전#여고##추천띄워주세요 ",
+      "channel": "_.xw_o1",
+      "views": 1202902,
+      "likes": 75956,
+      "comments": 196,
+      "shares": 1976,
+      "duration": 13,
+      "uploadDate": "2026-04-17",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 52,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 6.5% (매우 우수)",
+        "일평균 3.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7640191884358389023",
+      "tiktokUser": "spendingproblems_",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "h&m is POPPIN rn with euro summer vibes!! everything on my SHOP MY :) #eurosummer #fashionfinds #pucci #fashioninspo #summeroutfits ",
+      "channel": "spendingproblems_",
+      "views": 76169,
+      "likes": 6512,
+      "comments": 39,
+      "shares": 556,
+      "duration": 14,
+      "uploadDate": "2026-05-15",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 51,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 9.3% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7573615177468251413",
+      "tiktokUser": "applemintkim",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "ep03 햄찌! 납치당하다 🐹 : 출근은 어떡해...? 🥲 #animation #햄스터 #애니 #햄찌 #의인화 ",
+      "channel": "applemintkim",
+      "views": 410720,
+      "likes": 37611,
+      "comments": 127,
+      "shares": 6569,
+      "duration": 13,
+      "uploadDate": "2025-11-17",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 50,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 10.8% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7545374311469550855",
+      "tiktokUser": "hamjji2063",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "귀여운 햄찌🐹  #cute #hamster #햄스터 #귀여운",
+      "channel": "hamjji2063",
+      "views": 839697,
+      "likes": 119405,
+      "comments": 638,
+      "shares": 18605,
+      "duration": 22,
+      "uploadDate": "2025-09-02",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 50,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 16.5% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7637609781854866709",
+      "tiktokUser": "sashiischmeltzer",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "their modest collection rn 🤌🏼🤌🏼 #fyp #haul #hm ",
+      "channel": "sashiischmeltzer",
+      "views": 829567,
+      "likes": 41777,
+      "comments": 126,
+      "shares": 3649,
+      "duration": 42,
+      "uploadDate": "2026-05-08",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 49,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 5.5% (좋음)",
+        "일평균 5.5만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7635388541643640084",
+      "tiktokUser": "phtbi536",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "🐹💕#햄스터🐹 #햄찌 #fyp ",
+      "channel": "phtbi536",
+      "views": 61073,
+      "likes": 3270,
+      "comments": 41,
+      "shares": 2217,
+      "duration": 78,
+      "uploadDate": "2026-05-02",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p6",
+      "industry": "creator",
+      "_score": 45,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 9.1% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7626006906464849172",
+      "tiktokUser": "xikers_official",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "햄찌버스데이🐹 💕 #xikers #싸이커스 #어느날햄스터가사람이되었다",
+      "channel": "xikers_official",
+      "views": 40383,
+      "likes": 10667,
+      "comments": 113,
+      "shares": 208,
+      "duration": 11,
+      "uploadDate": "2026-04-07",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p6",
+      "industry": "creator",
+      "_score": 44,
+      "_axes": {
+        "er": 40,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 27.2% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7534970406638259464",
+      "tiktokUser": "gog.mul",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "상추거지햄의 사랑노래🥬 #pets #hamsterdance #cute #hamsterbabys #kawaii #햄찌 #cuteanimals #hamstersong #animals",
+      "channel": "gog.mul",
+      "views": 152712,
+      "likes": 17903,
+      "comments": 76,
+      "shares": 2033,
+      "duration": 16,
+      "uploadDate": "2025-08-05",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "tech",
+      "_score": 43,
+      "_axes": {
+        "er": 40,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 13.1% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7629223815708544269",
+      "tiktokUser": "furyskinfacts",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "4 Most effective skincare combinations Zero brand deals. Zero bias. 💊  For home care only. Rx and in-office treatments are stronger — see a dermatologist for severe cases.  ⚫ Pores — COSRX BHA Blackhead Power Liquid + Purito Galacto Niacin 97  BHA dissolves inside pores. Niacinamide tightens them.  Apply BHA first. Wait 10 min, then layer niacinamide.  🔴 Acne — COSRX BHA Blackhead Power Liquid + Anua Azelaic Acid 10%  BHA clears the clog. Azelaic acid kills bacteria + calms redness.  Alternate nights if skin is sensitive.  🌿 Rosacea — Anua Azelaic Acid 10% + Purito Galacto Niacin 97  Azelaic acid reduces flushing. Niacinamide strengthens the barrier.  Both fragrance-free. Safe for reactive skin.  🟡 Wrinkles — Celimax Retinal Shot + The Ordinary Ascorbyl Glucoside 12%  Retinal rebuilds overnight. Vitamin C brightens in the morning.  Don't layer — retinal PM, vitamin C AM.  *Products are ones I regularly recommend. Better options exist — use what fits your skin.  Drop your skin concern in the comments 👇  #kbeauty #koreanskincare #acne #pores #azelaicacid",
+      "channel": "furyskinfacts",
+      "views": 580969,
+      "likes": 19029,
+      "comments": 138,
+      "shares": 1321,
+      "duration": 12,
+      "uploadDate": "2026-04-16",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 41,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.5% (좋음)",
+        "일평균 1.6만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7628559186107845909",
+      "tiktokUser": "promakeuppro",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Get healthy, shiny, and glowing skin in no time with JMCY Teashell Niacinamide serum !😍YXAJH1135-LX#Acne #SensitiveSkin #skincare #beautyroutine #whitening #Blackheads #fyy #ph #foryou #makeup #tiktok #fyp",
+      "channel": "promakeuppro",
+      "views": 609608,
+      "likes": 19814,
+      "comments": 310,
+      "shares": 4033,
+      "duration": 25,
+      "uploadDate": "2026-04-14",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 41,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 4.0% (좋음)",
+        "일평균 1.6만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7617482722184793364",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "국물이 끝내줘요~ 겉절이에 칼국수 #kalguksu #kimchi ",
+      "channel": "hamzy_korean",
+      "views": 1859089,
+      "likes": 102463,
+      "comments": 120,
+      "shares": 1343,
+      "duration": 59,
+      "uploadDate": "2026-03-15",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 41,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 5.6% (좋음)",
+        "일평균 2.7만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7631588981045611794",
+      "tiktokUser": "mukbang_paradise1",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Korean home food🌟 Grilled pork ,soy bean soup #hamzy #mukbang #koreanfood #pork",
+      "channel": "mukbang_paradise1",
+      "views": 350466,
+      "likes": 18905,
+      "comments": 36,
+      "shares": 597,
+      "duration": 714,
+      "uploadDate": "2026-04-22",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 41,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 5.6% (좋음)",
+        "일평균 1.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7388752913318841606",
+      "tiktokUser": "j.wdv",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Follow for tutorials ✅🤝🏻 Free step-by-step guide in my bio #skin #niacinamide #acnejourney ",
+      "channel": "j.wdv",
+      "views": 11531833,
+      "likes": 547714,
+      "comments": 2659,
+      "shares": 10342,
+      "duration": 12,
+      "uploadDate": "2024-07-07",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.9% (좋음)",
+        "일평균 1.7만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7561553689240948024",
+      "tiktokUser": "azzurosage",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "7 days in and my dark spots are already lighter. Zero irritation and it’s dark skin friendly! ~ Products: @Jumiso Official  ~ #jumiso #niacinamide #darkspotremover #hyperpigmentation #skintransformation ",
+      "channel": "azzurosage",
+      "views": 4152943,
+      "likes": 142237,
+      "comments": 1159,
+      "shares": 11866,
+      "duration": 18,
+      "uploadDate": "2025-10-15",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.7% (좋음)",
+        "일평균 1.9만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7509839809997786376",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "매운거 땡길 땐 '햄지 불스지'🤣",
+      "channel": "hamzy_korean",
+      "views": 7395933,
+      "likes": 368260,
+      "comments": 843,
+      "shares": 5635,
+      "duration": 92,
+      "uploadDate": "2025-05-29",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.1% (좋음)",
+        "일평균 2.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7641821532477574418",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트3#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 30726,
+      "likes": 681,
+      "comments": 1,
+      "shares": 1,
+      "duration": 179,
+      "uploadDate": "2026-05-20",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 40,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)",
+        "일평균 1.0만회 (떠오름)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7441575904079383816",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이건 진짜 못 참지~ 엽떡,허니콤보 #tteokbokki #koreanchicken ",
+      "channel": "hamzy_korean",
+      "views": 21812111,
+      "likes": 1100480,
+      "comments": 2998,
+      "shares": 49097,
+      "duration": 59,
+      "uploadDate": "2024-11-26",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.3% (좋음)",
+        "일평균 4.0만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7590777489169927431",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "닭을 100배 맛있게 먹는 방법 #이북식찜닭 #koreanchicken ",
+      "channel": "hamzy_korean",
+      "views": 3093719,
+      "likes": 122109,
+      "comments": 336,
+      "shares": 1466,
+      "duration": 90,
+      "uploadDate": "2026-01-02",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.0% (좋음)",
+        "일평균 2.2만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7477921045068942599",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "오늘 야식은 후라이드치킨, 닭발에 소주한잔 #치맥 #치킨먹방 ",
+      "channel": "hamzy_korean",
+      "views": 6759879,
+      "likes": 334933,
+      "comments": 1674,
+      "shares": 30263,
+      "duration": 82,
+      "uploadDate": "2025-03-04",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "lifestyle",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.4% (좋음)",
+        "일평균 1.5만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7361029510021582081",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "bhc치킨 신메뉴 쏘마치 #치킨먹방asmr#koreanchicken#spicychicken#뿌링진미채#치즈볼 ",
+      "channel": "hamzy_korean",
+      "views": 15110863,
+      "likes": 806343,
+      "comments": 1481,
+      "shares": 29233,
+      "duration": 60,
+      "uploadDate": "2024-04-23",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "food",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.5% (좋음)",
+        "일평균 2.0만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7464573171044306194",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "짜장라면엔 역시 파김치 #jjajangramyun #kimchi ",
+      "channel": "hamzy_korean",
+      "views": 20617373,
+      "likes": 783945,
+      "comments": 2675,
+      "shares": 26455,
+      "duration": 65,
+      "uploadDate": "2025-01-27",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.9% (좋음)",
+        "일평균 4.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7587811727106952455",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "크리스마스엔 치킨에 맥주 한잔!! #koreanchicken #치맥 ",
+      "channel": "hamzy_korean",
+      "views": 1817053,
+      "likes": 100818,
+      "comments": 215,
+      "shares": 1318,
+      "duration": 94,
+      "uploadDate": "2025-12-25",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "food",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.6% (좋음)",
+        "일평균 1.2만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7275344226341145862",
+      "tiktokUser": "asmrrfoodie",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Mukbang kimchi, telur goreng dan spam (Yt:Hamzy) #hamzy #mukbanghamzy #mukbangkorea #koreanfood #kimchi #mukbangkimchi #mukbangeatingshow #asmrfood #fyp #mukbang #asmr #mukbangvideo #mukbangasmr #mukbangasmrfoods ",
+      "channel": "asmrrfoodie",
+      "views": 17471142,
+      "likes": 601034,
+      "comments": 2273,
+      "shares": 9428,
+      "duration": 388,
+      "uploadDate": "2023-09-05",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.5% (좋음)",
+        "일평균 1.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7641671440181366037",
+      "tiktokUser": "sashiischmeltzer",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "h&m >> #fyp #haul #unboxing",
+      "channel": "sashiischmeltzer",
+      "views": 97662,
+      "likes": 2485,
+      "comments": 45,
+      "shares": 281,
+      "duration": 46,
+      "uploadDate": "2026-05-19",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)",
+        "일평균 2.4만회 (떠오름)",
+        "신선 (4일)"
+      ]
+    },
+    {
+      "tiktokId": "7641661412418260246",
+      "tiktokUser": "spookypeachy",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "H&M really snapped with these dresses 😭🤍 like why do I suddenly need every single one… 🎀✨ #dress #summerdress #hm #hmhaul #hmdress",
+      "channel": "spookypeachy",
+      "views": 246252,
+      "likes": 5538,
+      "comments": 27,
+      "shares": 665,
+      "duration": 16,
+      "uploadDate": "2026-05-19",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)",
+        "일평균 6.2만회 (떠오름)",
+        "신선 (4일)"
+      ]
+    },
+    {
+      "tiktokId": "7642331721655946504",
+      "tiktokUser": "sweet_potato482",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "새로산 옷 리뷰!! #여름 #OOTD #추천 ",
+      "channel": "sweet_potato482",
+      "views": 40689,
+      "likes": 1240,
+      "comments": 64,
+      "shares": 49,
+      "duration": 27,
+      "uploadDate": "2026-05-21",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "entertainment",
+      "_score": 40,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)",
+        "일평균 2.0만회 (떠오름)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7614514767473986848",
+      "tiktokUser": "emanuelboliveira",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Niacinamide is a great ingredient, but it doesn’t actually shrink pores. Pore size is mostly genetic. It can help regulate oil which may make pores look a little smaller — but it’s not the miracle pore-shrinker people think it is. What skincare myth should I talk about next? 👀 Use my YesStyle reward code for extra discount: MANUKSK1N  #koreanskincare #skincaretips #pores #niacinamide #glowyskin ",
+      "channel": "emanuelboliveira",
+      "views": 473012,
+      "likes": 11972,
+      "comments": 250,
+      "shares": 427,
+      "duration": 31,
+      "uploadDate": "2026-03-07",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 38,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 15,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)",
+        "인증 브랜드 (emanuelboliveira)"
+      ]
+    },
+    {
+      "tiktokId": "7638469397945879816",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트6#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 340339,
+      "likes": 6916,
+      "comments": 33,
+      "shares": 52,
+      "duration": 213,
+      "uploadDate": "2026-05-11",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 38,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.1% (평균)",
+        "일평균 2.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7640192853230079254",
+      "tiktokUser": "hannahchelsiehudson",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "H&M NEW IN 🩵🐚💫 KEEP OR RETURN?  Euro summer has truly arrived in @H&M ✨✨✨  I can’t believe this is my first order of the year! I went a bit mad because there is SO much goodness in at the moment. The blue sequin skirt & the yellow dress WOW!!! 😍 do you agree with my choices?! This is also part 1 of 2 🤭🤭 I’ve linked everything in my bio & LTK 💌 🔗  #hmnewin #hmhaul #summeroutfits #handm #newinhaul ",
+      "channel": "hannahchelsiehudson",
+      "views": 277259,
+      "likes": 4811,
+      "comments": 39,
+      "shares": 341,
+      "duration": 35,
+      "uploadDate": "2026-05-15",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "kpop",
+      "_score": 38,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)",
+        "일평균 3.5만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7643022371359837461",
+      "tiktokUser": "jelly._.bbang",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이번엔 에센뽀득 대신에 리치부어스트로😋 #물밥 #mukbang #asmr #Foodie #eating ",
+      "channel": "jelly._.bbang",
+      "views": 3205,
+      "likes": 128,
+      "comments": 5,
+      "shares": 1,
+      "duration": 81,
+      "uploadDate": "2026-05-23",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 37,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7640891156431228193",
+      "tiktokUser": "violamnzi",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Sculpting bodysuit from H&M🖤                                                                                                   .                                                                                                             #hm #stockholmstyle #outfit #outfitinspo #fashion ",
+      "channel": "violamnzi",
+      "views": 7361,
+      "likes": 341,
+      "comments": 8,
+      "shares": 43,
+      "duration": 10,
+      "uploadDate": "2026-05-17",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "fitness",
+      "_score": 37,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 5.3% (좋음)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7642737822771858695",
+      "tiktokUser": "asmr_video0141",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Hamzy Cooking  #asmr #cooking ",
+      "channel": "asmr_video0141",
+      "views": 10231,
+      "likes": 295,
+      "comments": 4,
+      "shares": 8,
+      "duration": 169,
+      "uploadDate": "2026-05-22",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 34,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 3.0% (평균)",
+        "일평균 1.0만회 (떠오름)",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7640909756282064150",
+      "tiktokUser": "prranveraa",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad New H&M pieces just hit different ✨ trying on the cutest dresses and matching sets — perfect for everyday, brunch & vacation looks 🤍 #hmnewin #styleinspo #ootdideas #europeanfashion #summerstyle",
+      "channel": "prranveraa",
+      "views": 134797,
+      "likes": 2067,
+      "comments": 26,
+      "shares": 253,
+      "duration": 46,
+      "uploadDate": "2026-05-17",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "pet",
+      "_score": 34,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 1.7% (평균)",
+        "일평균 2.2만회 (떠오름)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7403098400725454123",
+      "tiktokUser": "dermarkologist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Niacinamide combinations that will transform your skin! Here is what niacinamide can be used with.. spoiler: it works well with everything! #niacinamide #skincaretips #drmark #dermarkologist ",
+      "channel": "dermarkologist",
+      "views": 1534733,
+      "likes": 49398,
+      "comments": 256,
+      "shares": 5321,
+      "duration": 30,
+      "uploadDate": "2024-08-14",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.6% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7598531206942117127",
+      "tiktokUser": "sunnyfromsunnybread",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad mNow we all know that Niacinamide is amazing!  You can get @Jumiso Global Niacinamide serum through my link in bio !  Thank you @STYLEKOREAN for letting me get my hands on Jumiso products ✨  #skincare #niacinamide #hyperpigmentation #stylekorean #jumiso ",
+      "channel": "sunnyfromsunnybread",
+      "views": 218031,
+      "likes": 7718,
+      "comments": 188,
+      "shares": 369,
+      "duration": 244,
+      "uploadDate": "2026-01-23",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7511195314582408494",
+      "tiktokUser": "ginaseooo",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "don’t shit talk niacinamide like that… 🥶 #niacinamide #niacinamideserum #koreanskincare #skincareroutine #skincaretips #GlowUp #glowyskin #morningroutine #nightroutine #skincare #pores #acne #darkspots ",
+      "channel": "ginaseooo",
+      "views": 512116,
+      "likes": 19853,
+      "comments": 131,
+      "shares": 288,
+      "duration": 61,
+      "uploadDate": "2025-06-02",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.0% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7343250616791223558",
+      "tiktokUser": "missskena",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Niacinamide has been a key ingredient in my journey to clear dark spots and when I can find products that contain it, I’m always delighted! The Bright reveal serum by @L’Oréal Paris is no different and has been a favourite since last year! I love recommending it 😍 without forgetting that SPF is crucial when treating hyperpigmentation the Revitalift Daily Lotion is amazing to protect your skin!  #clearskin#darkspots#acne #lorealparis #skincare #niacinamide",
+      "channel": "missskena",
+      "views": 1977780,
+      "likes": 96174,
+      "comments": 299,
+      "shares": 2917,
+      "duration": 33,
+      "uploadDate": "2024-03-06",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "tech",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.0% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "6838430004452363522",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독❣#틱톡미식회 #follow #makeup #asmr #짜계치 #짜파게티 #진진짜라 #오뚜기라면#면먹방#라면먹방 #오이소박이#김치먹방#야식#혼밥#추천#좋아요#햄지먹방",
+      "channel": "hamzy_korean",
+      "views": 6978755,
+      "likes": 324646,
+      "comments": 1634,
+      "shares": 6144,
+      "duration": 59,
+      "uploadDate": "2020-06-15",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7345696594731207938",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "크디 크고 큰 왕돈까스버거 #롯데리아#왕돈까스버거#밖으로챌린지#burger#햄버거먹방",
+      "channel": "hamzy_korean",
+      "views": 2586664,
+      "likes": 146694,
+      "comments": 472,
+      "shares": 2859,
+      "duration": 59,
+      "uploadDate": "2024-03-13",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7237068600790584577",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "메론이야 설탕이야???😯 #메론먹방#melon#fruit#dessert#디저트#과일먹방#koreanfood#asmr#mukbang#tiktokfood",
+      "channel": "hamzy_korean",
+      "views": 3491604,
+      "likes": 145130,
+      "comments": 446,
+      "shares": 1079,
+      "duration": 58,
+      "uploadDate": "2023-05-26",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "food",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7295963246400507137",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이게 다 얼마야.... #한우먹방#송이버섯#koreanbbq#집밥먹방#koreanhomefood#cooking#Recipe#tiktokfood",
+      "channel": "hamzy_korean",
+      "views": 6235707,
+      "likes": 238483,
+      "comments": 582,
+      "shares": 3067,
+      "duration": 64,
+      "uploadDate": "2023-10-31",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.9% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7213759799027158273",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "참외가 우리나라에만 있어요?😯 #참외 #과일 #tiktokfood #asmr #mukbang #cooking",
+      "channel": "hamzy_korean",
+      "views": 8127165,
+      "likes": 283466,
+      "comments": 1375,
+      "shares": 1680,
+      "duration": 59,
+      "uploadDate": "2023-03-24",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.5% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7400012193128779025",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "매운게 땡길땐 해주냉면 #연탄불고기 #spicynoodles #매운냉면",
+      "channel": "hamzy_korean",
+      "views": 4612060,
+      "likes": 192454,
+      "comments": 582,
+      "shares": 1984,
+      "duration": 59,
+      "uploadDate": "2024-08-06",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7380849493467598086",
+      "tiktokUser": "specifically_5150",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Little did she know.. #hamchiscorner #hamchi #derpixon #notforamukbang #edit #hamster #editsfyp #xyzbca #fyp #foryoufeed #specifically5150 ",
+      "channel": "specifically_5150",
+      "views": 745839,
+      "likes": 35851,
+      "comments": 491,
+      "shares": 2472,
+      "duration": 25,
+      "uploadDate": "2024-06-15",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7592259915243097352",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "약고추장에 비빈 무생채비빔밥 #bibimbap #koreanhomefood ",
+      "channel": "hamzy_korean",
+      "views": 1329766,
+      "likes": 57508,
+      "comments": 160,
+      "shares": 812,
+      "duration": 82,
+      "uploadDate": "2026-01-06",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.4% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7640237358838713632",
+      "tiktokUser": "wulnwmtlwgh",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#hamzy #hamzymukbang #korean #parati #hamzy_asmr ",
+      "channel": "wulnwmtlwgh",
+      "views": 164602,
+      "likes": 2534,
+      "comments": 9,
+      "shares": 24,
+      "duration": 271,
+      "uploadDate": "2026-05-15",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)",
+        "일평균 2.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7631054308435315982",
+      "tiktokUser": "furyskinfacts",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "9 Must-know facts about Niacinamide skincare by Korean pharmacist. 🟢 Acne — YES (oil control + anti-inflammatory, calms breakouts) 🔴 Acne scars — NO (could fades PIH/redness, but won't erase true scars) 🟢 Pores — YES (regulates sebum, smooths pore look over time) 🟢 Redness — YES (one of the best calmers, even for rosacea-prone) 🔴 Higher % = better — NO (2–5% sweet spot. 10%+ often irritates) 🟢 Pair with BHA or azelaic acid — YES, nice combo With BHA: unclogs pores. With Azelaic acid: stronger PIH fade. Start slow if you have sensitive skin. 🟢 Pregnancy & teens — YES (one of the safest actives out there) ✅ Would I recommend it to followers? Sure. Which one surprised you? 👇 #kbeauty #pharmacytiktok #acne #pores #niacinamide",
+      "channel": "furyskinfacts",
+      "views": 443622,
+      "likes": 10322,
+      "comments": 61,
+      "shares": 317,
+      "duration": 18,
+      "uploadDate": "2026-04-21",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.4% (평균)",
+        "일평균 1.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7642234855069093141",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "통수육 2kg 오동통 제철 굴 1kg 넣고 만든 굴물회 먹방 파트3#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 2075,
+      "likes": 45,
+      "comments": 0,
+      "shares": 1,
+      "duration": 210,
+      "uploadDate": "2026-05-21",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7640340696901160199",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트9#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 10564,
+      "likes": 223,
+      "comments": 5,
+      "shares": 3,
+      "duration": 205,
+      "uploadDate": "2026-05-17",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7640341805363432722",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트11#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 11242,
+      "likes": 300,
+      "comments": 4,
+      "shares": 7,
+      "duration": 211,
+      "uploadDate": "2026-05-17",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7640341177715199239",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트10#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 8876,
+      "likes": 217,
+      "comments": 3,
+      "shares": 4,
+      "duration": 207,
+      "uploadDate": "2026-05-17",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7641441708839800080",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트16#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 5739,
+      "likes": 151,
+      "comments": 3,
+      "shares": 1,
+      "duration": 208,
+      "uploadDate": "2026-05-19",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)",
+        "신선 (4일)"
+      ]
+    },
+    {
+      "tiktokId": "7641820831399611666",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트2#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 6300,
+      "likes": 139,
+      "comments": 2,
+      "shares": 0,
+      "duration": 183,
+      "uploadDate": "2026-05-20",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7641821416899235080",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트4#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 15667,
+      "likes": 378,
+      "comments": 2,
+      "shares": 0,
+      "duration": 176,
+      "uploadDate": "2026-05-20",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.4% (평균)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7641820288514116882",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수제 햄 요리 🔪파트1#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 5344,
+      "likes": 154,
+      "comments": 1,
+      "shares": 0,
+      "duration": 180,
+      "uploadDate": "2026-05-20",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)",
+        "신선 (3일)"
+      ]
+    },
+    {
+      "tiktokId": "7625357361258990861",
+      "tiktokUser": "baileewhittmo",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#hamzy #hamzy_asmr #hamzymukbang #korea #parati ",
+      "channel": "baileewhittmo",
+      "views": 3729602,
+      "likes": 68318,
+      "comments": 272,
+      "shares": 1113,
+      "duration": 279,
+      "uploadDate": "2026-04-05",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p6",
+      "industry": "tech",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)",
+        "일평균 7.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7641128287049157890",
+      "tiktokUser": "jordanstyle_x",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "H&M haul #hm #hmhaul #fashiontiktok  ",
+      "channel": "jordanstyle_x",
+      "views": 33504,
+      "likes": 615,
+      "comments": 6,
+      "shares": 46,
+      "duration": 13,
+      "uploadDate": "2026-05-18",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)",
+        "신선 (5일)"
+      ]
+    },
+    {
+      "tiktokId": "7640535248824061206",
+      "tiktokUser": "ranimayx",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "h&m is so good right now✨ what’s new in h&m may 2026🎀  #hm #hmnewin #hmhaul #hmfinds #handm ",
+      "channel": "ranimayx",
+      "views": 40225,
+      "likes": 548,
+      "comments": 12,
+      "shares": 38,
+      "duration": 14,
+      "uploadDate": "2026-05-16",
+      "category": "#h&m",
+      "_source": "tikwm_search_h&m_p0",
+      "industry": "creator",
+      "_score": 31,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)",
+        "신선 (7일)"
+      ]
+    },
+    {
+      "tiktokId": "7606728040139279636",
+      "tiktokUser": "laroz012",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#creatorsearchinsights #لازو #مستحضرات_تجميل #عطبره_بلد_الحديد_والنار ",
+      "channel": "laroz012",
+      "views": 1821793,
+      "likes": 38796,
+      "comments": 233,
+      "shares": 10814,
+      "duration": 28,
+      "uploadDate": "2026-02-14",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "creator",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)",
+        "일평균 1.9만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7204847213611175170",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "보기만해도 침이 나와.... #tiktokfood #hamzy #asmr #mukbang #cooking",
+      "channel": "hamzy_korean",
+      "views": 29636746,
+      "likes": 820435,
+      "comments": 3310,
+      "shares": 8938,
+      "duration": 50,
+      "uploadDate": "2023-02-28",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "creator",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)",
+        "일평균 2.5만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7551783854491651336",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "시골 평상에서 해물라면 #seafood #ramyun ",
+      "channel": "hamzy_korean",
+      "views": 4463093,
+      "likes": 126835,
+      "comments": 547,
+      "shares": 2582,
+      "duration": 80,
+      "uploadDate": "2025-09-19",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)",
+        "일평균 1.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7637735202193771777",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "한국 가정식 요리가 여기 있어요! 매콤한 두부찌개, 생선구이, 어묵볶음, 숙주나물 샐러드, 김구이파트3#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 21622,
+      "likes": 578,
+      "comments": 1,
+      "shares": 8,
+      "duration": 190,
+      "uploadDate": "2026-05-09",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7637735069670575377",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "한국 가정식 요리가 여기 있어요! 매콤한 두부찌개, 생선구이, 어묵볶음, 숙주나물 샐러드, 김구이파트4#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 25902,
+      "likes": 629,
+      "comments": 6,
+      "shares": 22,
+      "duration": 205,
+      "uploadDate": "2026-05-09",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7638469046102445319",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트5#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 33196,
+      "likes": 461,
+      "comments": 6,
+      "shares": 6,
+      "duration": 206,
+      "uploadDate": "2026-05-11",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7638836642953940244",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트9#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 12675,
+      "likes": 251,
+      "comments": 3,
+      "shares": 4,
+      "duration": 212,
+      "uploadDate": "2026-05-12",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7638469461082737938",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트8#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 46285,
+      "likes": 862,
+      "comments": 3,
+      "shares": 5,
+      "duration": 203,
+      "uploadDate": "2026-05-11",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7637735680067620113",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트4#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 56790,
+      "likes": 821,
+      "comments": 6,
+      "shares": 10,
+      "duration": 204,
+      "uploadDate": "2026-05-10",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7638837413112073493",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트12#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 20251,
+      "likes": 657,
+      "comments": 2,
+      "shares": 1,
+      "duration": 207,
+      "uploadDate": "2026-05-12",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7638836953730813205",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트10#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 14448,
+      "likes": 323,
+      "comments": 3,
+      "shares": 1,
+      "duration": 209,
+      "uploadDate": "2026-05-12",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7638469325241765138",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트7#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 14630,
+      "likes": 229,
+      "comments": 0,
+      "shares": 4,
+      "duration": 214,
+      "uploadDate": "2026-05-11",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7637735554372717825",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "함지의 요리 모음 4편 ★ 한국 음식 & 기타 음식파트3#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 95936,
+      "likes": 1891,
+      "comments": 15,
+      "shares": 18,
+      "duration": 214,
+      "uploadDate": "2026-05-10",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7616195261479636244",
+      "tiktokUser": "k.pharmacist_unnie",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Which Viral Niacinamide Is Right for You? ✅1) If you have dark spots, 👉🏻[@anua_global Niacinamide Serum. It contains 10% niacinamide, tranexamic acid, and arbutina combination that helps suppress hyperpigmentation. ✅2) If sebaceous filaments or blackheads bother you: 👉🏻@COSRX Official Niacinamide Serum. With 15% niacinamide + zinc PCA,it helps reduce sebaceous filaments and minimize pores. ✅3) If your skin tends to be dry 👉🏻@Aestura UK Niacinamide Serum. It has 10% niacinamide paired with deeply hydrating ingredients @OLIVE YOUNG Global  #Koreanskincare #sebaceousfilaments #pores #hyperpigmentation #niacinamide",
+      "channel": "k.pharmacist_unnie",
+      "views": 94850,
+      "likes": 1665,
+      "comments": 20,
+      "shares": 113,
+      "duration": 29,
+      "uploadDate": "2026-03-12",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 28,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7244112485060791557",
+      "tiktokUser": "todaysskin",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "3 mistakes people make while using Niacinamide (ft. The Ordinary) Shop now at www.todaysskin.co 🛒 #skincareph #skincarephilippines #theordinaryphilippines #theordinaryniacinamide #theordinaryniacinamidezinc ",
+      "channel": "todaysskin",
+      "views": 4784517,
+      "likes": 135159,
+      "comments": 882,
+      "shares": 4895,
+      "duration": 30,
+      "uploadDate": "2023-06-13",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 27,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7576907728166194453",
+      "tiktokUser": "styleandskinbysanju",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Niacinamide 20% helps target dark spots, pigmentation, and uneven tone for a brighter complexion.  -40% OFF on Amazon YesStyle code ;SAN6789 @Jumiso Global @Amazon @YesStyle @YesStyleInfluencers #niacinamide20 #darkspots #skincare  #productrecommendations   #Jumiso ",
+      "channel": "styleandskinbysanju",
+      "views": 407838,
+      "likes": 5650,
+      "comments": 71,
+      "shares": 153,
+      "duration": 15,
+      "uploadDate": "2025-11-26",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 27,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7572905626490342674",
+      "tiktokUser": "worldofdog999",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "햄스터 불닭볶음면 먹방! #햄찌 #햄스터 #불닭볶음면 #먹방 #웃긴영상 ",
+      "channel": "worldofdog999",
+      "views": 82916,
+      "likes": 1856,
+      "comments": 182,
+      "shares": 927,
+      "duration": 10,
+      "uploadDate": "2025-11-15",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "pet",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.6% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7640457115626212628",
+      "tiktokUser": "hiy0rx2",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "난 진짜로 요즘 학교 안가고있는데 #07 #08 #dance #추천 #추천떠라 ",
+      "channel": "hiy0rx2",
+      "views": 24559,
+      "likes": 652,
+      "comments": 10,
+      "shares": 45,
+      "duration": 10,
+      "uploadDate": "2026-05-16",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "creator",
+      "_score": 25,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)",
+        "신선 (7일)"
+      ]
+    },
+    {
+      "tiktokId": "7635562683131120917",
+      "tiktokUser": "charlottes491",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "💝If you want fair and radiant skin, try niacinamide! YXAJH7208-ZMZ#skincare#Darkspots#persist#sweat #muscle #handsomeguysmovie#Dull#fyp",
+      "channel": "charlottes491",
+      "views": 322368,
+      "likes": 1561,
+      "comments": 3,
+      "shares": 134,
+      "duration": 37,
+      "uploadDate": "2026-05-03",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "tech",
+      "_score": 24,
+      "_axes": {
+        "er": 4,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "일평균 1.6만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7634206713050090774",
+      "tiktokUser": "wulnwmtlwgh",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#hamzy #hamzymukbang #korean #parati #hamzy_asmr ",
+      "channel": "wulnwmtlwgh",
+      "views": 232644,
+      "likes": 7553,
+      "comments": 31,
+      "shares": 78,
+      "duration": 273,
+      "uploadDate": "2026-04-29",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 24,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7613485440850578710",
+      "tiktokUser": "aamnaadel",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Is niacinamide breaking you out?? 😭  #dermatologist #skincare #skincareroutine #niacinamide #breakouts @byoma @Minimalist @Q➕A ",
+      "channel": "aamnaadel",
+      "views": 503489,
+      "likes": 13682,
+      "comments": 221,
+      "shares": 564,
+      "duration": 60,
+      "uploadDate": "2026-03-04",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7612947665961143570",
+      "tiktokUser": "doctoryankel",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Какие средства еще разобрать? Пишите в комментариях 👇🏻 ☑️ Рекомендую сохранить и подписаться, чтобы не потерять. В блоге регулярно делюсь обзорами на огромное количество уходовых средств, рассказываю, как лечить то или иное заболевание, отвечаю на вопросы подписчиков. @doctoryankel — дерматолог, заведующий дерматологическим отделением в сети клиник Фомина и главный врач клиники «Без фильтров».",
+      "channel": "doctoryankel",
+      "views": 210445,
+      "likes": 6002,
+      "comments": 75,
+      "shares": 391,
+      "duration": 65,
+      "uploadDate": "2026-03-03",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "creator",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7567340377712168210",
+      "tiktokUser": "misspeytonsmith",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "The AXIS-Y Dark Spot Correcting Glow Serum is powered by niacinamide to visibly fade dark spots and even out skin tone!  Infused with plant-derived squalane, it locks in hydration!  Perfect for all skin types, especially acne-prone or sensitive skin. 1000% you need to give this a try 👏🏻 @AXIS-Y axis-Ypartner.",
+      "channel": "misspeytonsmith",
+      "views": 1489664,
+      "likes": 23107,
+      "comments": 91,
+      "shares": 914,
+      "duration": 20,
+      "uploadDate": "2025-10-31",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7332873356389256490",
+      "tiktokUser": "dr.mamina",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Niacinamide is an ingredient loved by dermatologists for having multiple skin benefits.  Niacinamide can help with hyperpigmentation and redness, restore and repair your skin barrier, and it's an antioxidant with anti-aging benefits like preventing fine lines and wrinkles.  If you find this video helpful, be sure to save and share with a friend!  @CeraVe @EltaMD Skin Care @LaRochePosayUS @La Roche-Posay @SkinCeuticals   @Skinfix @Olay Skin Care  #niacinamide #hyperpigmentation #antiagingskincare #skinbarrierrepair #antioxidantskincare #derm #drmamina ",
+      "channel": "dr.mamina",
+      "views": 2992301,
+      "likes": 79557,
+      "comments": 517,
+      "shares": 2890,
+      "duration": 83,
+      "uploadDate": "2024-02-07",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "tech",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7601782886152359199",
+      "tiktokUser": "kim_pharmacist_glowskin",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Silent rating for NIACINAMIDE serum for those who have dark spots / hyperpigmentation /acne / oily skin ✨by Korean pharmacist✨ #koreanskincare  #oilyskin  #sebum  #hyperpigmentation  #acne ",
+      "channel": "kim_pharmacist_glowskin",
+      "views": 295083,
+      "likes": 5420,
+      "comments": 89,
+      "shares": 232,
+      "duration": 21,
+      "uploadDate": "2026-02-01",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7329056598825995538",
+      "tiktokUser": "kalei_sg",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "STOP! Before you put on that Niacinamide serum, here are 3 things you should take note of! #koreanskincare #kbeauty #skincare #skintok #sgbeauty #sgskincare #skinfluencer #niacinamide #beautyhack #스킨케어 #ksfbeautysquad #onlyatksf #anua #anuapeachserum ",
+      "channel": "kalei_sg",
+      "views": 2952563,
+      "likes": 87648,
+      "comments": 627,
+      "shares": 2172,
+      "duration": 70,
+      "uploadDate": "2024-01-28",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "beauty",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7326188733844245803",
+      "tiktokUser": "hamzy_korean99",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Cheese Pizza & Spicy Chicken #로제찜닭  #hamzy  #tiktokfood  #asmr  #mukbang  #cooking  #eating  #eatingshow  #food  #Foodie  #mukbang  #asmr  #asmrsoundsdaily  #fyp  #deliciousc  #foryoupageofficiall  #trend  #koreanfood #hamzy_asmr",
+      "channel": "hamzy_korean99",
+      "views": 965453,
+      "likes": 19077,
+      "comments": 238,
+      "shares": 336,
+      "duration": 335,
+      "uploadDate": "2024-01-21",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "tech",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7639582992792440082",
+      "tiktokUser": "rabbeo0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "집 안에 편의점을 만들어보세요!!파트2#Hamzy #햄지 #mukbang #vlogs #fyp #viral #foryoupage❤️❤️",
+      "channel": "rabbeo0",
+      "views": 4015,
+      "likes": 64,
+      "comments": 1,
+      "shares": 0,
+      "duration": 130,
+      "uploadDate": "2026-05-14",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "entertainment",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7464529473019383045",
+      "tiktokUser": "mukbang.rendom",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Bagian 2083 | Mukbang Korea (Yt: Hamzy)#hamzy #mukbangkorea #asmrsounds #eatingsounds #Foodie #koreanfood ",
+      "channel": "mukbang.rendom",
+      "views": 1529766,
+      "likes": 27375,
+      "comments": 396,
+      "shares": 2053,
+      "duration": 59,
+      "uploadDate": "2025-01-27",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6960737228079238406",
+      "tiktokUser": "aminathepharmacist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Yes, I know about the old studies of vitamin c and niacinamide, but there is more to consider. #acne #acnescars #skincare #viral #pharmacist",
+      "channel": "aminathepharmacist",
+      "views": 1194343,
+      "likes": 27568,
+      "comments": 343,
+      "shares": 920,
+      "duration": 11,
+      "uploadDate": "2021-05-10",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 20,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7297637111732129066",
+      "tiktokUser": "hamzy1111",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Super Creamy Pasta & Super Spicy Chicken (ft. Menbosha | Fried Shrimp Toast)#hamzy#hamzy_asmr#asmr#Spicy#Chicken#yummy#Menbosha#trending#viral#mukbang",
+      "channel": "hamzy1111",
+      "views": 434449,
+      "likes": 6962,
+      "comments": 39,
+      "shares": 47,
+      "duration": 437,
+      "uploadDate": "2023-11-04",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 20,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7297024163565276459",
+      "tiktokUser": "hamzy1111",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Jjajang ramyun (Black Bean Noodle) & Assorted Fried Tofu Rice  Melon, Peach#hamzy#hamzy_asmr#yummy#food#mukbang#foodtiktok#travel#viral#fypシ",
+      "channel": "hamzy1111",
+      "views": 688020,
+      "likes": 13584,
+      "comments": 271,
+      "shares": 164,
+      "duration": 535,
+      "uploadDate": "2023-11-03",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "travel",
+      "_score": 20,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7383512905771158789",
+      "tiktokUser": "eka_gustina",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#fypシ゚viral #hamzy #mukbang #seefood #korean ",
+      "channel": "eka_gustina",
+      "views": 208689,
+      "likes": 2207,
+      "comments": 194,
+      "shares": 59,
+      "duration": 576,
+      "uploadDate": "2024-06-23",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 20,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7640509795597913364",
+      "tiktokUser": "simidetfps5",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#foryou #fyp #추천 #드라마 ",
+      "channel": "simidetfps5",
+      "views": 53863,
+      "likes": 328,
+      "comments": 2,
+      "shares": 8,
+      "duration": 71,
+      "uploadDate": "2026-05-16",
+      "category": "#추천",
+      "_source": "tikwm_search_추천_p0",
+      "industry": "entertainment",
+      "_score": 16,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "신선 (7일)"
+      ]
+    },
+    {
+      "tiktokId": "7599794843623181590",
+      "tiktokUser": "skynhq",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ai #educational #skin #skincare #serum ",
+      "channel": "skynhq",
+      "views": 51267,
+      "likes": 900,
+      "comments": 1,
+      "shares": 203,
+      "duration": 40,
+      "uploadDate": "2026-01-26",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "tech",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7341828240312405254",
+      "tiktokUser": "itsdrmax",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#medicine #medical #medicaltiktok #pores ",
+      "channel": "itsdrmax",
+      "views": 366908,
+      "likes": 6240,
+      "comments": 44,
+      "shares": 395,
+      "duration": 15,
+      "uploadDate": "2024-03-02",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7452803081374420231",
+      "tiktokUser": "egyptianskincaregirl",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "My hot take on niacinamide ✨🫶🏻 What do you think? #niacinamide #niacinamideserum #morningskincareroutine #sunscreen #skincareroutine #acneproneskin #skincaretips #unitedstates #SkinCare101 #howtoclearyourskin #skincaretiktok #SelfCare ",
+      "channel": "egyptianskincaregirl",
+      "views": 358780,
+      "likes": 9994,
+      "comments": 192,
+      "shares": 288,
+      "duration": 66,
+      "uploadDate": "2024-12-26",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7525186769113845000",
+      "tiktokUser": "lifewithmils",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "if niacinamide is breaking you out… product mentioned: @iUNIK ad beta glucan power moisture serum  #lifewithmils #niacinamide #barrierrepair #acneproneskin #fungalacnesafe #skinbarrier #skintok #sensitiveskin #betaglucan",
+      "channel": "lifewithmils",
+      "views": 310521,
+      "likes": 6952,
+      "comments": 63,
+      "shares": 125,
+      "duration": 59,
+      "uploadDate": "2025-07-09",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7359945797036723499",
+      "tiktokUser": "drjennyliu",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Which one do you prefer? #niacinamide #azelaicacid #skincareingredients #skincaretips #derm #skincareproducts #skincareroutine ",
+      "channel": "drjennyliu",
+      "views": 225286,
+      "likes": 4010,
+      "comments": 52,
+      "shares": 161,
+      "duration": 58,
+      "uploadDate": "2024-04-20",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "tech",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7515454413515869462",
+      "tiktokUser": "chicandrise",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Mugwort + Niacinamide ACNE Care 7 days #orien #oriencollagenSerum #orienmugwortcollagenserum #hyperpigmentation #skincare #acneserum #rosacea @ORIEN ",
+      "channel": "chicandrise",
+      "views": 139029,
+      "likes": 2019,
+      "comments": 22,
+      "shares": 216,
+      "duration": 20,
+      "uploadDate": "2025-06-13",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7351104418235927841",
+      "tiktokUser": "drrajarora",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Replying to @Ellie Bratt My thoughts on Niacinamide #niacinamide #skintok #activeskincare #actives #niacinamidebenefite #niacinamideserum #drarora #fyp ",
+      "channel": "drrajarora",
+      "views": 76583,
+      "likes": 1293,
+      "comments": 42,
+      "shares": 77,
+      "duration": 84,
+      "uploadDate": "2024-03-27",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "kpop",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7623945684093308180",
+      "tiktokUser": "dkfl0809",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "출처:햄지youtube #mukbang #먹방 #집밥 #mukbangeatingshow #fyp ",
+      "channel": "dkfl0809",
+      "views": 32730,
+      "likes": 1033,
+      "comments": 6,
+      "shares": 14,
+      "duration": 196,
+      "uploadDate": "2026-04-02",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6772018609872014594",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독😘#asmr #mukbang #youtube #follow #먹방 #셰프장 #간장새우장 #양념새우장 #밥도둑 #추천 #좋아요 #햄지",
+      "channel": "hamzy_korean",
+      "views": 830891,
+      "likes": 24555,
+      "comments": 77,
+      "shares": 163,
+      "duration": 59,
+      "uploadDate": "2019-12-19",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6761623411442732289",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독💋#asmr #mukbang #youtube #follow #초밥 #우동 #새우튀김 #추천 #좋아요 #스시",
+      "channel": "hamzy_korean",
+      "views": 176426,
+      "likes": 3295,
+      "comments": 18,
+      "shares": 65,
+      "duration": 59,
+      "uploadDate": "2019-11-21",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7489681764995140870",
+      "tiktokUser": "4yadae",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "햄찌 물안경행ᄏᄏᄏᄏᄏ  (BGM : 현서 (HYUN SEO) - 춘몽)",
+      "channel": "4yadae",
+      "views": 97750,
+      "likes": 2524,
+      "comments": 40,
+      "shares": 110,
+      "duration": 11,
+      "uploadDate": "2025-04-05",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7592055315714067732",
+      "tiktokUser": "upf.9025",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "햄찌 프사 추천! #햄찌",
+      "channel": "upf.9025",
+      "views": 17831,
+      "likes": 160,
+      "comments": 3,
+      "shares": 31,
+      "duration": 22,
+      "uploadDate": "2026-01-06",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7592052100222209298",
+      "tiktokUser": "mischievous52_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "After 8 years of doing mukbang videos, Hamzy is now focusing on having a baby with her boyfriend of ten years.. #Hamzy #mukbang #fypシ ",
+      "channel": "mischievous52_",
+      "views": 53890,
+      "likes": 530,
+      "comments": 15,
+      "shares": 46,
+      "duration": 99,
+      "uploadDate": "2026-01-06",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7562913561094262034",
+      "tiktokUser": "asmr_food_mukbang_offic",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#hamzy #hamzy_asmr #burger ",
+      "channel": "asmr_food_mukbang_offic",
+      "views": 33672,
+      "likes": 503,
+      "comments": 8,
+      "shares": 14,
+      "duration": 77,
+      "uploadDate": "2025-10-19",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7629424638451387679",
+      "tiktokUser": "mukbang.asmrrrrr",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#hamzy #hamzyrealmukbang #mukbang ",
+      "channel": "mukbang.asmrrrrr",
+      "views": 12109,
+      "likes": 295,
+      "comments": 4,
+      "shares": 0,
+      "duration": 103,
+      "uploadDate": "2026-04-16",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p6",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7598567112780696840",
+      "tiktokUser": "alderdn",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "햄스터 키우면서 영어 공부하는 법 🐹📖 게임 앱 같은데 영어 단어 학습 앱인  Hamchee 를 소개할게요!  책으로 영어 단어 외우려면 잘 안 외워지고 솔직히 시작하기도 싫잖아요. 근데 Hamchee 앱은 영어 단어를 외우면 보상이 쌓이고, 그걸로 햄스터 먹이도 주고 집도 꾸미고 가구도 살 수 있어서 게임하듯이 하게 돼서 부담이 덜하고, 집 꾸미고 싶어서 괜히 단어 하나 더 외우게 되더라구요…🥹 카드 넘기듯이 단어 외우고 맞추고, 다시 확인하고, 스펠링 체크랑 받아쓰기까지 바로 이어지니까 자연스럽게 반복되면서 기억에 남아요. 틀린 단어는 자동으로 다시 모아줘서 오답노트처럼 복습하기도 좋고요 📚 아이패드나 핸드폰으로 어디서든 짧게 하기 좋고, 최근엔 CAST 단어팩도 추가돼서 표현 연습까지 같이 하기 좋아졌어요!  영어 단어가 지루했던 분들, Hamchee를 한 번 써보세요 🐹💛 #hamchee #햄치 #영어공부 #단어암기",
+      "channel": "alderdn",
+      "views": 29286,
+      "likes": 645,
+      "comments": 9,
+      "shares": 36,
+      "duration": 50,
+      "uploadDate": "2026-01-23",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p6",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7316722871512894762",
+      "tiktokUser": "hamzy_korean99",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Spicy Tteokbokki & Homemade Fried Dish Comfort Korean Streetfood #로제찜닭  #hamzy  #tiktokfood  #asmr  #mukbang  #cooking  #eating  #eatingshow  #food  #Foodie  #mukbang  #asmr  #asmrsoundsdaily  #fyp  #delicious  #foryoupageofficiall  #trend  #koreanfood  #hamzy_asmr",
+      "channel": "hamzy_korean99",
+      "views": 330730,
+      "likes": 6668,
+      "comments": 129,
+      "shares": 120,
+      "duration": 167,
+      "uploadDate": "2023-12-26",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p6",
+      "industry": "tech",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7434802653068070162",
+      "tiktokUser": "emmalilymarie",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "👩‍🎓rating dark spot serums that i’ve used. I love niacinamide🫶 what’s your favorite?👾 My pick ➡️ #franklyniacinamide15 #niacinamide #darkspotserum #acnetreatment #koreanskincare #franklyskincare ",
+      "channel": "emmalilymarie",
+      "views": 861255,
+      "likes": 6031,
+      "comments": 67,
+      "shares": 184,
+      "duration": 9,
+      "uploadDate": "2024-11-08",
+      "category": "#niacinamide",
+      "_source": "tikwm_search_niacinamide_p0",
+      "industry": "auto",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7572869218673249544",
+      "tiktokUser": "user8424227406153",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "하루만에 햄스터랑 엄청 친해졌어요 케이지는 120L예요#햄찌 #햄스터 #귀여워",
+      "channel": "user8424227406153",
+      "views": 337714,
+      "likes": 2204,
+      "comments": 949,
+      "shares": 106,
+      "duration": 15,
+      "uploadDate": "2025-11-15",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p5",
+      "industry": "creator",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7572402093529517332",
+      "tiktokUser": "gwaengiburi.official",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "먹방 유튜버 햄지 5명이 먹는 한 끼 식사량  #괭이부리마을 #햄지 #먹방 #유튜버 #추천",
+      "channel": "gwaengiburi.official",
+      "views": 12420,
+      "likes": 86,
+      "comments": 2,
+      "shares": 1,
+      "duration": 19,
+      "uploadDate": "2025-11-14",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p1",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7470749607979683090",
+      "tiktokUser": "aclassrani.ff",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "전세계가 사랑한 먹방 '햄지' 장영란 기절시킨 대저택 최초공개(특급레시피)",
+      "channel": "aclassrani.ff",
+      "views": 236083,
+      "likes": 2112,
+      "comments": 27,
+      "shares": 30,
+      "duration": 76,
+      "uploadDate": "2025-02-14",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p3",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    }
+  ]
+}
