@@ -1,5 +1,5 @@
-// crawler 결과 자동 통합 — 2026-06-20T12:26:39
-// 총 24372개 (본업 매칭 + 1년 이내)
+// crawler 결과 자동 통합 — 2026-06-20T14:13:36
+// 총 24398개 (본업 매칭 + 1년 이내)
 window.TRENDING_VIDEOS = [
  {
   "id": 10000,
@@ -387781,6 +387781,422 @@ window.TRENDING_VIDEOS = [
  },
  {
   "id": 34304,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "#viral #foryou #fyp #tiktok #foryoupage @YARKA ISHA DHAGAXA🪨👀 @ESPN  @ESPN ",
+  "channel": "mj_lionstar",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 7,
+  "views": 1221681,
+  "likes": 165774,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7650734523541458194",
+  "tiktokUser": "mj_lionstar"
+ },
+ {
+  "id": 34305,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "#fyp #fypシ #viral #cute #kitten ",
+  "channel": "nvttylvbs",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 849839,
+  "likes": 286058,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653026346687335694",
+  "tiktokUser": "nvttylvbs"
+ },
+ {
+  "id": 34306,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "아직도 이날 지젤을 못 잊어서 해본 메이크업☆ #makeup #makeuptransition #gisellemakeup #lemonade ",
+  "channel": "moongzmjo6c",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 2,
+  "views": 284802,
+  "likes": 49424,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652646276198075668",
+  "tiktokUser": "moongzmjo6c"
+ },
+ {
+  "id": 34307,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "You gotta be fast and not mistaken medicine for another medicine #animalhospital#animalhospital🧪#animalhospitalanomaly#animalhospitalanomaly🧪",
+  "channel": "ilovebassiesomuch3",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 448937,
+  "likes": 65882,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652939292490206477",
+  "tiktokUser": "ilovebassiesomuch3"
+ },
+ {
+  "id": 34308,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "animal hospital 🦠🩸🧟 #animation #animalhospital #xh #xhh #hinaemojicats ",
+  "channel": "hinaa._emojicats",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 175823,
+  "likes": 18664,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652889545263861000",
+  "tiktokUser": "hinaa._emojicats"
+ },
+ {
+  "id": 34309,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "#dog #watermelon #Outdoors #goofy ",
+  "channel": "gussy_thedog",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 5,
+  "views": 1176573,
+  "likes": 241001,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7651642456437493022",
+  "tiktokUser": "gussy_thedog"
+ },
+ {
+  "id": 34310,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "#funnycatsoftiktok😂😂😍cute #kitty #cats #kittens #fyp ",
+  "channel": "cat.sheri.kittens",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 166639,
+  "likes": 17411,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653103546442714388",
+  "tiktokUser": "cat.sheri.kittens"
+ },
+ {
+  "id": 34311,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "#animalhospital #viralvideo #viral #foryou #fypシ゚ ",
+  "channel": ".mint354",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 60797,
+  "likes": 10094,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653147132077051154",
+  "tiktokUser": ".mint354"
+ },
+ {
+  "id": 34312,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "I love this game already bro. #animalhosptial #fyp #viral #gameplay #funny ",
+  "channel": "komoristars0",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 2,
+  "views": 43422,
+  "likes": 4305,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652848935920340255",
+  "tiktokUser": "komoristars0"
+ },
+ {
+  "id": 34313,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "#kittens #cats #catsoftiktok #viral ",
+  "channel": "cute_kitten_0",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 6,
+  "views": 161725,
+  "likes": 18997,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7651253475279473950",
+  "tiktokUser": "cute_kitten_0"
+ },
+ {
+  "id": 34314,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "#fyp #viral #mascara #lashes #girl ",
+  "channel": "i2526632",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 3,
+  "views": 86034,
+  "likes": 12930,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652402925263768865",
+  "tiktokUser": "i2526632"
+ },
+ {
+  "id": 34315,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "🍋 lemonade makeup 🍋 ・ ・ ・ #makeup#transformation#메이크업#メイクアップ#レモネードメイク",
+  "channel": "kii3kii3",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 19354,
+  "likes": 2542,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653079936793677077",
+  "tiktokUser": "kii3kii3"
+ },
+ {
+  "id": 34316,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "делать ли еще подобное? отметки: @dssk1ha @1320sv_ . Видео ко мне не относится #макияж #акцентвмакияже #makeupartist #makeup #ресницы #накладныересниц",
+  "channel": "naokk1z",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 2,
+  "views": 117136,
+  "likes": 21415,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652682275569569042",
+  "tiktokUser": "naokk1z"
+ },
+ {
+  "id": 34317,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "#fyp #рекомендации #foryou #врек ",
+  "channel": "pav.p3",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 6,
+  "views": 171011,
+  "likes": 16864,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7651177780746390792",
+  "tiktokUser": "pav.p3"
+ },
+ {
+  "id": 34318,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "simple fits                                                 #fashion #OOTD #fashiontiktok #chic #fitcheck ",
+  "channel": "dancox_7",
+  "industry": "d2c",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 11409,
+  "likes": 1786,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653011533391351048",
+  "tiktokUser": "dancox_7"
+ },
+ {
+  "id": 34319,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "#moodboard #chic #fashion #styleinspo #outfitideas ",
+  "channel": "mewwccuryy",
+  "industry": "d2c",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 11895,
+  "likes": 2919,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653203334597233940",
+  "tiktokUser": "mewwccuryy"
+ },
+ {
+  "id": 34320,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "Funny moments of dogs wagging their tail 🤣 #funnydogs #waggingtails #funnyvideos #dogsoftiktok #NYC ",
+  "channel": "doggodad.158",
+  "industry": "pet",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 0,
+  "views": 26793,
+  "likes": 5600,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653284251776847118",
+  "tiktokUser": "doggodad.158"
+ },
+ {
+  "id": 34321,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "#mascara #humour #prt #cils #faitepercerafond ",
+  "channel": "charlotteomse.bllrlt",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 4,
+  "views": 95070,
+  "likes": 20740,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652037359189462305",
+  "tiktokUser": "charlotteomse.bllrlt"
+ },
+ {
+  "id": 34322,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "일본에서 핫하다는 너구리상 메이크업🦝💛 #너구리상 #너구리상메이크업 #너구리한마리몰고가세요 #너구리 ",
+  "channel": "ready__nh",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 113414,
+  "likes": 7030,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653053398563949831",
+  "tiktokUser": "ready__nh"
+ },
+ {
+  "id": 34323,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "#englishvinglish #adilhussain ",
+  "channel": "injztkzgafk",
+  "industry": "food",
+  "track": "shop",
+  "hook": "result",
+  "publishedDaysAgo": 2,
+  "views": 1756867,
+  "likes": 146345,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652680307849661727",
+  "tiktokUser": "injztkzgafk"
+ },
+ {
+  "id": 34324,
+  "country": "KR",
+  "platform": "TikTok",
+  "title": "which one do u prefer?? i prefer clumpy 💯 #hearts4mascara #foryoupage #girls #mascara #fypage ",
+  "channel": "hearts4mascara",
+  "industry": "beauty",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 132311,
+  "likes": 11009,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653161004775296278",
+  "tiktokUser": "hearts4mascara"
+ },
+ {
+  "id": 34325,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "summer 2026 fashion trend predictions for the “cool girls” !! soo much cute stuff! i have items for all these trends linked on my shopmy if you want t",
+  "channel": "madisonbravenec",
+  "industry": "d2c",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 1,
+  "views": 5925,
+  "likes": 825,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7653197122166164767",
+  "tiktokUser": "madisonbravenec"
+ },
+ {
+  "id": 34326,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "FUNNY British Fashion Trends We All Thought Were Normal #nostalgicuk #1960s ",
+  "channel": "nostalgic.road7",
+  "industry": "d2c",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 2,
+  "views": 57834,
+  "likes": 2134,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7652651888466234656",
+  "tiktokUser": "nostalgic.road7"
+ },
+ {
+  "id": 34327,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "عفاكم برطجيو خوتي المغربة 🙏🏻🙏🏻🙏🏻🙏🏻",
+  "channel": "youness.el39",
+  "industry": "d2c",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 30,
+  "views": 398631,
+  "likes": 42736,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7642393386057485588",
+  "tiktokUser": "youness.el39"
+ },
+ {
+  "id": 34328,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "boxers are my best friend #fyp #nervy #boxers #fashion #styled ",
+  "channel": "adorbsabbyxx",
+  "industry": "d2c",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 38,
+  "views": 2588128,
+  "likes": 396652,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7639462406070078742",
+  "tiktokUser": "adorbsabbyxx"
+ },
+ {
+  "id": 34329,
+  "country": "US",
+  "platform": "TikTok",
+  "title": "ok i made ts in 20 minutes #jfashion #fashioncentre #harajuku #2000s #foryou ",
+  "channel": "yawnn.mp3",
+  "industry": "d2c",
+  "track": "general",
+  "hook": "result",
+  "publishedDaysAgo": 63,
+  "views": 3506417,
+  "likes": 734761,
+  "firstSeen": "2026-06-20",
+  "tiktokId": "7630181879815130390",
+  "tiktokUser": "yawnn.mp3"
+ },
+ {
+  "id": 34330,
   "country": "US",
   "platform": "TikTok",
   "title": "Hi peoples the OOTN will be back very soon for now enjoy one of my summer outfits try on , love from management xx",
@@ -387796,7 +388212,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "amysegato"
  },
  {
-  "id": 34305,
+  "id": 34331,
   "country": "KR",
   "platform": "TikTok",
   "title": "True comp setup - #goviral #fyp #GamingSetup #techtok #pc ",
@@ -387812,7 +388228,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "sp04ce.tech"
  },
  {
-  "id": 34306,
+  "id": 34332,
   "country": "US",
   "platform": "TikTok",
   "title": "I'm OBSESSED with everything!!🤎           All tops are from the new sunkissed in Greece collection✨ @Fashiontiger #haul #tryon #fashion #outfitinspo #",
@@ -387828,7 +388244,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "ewa__rsg"
  },
  {
-  "id": 34307,
+  "id": 34333,
   "country": "US",
   "platform": "TikTok",
   "title": "the unique bags no one else will have this summer, everything linked in my shopmy under “everything” -> “bags” #haul #vintage #vintagehaul @Etsy #gree",
@@ -387844,7 +388260,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "natashagabbayan"
  },
  {
-  "id": 34308,
+  "id": 34334,
   "country": "US",
   "platform": "TikTok",
   "title": "Le dropshipping IA >>> #dropshipping #ecommerce #Shopify ",
@@ -387860,7 +388276,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "themedrop"
  },
  {
-  "id": 34309,
+  "id": 34335,
   "country": "US",
   "platform": "TikTok",
   "title": "never will be a runner girl 🦍🏃🏼‍♀️🥲 #trend #run #runner #athlete #crossfit ",
@@ -387876,7 +388292,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "themeatnugget"
  },
  {
-  "id": 34310,
+  "id": 34336,
   "country": "KR",
   "platform": "TikTok",
   "title": "#tungtungtungsahur #dance #likee #viral #pourtoiii ",
@@ -387892,7 +388308,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "whitneyyberlinn"
  },
  {
-  "id": 34311,
+  "id": 34337,
   "country": "US",
   "platform": "TikTok",
   "title": "best part of the day #GymTok #gymmeme #highlight #viral #fyp ",
@@ -387908,7 +388324,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "anabolic.menhub"
  },
  {
-  "id": 34312,
+  "id": 34338,
   "country": "US",
   "platform": "TikTok",
   "title": "…nothing we guess ☕️ #coffee #cafe #bonn #goviral #trend ",
@@ -387924,7 +388340,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "cafekauz.bonn"
  },
  {
-  "id": 34313,
+  "id": 34339,
   "country": "US",
   "platform": "TikTok",
   "title": "#shopifymaderich #ecom #digitalecom #shopifyecom #metaads ",
@@ -387940,7 +388356,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "payagotrich"
  },
  {
-  "id": 34314,
+  "id": 34340,
   "country": "US",
   "platform": "TikTok",
   "title": "use code “20SOPHIEP” for 20% off!!!! 💸 I’m OBSESSED with everything!! 🎀🤍 linking everything on my ShopMy too 🫶 @Bohme  #tryon #tryonhaul #bohme #fashi",
@@ -387956,7 +388372,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "sophiepettinger"
  },
  {
-  "id": 34315,
+  "id": 34341,
   "country": "US",
   "platform": "TikTok",
   "title": "i know i know another ross tryon but what can i say i love shopping!! @Ross Dress for Less  #ross #rossfinds #shoppingvlog #tryon #tryonhaul ",
@@ -387972,7 +388388,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "celeeean"
  },
  {
-  "id": 34316,
+  "id": 34342,
   "country": "US",
   "platform": "TikTok",
   "title": "UNBOX tiktok shop products wit the queen ",
@@ -387988,7 +388404,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "user087532672"
  },
  {
-  "id": 34317,
+  "id": 34343,
   "country": "US",
   "platform": "TikTok",
   "title": "POV: your walls are still blank 🫠 Digital art prints you can download  & print TODAY — starting at $7 ✨ Link in bio 🔗 #trend #viral #homedecor  #etsy ",
@@ -388004,7 +388420,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "bystudiod6"
  },
  {
-  "id": 34318,
+  "id": 34344,
   "country": "US",
   "platform": "TikTok",
   "title": "#toxicstudymotivation #motivation #studytok #study #academic ",
@@ -388020,7 +388436,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "secret.study.acc"
  },
  {
-  "id": 34319,
+  "id": 34345,
   "country": "US",
   "platform": "TikTok",
   "title": "Sweet potato amd egg pancakes  that simple  #Foodie #food #hubby #taste #tester #mealprep #meal #protein #MadeWithLove ",
@@ -388036,7 +388452,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "bigalandvicky"
  },
  {
-  "id": 34320,
+  "id": 34346,
   "country": "US",
   "platform": "TikTok",
   "title": "this was recorded on my new vanity i got for my birthday!!🥹  etsy: beadedbyneti  all kinds of new bracelets listed on just for you guys! check it out ",
@@ -388052,7 +388468,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "beadedbyneti"
  },
  {
-  "id": 34321,
+  "id": 34347,
   "country": "US",
   "platform": "TikTok",
   "title": "Viral transition trend ✨ #londonstyle #designerfashion #fashiontrends #highfashion #runwayfashion ",
@@ -388068,7 +388484,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "leanneareum"
  },
  {
-  "id": 34322,
+  "id": 34348,
   "country": "KR",
   "platform": "TikTok",
   "title": "토너패드 이렇게 쓰면 피부 다 망가져요!!!😱 (+토너패드 300% 완벽하게 사용하는 법) #토너패드 #토너패드추천 #토너패드사용법 ",
@@ -388084,7 +388500,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "chae._.ullet"
  },
  {
-  "id": 34323,
+  "id": 34349,
   "country": "KR",
   "platform": "TikTok",
   "title": "천하제빵 TOP5 명장이 운영하는 부산 빵집🥖 통밀깜빠뉴 먹으러 갔는데 11시 조금 넘어서 이미 품절🥲 30분 차이인데 없다는 거 보고  진짜 인기 실감했습니다😆 대신 남아있는 빵들로 한가득 담아왔는데 옥수수깜빠뉴, 명란바게트, 소금빵 전부 기본기가 탄탄✨ 특히 명란바",
@@ -388100,7 +388516,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "user3485611848202"
  },
  {
-  "id": 34324,
+  "id": 34350,
   "country": "US",
   "platform": "TikTok",
   "title": "Study with me on a self-care day! #study #selflove #SelfCare #fyp #4u ",
@@ -388116,7 +388532,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "arieljeffry_study"
  },
  {
-  "id": 34325,
+  "id": 34351,
   "country": "KR",
   "platform": "TikTok",
   "title": "#собачник #Ледитойтерьер #длясобак #собака #рекомендации #реки #собачники #длясобак ",
@@ -388132,7 +388548,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "toy.ladyy"
  },
  {
-  "id": 34326,
+  "id": 34352,
   "country": "US",
   "platform": "TikTok",
   "title": "Die Hose ist glaub ich mein Favorit 🖤🤓 #zaratryon #zarahaul #tryonhauls #springhaul | selbst gekauft @ZARA ",
@@ -388148,7 +388564,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "join.joli"
  },
  {
-  "id": 34327,
+  "id": 34353,
   "country": "US",
   "platform": "TikTok",
   "title": "How to start Dropshipping in 2026 #ecom #ecommerce #dropshipping #shopify #aidropshipping ",
@@ -388164,7 +388580,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "millyhustles"
  },
  {
-  "id": 34328,
+  "id": 34354,
   "country": "KR",
   "platform": "TikTok",
   "title": "finally visited the glow flagship store today 🫶 everything is so pretty i can’t 😭🩵 i just wanna get them all 😭 bought some of my faves + got some gift",
@@ -388180,7 +388596,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "yeonjinaahh"
  },
  {
-  "id": 34329,
+  "id": 34355,
   "country": "KR",
   "platform": "TikTok",
   "title": "💌 | delicious halal brunch spread and aesthetic cafe @HAUTE DOLCI 🥞🍓🍳 the pistachio pancakes and milkshake were SO GOOD 😋🤍✨ 🍳 english breakfast spread",
@@ -388196,7 +388612,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "halalgirliesldn"
  },
  {
-  "id": 34330,
+  "id": 34356,
   "country": "US",
   "platform": "TikTok",
   "title": "i wanted to be a vet when i was little🤭 | #vet #veterinarian #animals #vetlife #veterinary #career #fyp #foryou #foryoupage #global #viral #trending #",
@@ -388212,7 +388628,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "lilyyss4"
  },
  {
-  "id": 34331,
+  "id": 34357,
   "country": "KR",
   "platform": "TikTok",
   "title": "WHY DOES SHE RUN LIKE THAT😭😭#botchok #fyp #chicken #lowqualitymemes ",
@@ -388228,7 +388644,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "bouncingbotchokoffical"
  },
  {
-  "id": 34332,
+  "id": 34358,
   "country": "US",
   "platform": "TikTok",
   "title": "#creatorsearchinsights change your life, leave your w2, take action today. Deal of the day and tips for buying a small business found right here! #gen",
@@ -388244,7 +388660,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "jwilson_smbmarket"
  },
  {
-  "id": 34333,
+  "id": 34359,
   "country": "KR",
   "platform": "TikTok",
   "title": "제주에서 지인짜 맛있었던 또또또간 빵집 4곳 1분 안에 빠르게 말하기🔥ㅋㅋㅋㅋㅋ 제주 빵순이들 모두 모여랏…. 진짜 다 맛있고 유명한 곳들이니 저장해두셨다가 가보시길 ❤️ #제주빵집 #제주빵지순례 #제주빵맛집 #제주베이커리 #제주베이커리카페 ",
@@ -388260,7 +388676,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "jeju_curator"
  },
  {
-  "id": 34334,
+  "id": 34360,
   "country": "KR",
   "platform": "TikTok",
   "title": "밤식빵 이게 맞나_.. #이대상베이커리",
@@ -388276,7 +388692,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "user294060979904"
  },
  {
-  "id": 34335,
+  "id": 34361,
   "country": "KR",
   "platform": "TikTok",
   "title": "대전 수제디저트 배달 맛집! 🧚‍♀️페이머스 #대전 #대전맛집 #디저트 #대전빵집 ",
@@ -388292,7 +388708,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "nojam_fairy"
  },
  {
-  "id": 34336,
+  "id": 34362,
   "country": "US",
   "platform": "TikTok",
   "title": "Study for finals 📚✨☕️ #studywithme #studytok #studyvlog ",
@@ -388308,7 +388724,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "studywithemmane_"
  },
  {
-  "id": 34337,
+  "id": 34363,
   "country": "KR",
   "platform": "TikTok",
   "title": "1-10? #shoppinghaul #Summer #zara #bershka #summerclothing ",
@@ -388324,7 +388740,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "friedida_mee"
  },
  {
-  "id": 34338,
+  "id": 34364,
   "country": "KR",
   "platform": "TikTok",
   "title": "summer Shein shophaul 🍋🐬🌸🥥🌴🫐 #summershophaul #haul #shein ",
@@ -388340,7 +388756,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "mois_official_"
  },
  {
-  "id": 34339,
+  "id": 34365,
   "country": "KR",
   "platform": "TikTok",
   "title": "Stew Type Buldak 💖💖💖💖💖💖💖💖💖💖💖💖💖💖 #viral #viraltiktok #asmr #asmrsounds #explore #explorepage #trend #trending #shorts #reels #mukbang #eating #foryou #",
@@ -388356,7 +388772,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "aaronmyarbrough"
  },
  {
-  "id": 34340,
+  "id": 34366,
   "country": "US",
   "platform": "TikTok",
   "title": "iloveyouuiloveyouu😛😛",
@@ -388372,7 +388788,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "veterinarian__7"
  },
  {
-  "id": 34341,
+  "id": 34367,
   "country": "KR",
   "platform": "TikTok",
   "title": "무신사 아울렛 솔직 후기 ✨ #무신사아울렛 #무신사 ",
@@ -388388,7 +388804,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "ruru.archive_"
  },
  {
-  "id": 34342,
+  "id": 34368,
   "country": "KR",
   "platform": "TikTok",
   "title": "🏠#도르르커피 📍광주 서구 금호동 240-52 ⏰09:00 - 23:00 라스트 오더 22:30 #광주대형카페 #광주베이커리카페 #금호동베이커리 #쥬니월드_광주서구",
@@ -388404,7 +388820,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "jiyoon_jyoun"
  },
  {
-  "id": 34343,
+  "id": 34369,
   "country": "KR",
   "platform": "TikTok",
   "title": "내가 살 뺀 방법..  200원대 콤부차와 애사비는 화요일까지만 프로필에 달아둘게요 🥹✨ #다이어트 #추 #추천 #다이어트식단 #다이어트꿀팁 ",
@@ -388420,7 +388836,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "p1_ease"
  },
  {
-  "id": 34344,
+  "id": 34370,
   "country": "KR",
   "platform": "TikTok",
   "title": "다이어트 자극 영상",
@@ -388436,7 +388852,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "icantfall77"
  },
  {
-  "id": 34345,
+  "id": 34371,
   "country": "KR",
   "platform": "TikTok",
   "title": "Little did she know.. #hamchiscorner #hamchi #derpixon #notforamukbang #edit #hamster #editsfyp #xyzbca #fyp #foryoufeed #specifically5150 ",
@@ -388452,7 +388868,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "specifically_5150"
  },
  {
-  "id": 34346,
+  "id": 34372,
   "country": "KR",
   "platform": "TikTok",
   "title": "HUGE K-BEAUTY GIVEAWAY!  ​Want to get your hands on these amazing Asian skincare gems? I’m giving away this ultimate spring glow-up bundle! 🌸 This giv",
@@ -388468,7 +388884,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "malina.polecajki1989"
  },
  {
-  "id": 34347,
+  "id": 34373,
   "country": "US",
   "platform": "TikTok",
   "title": "outside workouts >>>>  #fyp #viral #hiitworkout #Summer @Eveliz Fuentes ",
@@ -388484,7 +388900,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "anapernerewski"
  },
  {
-  "id": 34348,
+  "id": 34374,
   "country": "KR",
   "platform": "TikTok",
   "title": "#ad 에..?😨 뷰튜버라면서 아직도 제대로 못 쓰는 템....? 그래서 찾은 올리브영 화잘먹 톤업선크림 추천✨ ✅AHC 마스터즈 톤업 선 세럼 •완전 얇은 초경량 제형, 무겁지 않은 산뜻 흡수 •맑은 톤업+화잘먹 수분감💦  •자연스러운 톤업+UV차단+기미 케어 = 3",
@@ -388500,7 +388916,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "codaquatt"
  },
  {
-  "id": 34349,
+  "id": 34375,
   "country": "KR",
   "platform": "TikTok",
   "title": "오늘의 방탱 카페 추천_용인_2025 브루어스 컵 한국 우승, 세계 10위 바리스타의 커피를 만날 수 있는 용인 신상 카페 ‘도안 용인점’ 수원의 인생커피의 성지로 불리며 많은 사랑을 받고 있는 ‘카페 도안’이 용인에 두번째 공간을 열었습니다 ’카페 도안이 새로이 만들",
@@ -388516,7 +388932,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "b_taeng"
  },
  {
-  "id": 34350,
+  "id": 34376,
   "country": "KR",
   "platform": "TikTok",
   "title": "🔻다이어트는 누굴위해 하는걸까요? 여러분은 내 몸을 아껴주고 계신가요?  - #다이어트 #건강한다이어트 #다이어트방법 #다이어트꿀팁 #다이어트식단 #다이어트레시피 #다이어트음식 ",
@@ -388532,7 +388948,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "offtime_nurselog"
  },
  {
-  "id": 34351,
+  "id": 34377,
   "country": "KR",
   "platform": "TikTok",
   "title": "mini shorts 2000s >>> #minishorts #2000s #fyp #outfit #y2k ",
@@ -388548,7 +388964,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "chri.archive.vintage"
  },
  {
-  "id": 34352,
+  "id": 34378,
   "country": "KR",
   "platform": "TikTok",
   "title": "night pink skincare routine 💓🎀  #koreanskincare #skincare #wonyoungism #kbeauty #pink #wonyoung #skincareroutine ",
@@ -388564,7 +388980,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "mydelicate"
  },
  {
-  "id": 34353,
+  "id": 34379,
   "country": "US",
   "platform": "TikTok",
   "title": "his little eyebrows are my favorite 😭 #puppy #cutedogs #jackrussellterrier #foryou #jrt ",
@@ -388580,7 +388996,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "finntherussell"
  },
  {
-  "id": 34354,
+  "id": 34380,
   "country": "US",
   "platform": "TikTok",
   "title": "Psalm 107:1 | Congratulate him on ig: _unshakeable.faith #doctor #dpt #blackdoctors ",
@@ -388596,7 +389012,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "restorative.peace"
  },
  {
-  "id": 34355,
+  "id": 34381,
   "country": "KR",
   "platform": "TikTok",
   "title": "…#viral #fyp #foryoupage #streetwear #style",
@@ -388612,7 +389028,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "username216740"
  },
  {
-  "id": 34356,
+  "id": 34382,
   "country": "US",
   "platform": "TikTok",
   "title": "sushi anyone ?? 🧐 #sushi #mukbang #fypシ゚viral #Foodie #review #asmrsounds #sushiroll",
@@ -388628,7 +389044,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "janemukbangs"
  },
  {
-  "id": 34357,
+  "id": 34383,
   "country": "KR",
   "platform": "TikTok",
   "title": "🥲#fyp #catsoftiktok #cattok #kitten #kittensoftiktok ",
@@ -388644,7 +389060,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "stachel.the.cat"
  },
  {
-  "id": 34358,
+  "id": 34384,
   "country": "US",
   "platform": "TikTok",
   "title": "what should I name her? preferably a food name🖤🩶🤍 #catsoftiktok #kittensoftiktok #ilovecats #cutecats #babycats #catlover #kittenlover #cats #kittens ",
@@ -388660,7 +389076,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "lovelypetsoftiktok"
  },
  {
-  "id": 34359,
+  "id": 34385,
   "country": "US",
   "platform": "TikTok",
   "title": "Mommmm #catsoftiktok #foryoupage #fyp #kitten #motherofcats",
@@ -388676,7 +389092,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "mother_ofcats_"
  },
  {
-  "id": 34360,
+  "id": 34386,
   "country": "KR",
   "platform": "TikTok",
   "title": "The constant look backs 😂 #fyp #fypage #foryou #parati #fypツ #dog #doggo #dogs #dogsoftiktok #dogtok #dogmeme #pet #pets #PetsOfTikTok #chihuahua #chi",
@@ -388692,7 +389108,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "trashygas"
  },
  {
-  "id": 34361,
+  "id": 34387,
   "country": "US",
   "platform": "TikTok",
   "title": "kiss #cat #catsoftiktok #kitten #kittensoftiktok #kittenkisses #cutecar #fyp #foryou #foryoupage #4u #calicocat #clairo #clairotok ",
@@ -388708,7 +389124,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "fayelico"
  },
  {
-  "id": 34362,
+  "id": 34388,
   "country": "US",
   "platform": "TikTok",
   "title": "I’m the worst dog mum ever #fyp #dogsoftiktok #doglover #puppy #puppylove ",
@@ -388724,7 +389140,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "emma.cosier"
  },
  {
-  "id": 34363,
+  "id": 34389,
   "country": "US",
   "platform": "TikTok",
   "title": "seriously this is the best feeling EVER! 🫶🏽🐾🐶  #straydogs #sokakhayvanlarınıkoru #sokakhayvanlarısahipsizdeğil #fypage #doglovers #dogsoftiktok #foryo",
@@ -388740,7 +389156,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "niilepp"
  },
  {
-  "id": 34364,
+  "id": 34390,
   "country": "KR",
   "platform": "TikTok",
   "title": "Oliver’s thoughts while at the vet 💭🤔#citypets #citypets614 #columbus #614 #vet #animalhospital #veterinarian #veterinarytechnician #vetclinic #dogsof",
@@ -388756,7 +389172,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "citypets614"
  },
  {
-  "id": 34365,
+  "id": 34391,
   "country": "KR",
   "platform": "TikTok",
   "title": "pov: you are obssesed with skincare #wonyoungism #skincare #kbeauty #koreanskincare #koreanskincareproducts #glasskin #skintok #zwonylen #unxflop #anu",
@@ -388772,7 +389188,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "zwonylen"
  },
  {
-  "id": 34366,
+  "id": 34392,
   "country": "KR",
   "platform": "TikTok",
   "title": "Naruto’s chef. #fyp #vancouver #ramen #canada",
@@ -388788,7 +389204,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "soyanceee"
  },
  {
-  "id": 34367,
+  "id": 34393,
   "country": "US",
   "platform": "TikTok",
   "title": "Minnies 1st walk 🐶💘🥰👑 #pomeranian #fypage #fyp #puppylove #puppy #foryoupage #cute #fypage ",
@@ -388804,7 +389220,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "gabrielleluciarobson"
  },
  {
-  "id": 34368,
+  "id": 34394,
   "country": "US",
   "platform": "TikTok",
   "title": "Black cat activities #cat #catsoftiktok #pet #PetsOfTikTok #funnycats #funnypets #blackcatsoftiktok #foryou ",
@@ -388820,7 +389236,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "petlovers216"
  },
  {
-  "id": 34369,
+  "id": 34395,
   "country": "US",
   "platform": "TikTok",
   "title": "lmk if you guys want more of these or more hair content!! #hair #hairstyle #hairtok #hairgrowth #hairoiling #hairoil #hairgrowthtips #haircut #hairtut",
@@ -388836,7 +389252,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "nityamadabhushi"
  },
  {
-  "id": 34370,
+  "id": 34396,
   "country": "US",
   "platform": "TikTok",
   "title": "Over 7 figures in sales, 2 cars, Houses for both of my parents, Hundreds of thousands saved up, mentoring 1400 brands a month all before I graduated h",
@@ -388852,7 +389268,7 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "caprice4l"
  },
  {
-  "id": 34371,
+  "id": 34397,
   "country": "US",
   "platform": "TikTok",
   "title": "that’s my bestie right there #dental #dentalassistant #fyp #dentaltok #trending ",
@@ -388868,4 +389284,4 @@ window.TRENDING_VIDEOS = [
   "tiktokUser": "ashley.goel"
  }
 ];
-window.TRENDING_LAST_UPDATE = "2026-06-20T12:26:39";
+window.TRENDING_LAST_UPDATE = "2026-06-20T14:13:36";
