@@ -1,0 +1,6342 @@
+{
+  "total_collected": 440,
+  "passed_filter": 224,
+  "balanced_output": 224,
+  "platform_distribution": {
+    "TikTok": 224
+  },
+  "rejected_hard_filter": 216,
+  "rejected_low_score": 0,
+  "rejected_by_balance": 0,
+  "filter_threshold": 0,
+  "per_platform_cap": 500,
+  "criteria": {
+    "min_views": 2000,
+    "min_likes": 20,
+    "min_views_for_old_videos": 50000,
+    "block_pattern_count": 29,
+    "scoring": "Engagement Rate(40) + Velocity(30) + Authority(15) + Commerce(15) × Time Decay",
+    "safety": "차단·로그인 응답 키워드 감지 시 즉시 제외 + 3 플랫폼 균등 배치"
+  },
+  "videos": [
+    {
+      "tiktokId": "7665365947246578975",
+      "tiktokUser": "kawaiiloversss",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Unbox with me 🤗 #unboxing  #shopkins  #nostalgia ",
+      "channel": "kawaiiloversss",
+      "views": 10952,
+      "likes": 1393,
+      "comments": 7,
+      "shares": 124,
+      "duration": 60,
+      "uploadDate": "2026-07-22",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "tech",
+      "_score": 78,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 13.9% (viral)",
+        "일평균 1.1만회 (떠오름)",
+        "커머스 키워드 3개",
+        "신선 (1일)"
+      ]
+    },
+    {
+      "tiktokId": "7661106562609515789",
+      "tiktokUser": "lainasquishy",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Squishy unboxing with a @Doctor Squish twist 😅 does anyone want the names of them? #squishyhaul #fidgettoys #squishy #needoh ",
+      "channel": "lainasquishy",
+      "views": 3149680,
+      "likes": 356090,
+      "comments": 757,
+      "shares": 39403,
+      "duration": 210,
+      "uploadDate": "2026-07-11",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "tech",
+      "_score": 76,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 12.6% (viral)",
+        "일평균 26.2만회 (급상승)"
+      ]
+    },
+    {
+      "tiktokId": "7658864843507715335",
+      "tiktokUser": "xkarentorresx",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "compré los squishies más virales🤪👀 #karentorres #squishy #unboxing #parati #Vlog ",
+      "channel": "xkarentorresx",
+      "views": 2816417,
+      "likes": 294229,
+      "comments": 8255,
+      "shares": 3741,
+      "duration": 290,
+      "uploadDate": "2026-07-05",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "entertainment",
+      "_score": 76,
+      "_axes": {
+        "er": 40,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 10.9% (viral)",
+        "일평균 15.6만회 (급상승)"
+      ]
+    },
+    {
+      "tiktokId": "7635657468697152782",
+      "tiktokUser": "laemekiia",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Let’s unbox my Sephora haul 🩰✨ #Sephora #makeuphaul #BeautyTok #makeupshopping #BeautyCommunity ",
+      "channel": "laemekiia",
+      "views": 1393285,
+      "likes": 130250,
+      "comments": 483,
+      "shares": 10920,
+      "duration": 62,
+      "uploadDate": "2026-05-03",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 70,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 10.2% (viral)",
+        "일평균 1.7만회 (떠오름)",
+        "커머스 키워드 3개"
+      ]
+    },
+    {
+      "tiktokId": "7663302042877742366",
+      "tiktokUser": "majiandcollins",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "OOTD, Chill Summer 🌞 Vibes Outfits From: 👇🏾 @SHEIN @Amazon Fashion  @TikTok Shop 🇺🇸 @Lensmart  @New Balance @Longchamp  #OOTD #fyp #viral #majiandcollins #couples ",
+      "channel": "majiandcollins",
+      "views": 357457,
+      "likes": 22282,
+      "comments": 271,
+      "shares": 4215,
+      "duration": 149,
+      "uploadDate": "2026-07-17",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 69,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 7.5% (매우 우수)",
+        "일평균 6.0만회 (떠오름)",
+        "커머스 키워드 5개",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7660747570133716232",
+      "tiktokUser": "fbyanaaa",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#unboxing @Skye.wearit ",
+      "channel": "fbyanaaa",
+      "views": 1281231,
+      "likes": 109720,
+      "comments": 722,
+      "shares": 29524,
+      "duration": 32,
+      "uploadDate": "2026-07-10",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 68,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 10.9% (viral)",
+        "일평균 9.9만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7663595360345935136",
+      "tiktokUser": "jetti_grnd",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "💗#OOTD #fyp #outfit ",
+      "channel": "jetti_grnd",
+      "views": 99249,
+      "likes": 15620,
+      "comments": 82,
+      "shares": 144,
+      "duration": 12,
+      "uploadDate": "2026-07-17",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 67,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 16.0% (viral)",
+        "일평균 1.7만회 (떠오름)",
+        "신선 (6일)"
+      ]
+    },
+    {
+      "tiktokId": "7663949059346009375",
+      "tiktokUser": "itsarah_official",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Reviewing VIRAL TIKTOK SQUISHIES! 😱😳 *so satisfying* #squishy #unboxing #needoh #fidgettoys #satisfying @Lovesquishy ",
+      "channel": "itsarah_official",
+      "views": 672736,
+      "likes": 28707,
+      "comments": 301,
+      "shares": 1505,
+      "duration": 35,
+      "uploadDate": "2026-07-18",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "entertainment",
+      "_score": 66,
+      "_axes": {
+        "er": 22,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 4.5% (좋음)",
+        "일평균 13.5만회 (급상승)",
+        "커머스 키워드 3개",
+        "신선 (5일)"
+      ]
+    },
+    {
+      "tiktokId": "7663865971471322401",
+      "tiktokUser": "j0y.s0phie",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "these @Cold Culture jeans are a 10/10 #fitcheck #ootdinspo #fashiontiktok #outfitideas #lipsync ",
+      "channel": "j0y.s0phie",
+      "views": 4348973,
+      "likes": 251113,
+      "comments": 8424,
+      "shares": 50877,
+      "duration": 15,
+      "uploadDate": "2026-07-18",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "beauty",
+      "_score": 66,
+      "_axes": {
+        "er": 32,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 7.1% (매우 우수)",
+        "일평균 87.0만회 (급상승)",
+        "신선 (5일)"
+      ]
+    },
+    {
+      "tiktokId": "7649836273016016159",
+      "tiktokUser": "asmrstation3",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Which one do you want to squish🤔✨ #asmr #squishy #unboxing #squishyhaul #haul  UNBOXING SQUISHY",
+      "channel": "asmrstation3",
+      "views": 2209612,
+      "likes": 241340,
+      "comments": 654,
+      "shares": 19371,
+      "duration": 68,
+      "uploadDate": "2026-06-10",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 65,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 11.8% (viral)",
+        "일평균 5.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7661579153598123296",
+      "tiktokUser": "mary_poppins446",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#gymgirls #gymoutfitsforwomen #gymbro #gymoutfit #gym ",
+      "channel": "mary_poppins446",
+      "views": 333525,
+      "likes": 29970,
+      "comments": 239,
+      "shares": 4971,
+      "duration": 13,
+      "uploadDate": "2026-07-12",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "fitness",
+      "_score": 63,
+      "_axes": {
+        "er": 40,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 10.5% (viral)",
+        "일평균 3.0만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7555454055636552991",
+      "tiktokUser": "hangpieff",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Slime mini food shop🤩🍿#asmrtoys #slime #minifood #unboxingtoys #diytoys ",
+      "channel": "hangpieff",
+      "views": 1599267,
+      "likes": 139421,
+      "comments": 553,
+      "shares": 20312,
+      "duration": 69,
+      "uploadDate": "2025-09-29",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 60,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 10.0% (viral)",
+        "커머스 키워드 3개"
+      ]
+    },
+    {
+      "tiktokId": "7658020129040633104",
+      "tiktokUser": "charinecheungg",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "My top 5 (FAVORITE) Korean skincare products, updated for 2026! @SKIN1004 US @imfrom_us @House of Hur US @anua_global @IUNIK  #koreanskincare #skincarerecommendations #glassskinroutine #bestskincare ",
+      "channel": "charinecheungg",
+      "views": 398342,
+      "likes": 25281,
+      "comments": 304,
+      "shares": 703,
+      "duration": 179,
+      "uploadDate": "2026-07-02",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 59,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 6.6% (매우 우수)",
+        "일평균 1.9만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7655721981593128200",
+      "tiktokUser": "shikiii_14",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Dzô📦✂️#unboxing #haul #asmr #cozy #xh ",
+      "channel": "shikiii_14",
+      "views": 39659,
+      "likes": 3637,
+      "comments": 150,
+      "shares": 214,
+      "duration": 41,
+      "uploadDate": "2026-06-26",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 59,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 10.1% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7651994027121741074",
+      "tiktokUser": "mindaylee_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "REAL POPULAR SKINCARE in korea ! ! ! my real experience living in korea and @올리브영 OLIVE YOUNG & @hwahae.global ! I wrote all products below ( of course no ad no money real real 😆😆)  CLEANSER @beplain 비플레인 Mung Bean pH-Balanced Cleansing Foam (@BANILA CO zero cleansing balm, @manyo US soybean cleansing oil popular too) toner @ROUND LAB 1025 dokdo toner (torriden dive in toner popular too) SERUM @𝗧𝗼𝗿𝗿𝗶𝗱𝗲𝗻 토리든 dive in hyaluronic serum @Innisfreeofficial vitamin c green tea serum  (innisfreee retinol cica serum also popular) (@anua_global pdrn hyaluronic serum popular too) MOiSTURIZER @Dr.G 닥터지 blemish cream @S.NATURE aqua squalane moisturizer @aestura_us atobarrier 365 cream #koreanskincare #koreanskincareproducts #kbeauty #kbeautyskincare @Brute Choi 🧿 ",
+      "channel": "mindaylee_",
+      "views": 3056608,
+      "likes": 226610,
+      "comments": 898,
+      "shares": 12662,
+      "duration": 109,
+      "uploadDate": "2026-06-16",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "beauty",
+      "_score": 57,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 7.9% (매우 우수)",
+        "일평균 8.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7641174688399396103",
+      "tiktokUser": "skincarepharm_kbeauty",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "✨ 5 Retinol Combos That Actually Work by a Korean Pharmacist 🇰🇷 Retinol + Niacinamide → Redness Retinol + Peptides → Fine lines Retinol + Hyaluronic Acid → Dryness Retinol + Centella → Uneven texture Retinol + Ceramides → Damaged skin barrier Retinol is powerful, but the right combo can make it much easier on your skin. These are some of my favorite retinol combos depending on your skin concern ✨ #retinol #koreanskincare #skincaretips #niacinamide #ceramides",
+      "channel": "skincarepharm_kbeauty",
+      "views": 1652588,
+      "likes": 58612,
+      "comments": 375,
+      "shares": 8415,
+      "duration": 22,
+      "uploadDate": "2026-05-18",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 57,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 15,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 4.1% (좋음)",
+        "일평균 2.5만회 (떠오름)",
+        "인증 브랜드 (skincarepharm_kbeauty)"
+      ]
+    },
+    {
+      "tiktokId": "7664209375371873557",
+      "tiktokUser": "sasainseoul",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "How to fix elongated pore  #porecare #koreanskincare #skincare #enlargedpore #poretreatment  This is partnered with @mixsoon_official @mixsoon global ",
+      "channel": "sasainseoul",
+      "views": 170401,
+      "likes": 12681,
+      "comments": 100,
+      "shares": 453,
+      "duration": 130,
+      "uploadDate": "2026-07-19",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "tech",
+      "_score": 57,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 7.8% (매우 우수)",
+        "일평균 4.3만회 (떠오름)",
+        "신선 (4일)"
+      ]
+    },
+    {
+      "tiktokId": "7632807665218931998",
+      "tiktokUser": "needoh.4.life",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Unbox my squishes with me! #fyp #viral #squishys #soft ",
+      "channel": "needoh.4.life",
+      "views": 3662928,
+      "likes": 204713,
+      "comments": 1406,
+      "shares": 18546,
+      "duration": 50,
+      "uploadDate": "2026-04-25",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 57,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 6.1% (매우 우수)",
+        "일평균 4.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7365528166183603498",
+      "tiktokUser": "mins_studios",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "What I bought at Miniso! ASMR edition 🎧 #ASMR #unboxing #miniso #stationery #asmrsounds #asmrvideo ",
+      "channel": "mins_studios",
+      "views": 842705,
+      "likes": 86139,
+      "comments": 219,
+      "shares": 1775,
+      "duration": 65,
+      "uploadDate": "2024-05-05",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 55,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 10.5% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7663799313327246613",
+      "tiktokUser": "feelglish",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "공식을 먼저 외우면 절대 입이 트이지 않아요‼️ 여러분이 How are you?를  질문이니까  “Wh의문사.. 그 다음이 동사..그리고 주어..” 생각 안하고 바로 말씀하시듯이 회화가 먼저지 공식이 먼저가 아닙니다. 원어민들이 밥먹듯이 사용하는 문장들 부터 공부하시고 문법은 저절로 그 안에서 습득하세요. 그래야 입이 트여요! ✅DO YOU vs ARE YOU 🇺🇸Are you는 지금 상대의 상태, 감정, 신분, 성격 등을 물어볼때 사용됩니다. 뒤에 형용사 명사 등이 올수 있죠. -가장 먼저 떠오르는 문장 들 쭉 적어 주세요! Are you ready? 준비 되었나요? Are you happy? 행복하세요? Are you Korean? 한국분이세요? Are you INFP-T? INFT-T 이신가요? Are you at the cafe? 지금 카페야? (현재진행형)Are you working right now? 일하는 중이야? Do you는 ~해? 로 보통 하는 행동, 반복되는  습관, 취향, 성향, 의견기정 사실 등을 의미해요! Do you live in seoul? (사실) 서울에 살아? Do you do coffee? (취향) 원래 커피 마셔? Do you like cats?  고양이 좋아해? Do you usually eat breakfast in the morning? 보통 아침을 먹어? 공식을 먼저 떠올리지 마시고 예문들을 쭉 써보시고 큰 소리로 반복해서 연습해 보세요! How are you 처럼 익숙해 지실거에요. 순서가 문법에서 회화가 아니라 회화에서 문법입니다. 로라의 회화에 꼭  반드시 필요한 문법 강의는 ✨www.feelglish.com✨ 에서 만나보실 수 있습니다! #회화문법#로라쌤#영어회화 #필글리쉬#",
+      "channel": "feelglish",
+      "views": 18768,
+      "likes": 608,
+      "comments": 8,
+      "shares": 90,
+      "duration": 76,
+      "uploadDate": "2026-07-18",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 54,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 15,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)",
+        "인증 브랜드 (feelglish)",
+        "신선 (5일)"
+      ]
+    },
+    {
+      "tiktokId": "7659395019446570261",
+      "tiktokUser": "sasainseoul",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "How to fix acne spots  If you have acne spots and sensitive & teenager! Try this!  This is partnered with @dear, Klairs @YesStyle  #dearklairs, #klairsEGFSerum, #koreanskincare, #kbeauty, #yesstyle YesStyle Mega Sale until June 6th, use code ♥️ ✅YESSASA15– 15% off (no minimum, valid for 72 hours) ✅YSSASA – 12% off (valid for 1 month)",
+      "channel": "sasainseoul",
+      "views": 464085,
+      "likes": 42300,
+      "comments": 150,
+      "shares": 1394,
+      "duration": 109,
+      "uploadDate": "2026-07-06",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "kpop",
+      "_score": 54,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 9.4% (매우 우수)",
+        "일평균 2.7만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7659580355678096654",
+      "tiktokUser": "cbeautyvid",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "night routines #skincaretutorial #makeup #10stepkoreanskincareroutine #skincareroutine #beauty ",
+      "channel": "cbeautyvid",
+      "views": 62811,
+      "likes": 7279,
+      "comments": 25,
+      "shares": 212,
+      "duration": 50,
+      "uploadDate": "2026-07-07",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 54,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 12.0% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7632791903917903125",
+      "tiktokUser": "cherrypicks123",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Top 7 Skincare Brands & Products that’s ACTUALLY popular in Korea🇰🇷  @numbuzin @Dr. G @beplain.shop @WELLAGE @aestura_us @skinfood_global @한율 HANYUL   #koreanskincare #oliveyoung #kbeauty #viralskincare",
+      "channel": "cherrypicks123",
+      "views": 799875,
+      "likes": 54087,
+      "comments": 242,
+      "shares": 2917,
+      "duration": 74,
+      "uploadDate": "2026-04-25",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "kpop",
+      "_score": 54,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 7.2% (매우 우수)",
+        "커머스 키워드 3개"
+      ]
+    },
+    {
+      "tiktokId": "7658762044811775265",
+      "tiktokUser": "kocvrxx",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "my takie outfity🤗 #sycyli #foryou #dc #couple #matching ",
+      "channel": "kocvrxx",
+      "views": 624880,
+      "likes": 44196,
+      "comments": 92,
+      "shares": 9964,
+      "duration": 16,
+      "uploadDate": "2026-07-04",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 54,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 8.7% (매우 우수)",
+        "일평균 3.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7640865190917016854",
+      "tiktokUser": "shabandkassie",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Unbox my Shein order with me 🎀 #shabandkassie #mumanddaughter #makeup #unbox ",
+      "channel": "shabandkassie",
+      "views": 4259882,
+      "likes": 329477,
+      "comments": 5295,
+      "shares": 9121,
+      "duration": 132,
+      "uploadDate": "2026-05-17",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 52,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 8.1% (매우 우수)",
+        "일평균 6.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7662502922365783316",
+      "tiktokUser": "linnacheung7",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "I used to focus on so many skincare products… but I didn’t realize how important hydration was for my skin ✨ Every skin type needs good hydration for a healthy-looking glow🤍 I learned that adding a hydrating step before my moisturizer can make my routine feel so much better. These hydration pearls combine my favorite steps in one little ritual✨ Aloe vera gel + Anua PDRN Hyaluronic Acid Cream for a fresh, hydrated feeling and that plump glow. PDRN has become one of my favorite skincare ingredients, and combining it with hydration makes my routine feel even more special🤍 Sometimes it’s not about adding more products… it’s about creating a routine your skin loves✨ #skincare #skincareroutine #glowingskin #koreanskincare #skin",
+      "channel": "linnacheung7",
+      "views": 1027744,
+      "likes": 39533,
+      "comments": 92,
+      "shares": 1173,
+      "duration": 34,
+      "uploadDate": "2026-07-14",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 51,
+      "_axes": {
+        "er": 22,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 4.0% (좋음)",
+        "일평균 11.4만회 (급상승)"
+      ]
+    },
+    {
+      "tiktokId": "7576774098508926238",
+      "tiktokUser": "safespaceasmr",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Your teeth are PERFECT 🦷 #asmr #asmrsounds #asmrvideo #relax #fyp ",
+      "channel": "safespaceasmr",
+      "views": 4425031,
+      "likes": 279568,
+      "comments": 1476,
+      "shares": 2979,
+      "duration": 175,
+      "uploadDate": "2025-11-25",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 50,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.4% (매우 우수)",
+        "일평균 1.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7504330927338949934",
+      "tiktokUser": "drbradysmith",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Dentists be poppin bottles…of bonding agent. ",
+      "channel": "drbradysmith",
+      "views": 683262,
+      "likes": 78629,
+      "comments": 1159,
+      "shares": 7536,
+      "duration": 112,
+      "uploadDate": "2025-05-14",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 50,
+      "_axes": {
+        "er": 40,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 12.8% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7332589902967704863",
+      "tiktokUser": "thebentist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Dentist Reveals How You Are Brushing WRONG! 🚫🪥 #brush #teeth #tips #dentist",
+      "channel": "thebentist",
+      "views": 13527526,
+      "likes": 910530,
+      "comments": 3856,
+      "shares": 22154,
+      "duration": 114,
+      "uploadDate": "2024-02-06",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 50,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.9% (매우 우수)",
+        "일평균 1.5만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7491049794497039646",
+      "tiktokUser": "thebentist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Dentist Reveals The TRUTH About Teeth Whitening! 😮🦷 #teeth #dentist #whitening ",
+      "channel": "thebentist",
+      "views": 6551976,
+      "likes": 453682,
+      "comments": 2473,
+      "shares": 4077,
+      "duration": 325,
+      "uploadDate": "2025-04-08",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 50,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 7.0% (매우 우수)",
+        "일평균 1.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7628232466133781774",
+      "tiktokUser": "kimcassironway",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "K-skincare Day 9 | pores & acne 🧖🏻‍♀️ ##koreanskincare##howtoglowup##porecare##acnetreatment##glowuptips",
+      "channel": "kimcassironway",
+      "views": 7184124,
+      "likes": 415055,
+      "comments": 1892,
+      "shares": 41605,
+      "duration": 122,
+      "uploadDate": "2026-04-13",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 50,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.4% (매우 우수)",
+        "일평균 7.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7625967471383579922",
+      "tiktokUser": "yezi.beauty",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Brighter body skin? Do this  #bodycare #skincaretips #glowingskin #koreanskincare #brightskin ",
+      "channel": "yezi.beauty",
+      "views": 2290275,
+      "likes": 177036,
+      "comments": 292,
+      "shares": 8237,
+      "duration": 16,
+      "uploadDate": "2026-04-07",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 50,
+      "_axes": {
+        "er": 32,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 8.1% (매우 우수)",
+        "일평균 2.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7641956768737905938",
+      "tiktokUser": "min_seo24",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Glamour 🫦🐆.                                                 #fyp #viral #outfitideas #glamourstyle #rishgirls ",
+      "channel": "min_seo24",
+      "views": 450840,
+      "likes": 28262,
+      "comments": 27,
+      "shares": 1482,
+      "duration": 30,
+      "uploadDate": "2026-05-20",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 48,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 6.6% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7663861100361960724",
+      "tiktokUser": "mystipopblindbox",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Glitter Dumpling unboxing🤩 #dumplingsquishy #fyp #toysoftiktok #tiktokviral ",
+      "channel": "mystipopblindbox",
+      "views": 647211,
+      "likes": 6430,
+      "comments": 208,
+      "shares": 1325,
+      "duration": 14,
+      "uploadDate": "2026-07-18",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 48,
+      "_axes": {
+        "er": 12,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)",
+        "일평균 12.9만회 (급상승)",
+        "신선 (5일)"
+      ]
+    },
+    {
+      "tiktokId": "7533091012562996502",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "“El perro que enfrentó lobos para proteger a reyes y guerreros” #akitatiktok #dogoftiktok #doglovers #dogtok #PetLoversLA #sanfrancisco #dog #dogsoftiktok #dogs #USA #doglove #doglover123 #dogloversclub #historia #viral #viralvideos #VIRAL #fyp #historiareal #leyenda #lobero_irlandes #loberoirlandes",
+      "channel": "doglovers.oficial",
+      "views": 501425,
+      "likes": 34893,
+      "comments": 353,
+      "shares": 1716,
+      "duration": 68,
+      "uploadDate": "2025-07-31",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 47,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 7.4% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7531250898568350998",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "\"El Malamute: fuerza, lealtad y legado\" ❄️🐺 #dogoftiktok #doglovers #dogtok #PetLoversLA #sanfrancisco #dog #dogsoftiktok #dogs #USA #doglove #doglover123 #dogloversclub #historia #viral #viralvideos #VIRAL #fyp #Malamute #Malamute #malamutelife #malamutes #malam#malamutealaskanutesoftiktok #malamutepuppy #malamuteaddicts #malamuteagilitydog #malamuteoftiktok #malamutealaskan",
+      "channel": "doglovers.oficial",
+      "views": 390729,
+      "likes": 30817,
+      "comments": 491,
+      "shares": 3888,
+      "duration": 67,
+      "uploadDate": "2025-07-26",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 47,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 9.0% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7530883881571208470",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "\"El héroe de cuatro patas que salvó una vida en el mar\" #dogoftiktok #doglovers #dogtok #PetLoversLA #sanfrancisco #dog #dogsoftiktok #dogs #USA #doglove #doglover123 #dogloversclub #historia #viral #viralvideos #VIRAL #fyp #labrador #labradorretriever #labradorpuppy #labradorsoftiktok #labradorite #labradorlife #labradors #labradorlover #labradorchocolate #labradores",
+      "channel": "doglovers.oficial",
+      "views": 862721,
+      "likes": 44882,
+      "comments": 541,
+      "shares": 9240,
+      "duration": 75,
+      "uploadDate": "2025-07-25",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 47,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.3% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7525408078318046486",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "“Pequeño en tamaño… pero con un corazón de guardián 🖤🐾 #SchnauzerStandard  #ParaTi   #ViralTikTok   #reelsqueinspirann   #ContenidoQueConecta   #TikTokPeru   #PerrosTikTok   #DogLoversTikTok   #FypParaTi   #VideoEmocional   #PerrosVirales #HistoriasQueInspiran   #AmorPerruno   #MascotasDelAlma   #historiaconmovedora   #SchnauzerPower   #DogWithSoul   #guardiandelanoche   #inmobiliariosconcorazon   #MascotasFieles#SchnauzerLovers   #PerroConBarba   #holaamigosmíoscómoestánr   #PerrosFieles   #RazaConHistoria   #chapinadecorazon🇬🇹   #SchnauzerLife   #AdoptaUnSchnauzer   #miperroesmio   #SchnauzerFamily",
+      "channel": "doglovers.oficial",
+      "views": 1193940,
+      "likes": 56668,
+      "comments": 728,
+      "shares": 20062,
+      "duration": 74,
+      "uploadDate": "2025-07-10",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 47,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.5% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7530232478146120982",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "“Yorkshire Terrier: De las Minas al Corazón de Millones”  #dogoftiktok #doglovers #dogtok #PetLoversLA #sanfrancisco #dog #dogsoftiktok #dogs #USA #doglove #doglover123 #dogloversclub #historia #viral #viralvideos #VIRAL #fyp #YorkshireTerrier #YorkshireTerrier #yorkshireterrierlove❤ #yorkshireterriers #yorkshireterriers #yorkshireterrierpuppy #yorkshireterrierlove #yorkshireterriersofinstagram #yorkshireterrierlife",
+      "channel": "doglovers.oficial",
+      "views": 1023503,
+      "likes": 51299,
+      "comments": 1850,
+      "shares": 24901,
+      "duration": 86,
+      "uploadDate": "2025-07-23",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 47,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 7.6% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7526892062029991190",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "“San Bernardo: Más que un gigante, un verdadero salvavidas” #SanBernardo #sanbernardino #dog #educacioncanina #AmoAMiPerro #DogLover #perrosfelicesdueñosfelices #mimadreeslamejor #historiaconmovedora #PerritoFiel #vidaconperros #peludo #VideoViral #ReelViral #contenido #educativo #dogs #TiernoYPoderoso #HistoriaDePerros #HistoriasDePerros #PerrosValientes #perrosrescatistas",
+      "channel": "doglovers.oficial",
+      "views": 532008,
+      "likes": 29319,
+      "comments": 421,
+      "shares": 3550,
+      "duration": 71,
+      "uploadDate": "2025-07-14",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 47,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.3% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7664798003403820309",
+      "tiktokUser": "fashionshopport",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "고급스러운 코디, 색조합대로 입으면 돼요✨ #색조합코디 #귀티 #부티 #고급 #여자패션 ",
+      "channel": "fashionshopport",
+      "views": 193266,
+      "likes": 4400,
+      "comments": 46,
+      "shares": 2913,
+      "duration": 34,
+      "uploadDate": "2026-07-21",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "d2c",
+      "_score": 46,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)",
+        "일평균 9.7만회 (떠오름)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7526152935114280214",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "\"El perro salchicha… fue criado para cazar bajo tierra 😱🐾\" #educacioncanina #DogLover #DachshundLover #AmoAMiPerro #perrosfelicesdueñosfelices #mimadreeslamejor #PerritoFiel #historiaconmovedora #vidaconperros #elbailedelperrito #PequeñoPeroFeroz #peludo #mujeresqueinspiran #lavidanoessolotrabajar #PerroSalchicha #DachshundPower #CazadorDeMadrigueras #ParaTi #VideoViral #ReelViral #shorts #contenido #educativo #TiernoYPoderoso #dogs #doglovers #AmoAMiPerro #ParaTi #perrofiel #historiasreales #perrospequeños🐶perovalientes #pequeños #pequeñosgigantes #bravos #parati #fyp #consejo #consejos #perros #dog #dogsoftiktok",
+      "channel": "doglovers.oficial",
+      "views": 5284358,
+      "likes": 209486,
+      "comments": 2596,
+      "shares": 91499,
+      "duration": 71,
+      "uploadDate": "2025-07-12",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 45,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.7% (좋음)",
+        "일평균 1.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7530509413480697110",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "\"Pequeño, pero con alma de gigante: el valiente Pinscher que conquistó el mundo\" #dogoftiktok #doglovers #dogtok #PetLoversLA #sanfrancisco #dog #dogsoftiktok #dogs #USA #doglove #doglover123 #dogloversclub #historia #viral #viralvideos #VIRAL #fyp #pinscher #pinscherbravo #pinschermini #pinscherlove #pinschers #pinscherminiatura",
+      "channel": "doglovers.oficial",
+      "views": 5236769,
+      "likes": 155001,
+      "comments": 4469,
+      "shares": 82019,
+      "duration": 66,
+      "uploadDate": "2025-07-24",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 45,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.6% (좋음)",
+        "일평균 1.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7634079791318437140",
+      "tiktokUser": "1oo._.hwa",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "청바지의 낙원  #청바지 #여자코디 #소문의낙원 ",
+      "channel": "1oo._.hwa",
+      "views": 333854,
+      "likes": 21961,
+      "comments": 97,
+      "shares": 711,
+      "duration": 19,
+      "uploadDate": "2026-04-29",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 43,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 6.8% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7289812464584248619",
+      "tiktokUser": "maggieroseadvocate",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Here are the things I've learned from a holistic dentist. #dentist #holisticdentistry #holisticdentist #oralhealth #health #rootcanal ",
+      "channel": "maggieroseadvocate",
+      "views": 777973,
+      "likes": 78447,
+      "comments": 1893,
+      "shares": 12422,
+      "duration": 180,
+      "uploadDate": "2023-10-14",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "pet",
+      "_score": 43,
+      "_axes": {
+        "er": 40,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 11.9% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7663263716560964877",
+      "tiktokUser": "5.minute.crafts",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Dentistry in incredible detail 👀 #educational #dentist #pov #fyp #oralhygiene ",
+      "channel": "5.minute.crafts",
+      "views": 828898,
+      "likes": 20205,
+      "comments": 96,
+      "shares": 568,
+      "duration": 199,
+      "uploadDate": "2026-07-16",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "tech",
+      "_score": 43,
+      "_axes": {
+        "er": 12,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)",
+        "일평균 11.8만회 (급상승)",
+        "신선 (7일)"
+      ]
+    },
+    {
+      "tiktokId": "7608303625772797191",
+      "tiktokUser": "biawony",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "my morning skincare with asmr! 🎀🤍 someone requested me this on rednote !! — #wonyoungism #koreanskincare #pink #fypage #wonyoung ",
+      "channel": "biawony",
+      "views": 68923,
+      "likes": 23319,
+      "comments": 863,
+      "shares": 2101,
+      "duration": 38,
+      "uploadDate": "2026-02-18",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 43,
+      "_axes": {
+        "er": 40,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 38.1% (viral)"
+      ]
+    },
+    {
+      "tiktokId": "7650044448541379854",
+      "tiktokUser": "brenda.garza01",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Big viral dumplings unboxing! #viral #dumplings #fy #squishy #unboxingvideo ",
+      "channel": "brenda.garza01",
+      "views": 24486890,
+      "likes": 652466,
+      "comments": 7634,
+      "shares": 39220,
+      "duration": 67,
+      "uploadDate": "2026-06-11",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 43,
+      "_axes": {
+        "er": 12,
+        "velocity": 25,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)",
+        "일평균 58.3만회 (급상승)"
+      ]
+    },
+    {
+      "tiktokId": "7657801368500997407",
+      "tiktokUser": "z030271",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Unboxing the cutest giant squishy dumpling!🥟 ✨it’s so soft,satisfying,and comes in a little steamer basket!Which color would you want to get?#cutetoys #fyp #tiktokmademebuyit #squishytoy #tiktokshop ",
+      "channel": "z030271",
+      "views": 658795,
+      "likes": 8393,
+      "comments": 729,
+      "shares": 640,
+      "duration": 15,
+      "uploadDate": "2026-07-02",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 43,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)",
+        "일평균 3.1만회 (떠오름)",
+        "커머스 키워드 4개"
+      ]
+    },
+    {
+      "tiktokId": "7399750055864831275",
+      "tiktokUser": "safespaceasmr",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Cleaning your teeth🦷 #asmr #asmrsounds #asmrvideo #asmrmedical #asmrroleplay #fyp ",
+      "channel": "safespaceasmr",
+      "views": 1513131,
+      "likes": 78537,
+      "comments": 298,
+      "shares": 12125,
+      "duration": 173,
+      "uploadDate": "2024-08-05",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 42,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.0% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7341936309109411115",
+      "tiktokUser": "theredditstory",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Dentists, what’s your SECRET to having PERFECT TEETH?\n #redditstories #reddit #redditstorytimes #redditreadings #askreddit #theredditstory #usa \n This story may be adapted for more entertainment. We were funded for this.",
+      "channel": "theredditstory",
+      "views": 3025476,
+      "likes": 183583,
+      "comments": 252,
+      "shares": 909,
+      "duration": 180,
+      "uploadDate": "2024-03-03",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "tech",
+      "_score": 42,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.1% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7631482675936759070",
+      "tiktokUser": "krystallee2222",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Saving the best for last  . . . #kbeauty #skincare #koreanskincare #skincaretips #glassskin  ",
+      "channel": "krystallee2222",
+      "views": 603551,
+      "likes": 43692,
+      "comments": 183,
+      "shares": 2654,
+      "duration": 14,
+      "uploadDate": "2026-04-22",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 42,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 7.7% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7603370883931049236",
+      "tiktokUser": "sasainseoul",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Part 16 | 5tips for Korean glass skin   #korean #koreanskincare #kbeauty #skincare  #glassskin   Product used  Toner : @torriden toner  Cleansing: @beplain  @dr.althea @hanyul  Toner pad  : @medicube  Mist : @aestura ",
+      "channel": "sasainseoul",
+      "views": 1145161,
+      "likes": 91730,
+      "comments": 291,
+      "shares": 2840,
+      "duration": 99,
+      "uploadDate": "2026-02-05",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "tech",
+      "_score": 42,
+      "_axes": {
+        "er": 32,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 8.3% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7646625452513168647",
+      "tiktokUser": "fancycollectionbysela",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Outfits ideas for chubby❤️size: S-4xl📌 #OOTD #outfitideas #chubbygirl #chubby ",
+      "channel": "fancycollectionbysela",
+      "views": 808975,
+      "likes": 28488,
+      "comments": 55,
+      "shares": 1386,
+      "duration": 12,
+      "uploadDate": "2026-06-02",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 41,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.7% (좋음)",
+        "일평균 1.6만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7473897067224632606",
+      "tiktokUser": "dentaldigest",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Tooth Color Meaning!? #dentist #tiktok #whitening ",
+      "channel": "dentaldigest",
+      "views": 11673878,
+      "likes": 560156,
+      "comments": 1859,
+      "shares": 6898,
+      "duration": 27,
+      "uploadDate": "2025-02-21",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.9% (좋음)",
+        "일평균 2.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7557080111892237623",
+      "tiktokUser": "tanglewooddentist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "What whitening toothpaste are you currently using?  #whiteningtoothpaste #teethwhitening #dentistsoftiktok #houston ",
+      "channel": "tanglewooddentist",
+      "views": 9490076,
+      "likes": 328199,
+      "comments": 2191,
+      "shares": 50892,
+      "duration": 101,
+      "uploadDate": "2025-10-03",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.0% (좋음)",
+        "일평균 3.2만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7560828639525358879",
+      "tiktokUser": "tanglewooddentist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "What trends do you want to see next? #dentist #oralhealth #dentaltok #dentistsoftiktok #oralhygiene ",
+      "channel": "tanglewooddentist",
+      "views": 9535608,
+      "likes": 409060,
+      "comments": 2115,
+      "shares": 17858,
+      "duration": 60,
+      "uploadDate": "2025-10-13",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.5% (좋음)",
+        "일평균 3.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7627902206783606038",
+      "tiktokUser": "aluvlyna",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Not paid!! Anua skincare honest review 🫶🏻 #aestheticgirl #skincarereview #koreanskincare #prunboxing #anua",
+      "channel": "aluvlyna",
+      "views": 21634,
+      "likes": 1857,
+      "comments": 23,
+      "shares": 53,
+      "duration": 22,
+      "uploadDate": "2026-04-12",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "entertainment",
+      "_score": 40,
+      "_axes": {
+        "er": 32,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 8.9% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7562392757227195661",
+      "tiktokUser": "summercooljinny",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "asmr night routine 💤 skin’s been a bit sensitive lately so focusing on calming and repair tonight 🫧 products: @haruharu wonder Official US Black Rice Moisture Deep Cleansing Oil @Abib Cosmetics Acne Foam Cleanser Heartleaf Foam @numbuzin_global NAD+ PDRN Glow Boosting Toner @VT Cosmetics US PDRN Reedle Shot 100 @medicube global PDRN Pink Peptide Serum HANMI PRO-CALM EGF Active Vital Cream @Dr.Althea US 345 Relief Cream #skincareasmr #asmrroutine #skincareroutine #koreanskincare #koreanskincareroutine ",
+      "channel": "summercooljinny",
+      "views": 6708283,
+      "likes": 352543,
+      "comments": 1809,
+      "shares": 16395,
+      "duration": 67,
+      "uploadDate": "2025-10-18",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "kpop",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.5% (좋음)",
+        "일평균 2.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7579650301326691602",
+      "tiktokUser": "e.duardasil",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "My dream unboxing,I loved it so much!🎀🥹 Thank you so much @SLMISSGLAMBEAUTY @Stephanie Battagello  #girly #pinkaesthetic #softgirl #unboxing #girlythings ",
+      "channel": "e.duardasil",
+      "views": 90442,
+      "likes": 5819,
+      "comments": 49,
+      "shares": 215,
+      "duration": 57,
+      "uploadDate": "2025-12-03",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "d2c",
+      "_score": 40,
+      "_axes": {
+        "er": 32,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 6.7% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7509839809997786376",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "매운거 땡길 땐 '햄지 불스지'🤣",
+      "channel": "hamzy_korean",
+      "views": 7406192,
+      "likes": 368453,
+      "comments": 841,
+      "shares": 5643,
+      "duration": 92,
+      "uploadDate": "2025-05-29",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.1% (좋음)",
+        "일평균 1.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7451042475751247111",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "크리스마스엔 치필링&뱅쇼 #치킨먹방 #koreanchicken ",
+      "channel": "hamzy_korean",
+      "views": 23972119,
+      "likes": 859696,
+      "comments": 5385,
+      "shares": 23362,
+      "duration": 59,
+      "uploadDate": "2024-12-22",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.7% (좋음)",
+        "일평균 4.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7215204551236816130",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "얼음물에 밥 말아서 김치먹방 #김치먹방 #tiktokfood #asmr #mukbang #cooking #spicykimchi",
+      "channel": "hamzy_korean",
+      "views": 52105330,
+      "likes": 2964138,
+      "comments": 13561,
+      "shares": 48685,
+      "duration": 58,
+      "uploadDate": "2023-03-28",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.8% (좋음)",
+        "일평균 4.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7441575904079383816",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이건 진짜 못 참지~ 엽떡,허니콤보 #tteokbokki #koreanchicken ",
+      "channel": "hamzy_korean",
+      "views": 21856408,
+      "likes": 1101820,
+      "comments": 2990,
+      "shares": 49140,
+      "duration": 59,
+      "uploadDate": "2024-11-26",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 40,
+      "_axes": {
+        "er": 22,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.3% (좋음)",
+        "일평균 3.6만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7657073608648363282",
+      "tiktokUser": "sjdpohn",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#여름코디 #힙한코디 #무신사옷추천 #느좋코디 #여자코디 ",
+      "channel": "sjdpohn",
+      "views": 327616,
+      "likes": 8048,
+      "comments": 22,
+      "shares": 146,
+      "duration": 13,
+      "uploadDate": "2026-06-30",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "d2c",
+      "_score": 38,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)",
+        "일평균 1.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7658994004155043079",
+      "tiktokUser": "miss_monica_stori",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "100 K milestone =  ✨first  IPad 🍏✨ ASMR unpacking🫣☺️👏 one less thing on my wishlist 🍏🥰❤️ Maybe one day this little dream will turn into an Apple collaboration 🍎🤍✨ #apple#ipad #unboxing #asmr ",
+      "channel": "miss_monica_stori",
+      "views": 272346,
+      "likes": 6293,
+      "comments": 884,
+      "shares": 770,
+      "duration": 76,
+      "uploadDate": "2026-07-05",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 38,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)",
+        "일평균 1.5만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7635298038004682015",
+      "tiktokUser": "lirmm57m78z672t",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Attitude as stunning as my outfit. #AttitudeSlay #OutfitVibes #Trendy #ViralPost",
+      "channel": "lirmm57m78z672t",
+      "views": 137368,
+      "likes": 5074,
+      "comments": 22,
+      "shares": 465,
+      "duration": 13,
+      "uploadDate": "2026-05-02",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 38,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 4.0% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7585302947106475285",
+      "tiktokUser": "laolive23",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "비트박스 1등한테 강의받았습니다",
+      "channel": "laolive23",
+      "views": 1525607,
+      "likes": 33696,
+      "comments": 342,
+      "shares": 4496,
+      "duration": 23,
+      "uploadDate": "2025-12-18",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "kpop",
+      "_score": 37,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 15,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)",
+        "인증 브랜드 (laolive23)"
+      ]
+    },
+    {
+      "tiktokId": "7664911928338238740",
+      "tiktokUser": "yj_2001",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "여름 교복 반바지 찾았다 ..💖💦 이번 여름 날 핫걸로 맹글어줄(막이래) 적당한 길이 + A라인핏이 날 미치게 해;; 🤤🥵 #통통녀코디 #키작녀코디 #fyp #빅사이즈 #여름코디 ",
+      "channel": "yj_2001",
+      "views": 13726,
+      "likes": 505,
+      "comments": 17,
+      "shares": 4,
+      "duration": 60,
+      "uploadDate": "2026-07-21",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 37,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7528376757490109718",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "“El guardián negro que nació para proteger… y terminó dando amor” #dogoftiktok #doglovers #dogtok #PetLoversLA #USA #sanfrancisco #dog #dogsoftiktok #dogs #doglove #doglover123 #dogloversclub #viral #fyp #historia #VIRAL #viralvideos #pastoringles #pastorbelga #pastorbelgamalinois #pastorbelgamalinois🐾 #doglove #dogpastor #groendael",
+      "channel": "doglovers.oficial",
+      "views": 582082,
+      "likes": 29553,
+      "comments": 684,
+      "shares": 3910,
+      "duration": 78,
+      "uploadDate": "2025-07-18",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 37,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.9% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7527318133925825814",
+      "tiktokUser": "doglovers.oficial",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "“Este perro cazaba osos y toros… ahora solo quiere jugar contigo” #dog #educacioncanina #AmoAMiPerro #DogLover #perrosfelicesdueñosfelices #historiaconmovedora #vidaconperros #VideoViral #peludo #PerritoFiel #ReelViral #contenido #educativo #viral #fyp #Terrier #doglovers #boxer #boxerdog #boxerpuppy #boxerdogsoftiktok  #boxerdogs #boxerlife #boxerlove #can",
+      "channel": "doglovers.oficial",
+      "views": 809121,
+      "likes": 37074,
+      "comments": 856,
+      "shares": 7787,
+      "duration": 71,
+      "uploadDate": "2025-07-15",
+      "category": "#doglovers",
+      "_source": "tikwm_search_doglovers_p0",
+      "industry": "pet",
+      "_score": 37,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7635336091029228822",
+      "tiktokUser": "squishy_twins61",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Unboxing!!  #fypppppppppppppp #fyp #viral #squishys #blowup? ",
+      "channel": "squishy_twins61",
+      "views": 1371439,
+      "likes": 19441,
+      "comments": 271,
+      "shares": 776,
+      "duration": 26,
+      "uploadDate": "2026-05-02",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 36,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)",
+        "일평균 1.7만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7648298386579262751",
+      "tiktokUser": "pink_doll08",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#kids #barbie #asmr #unboxing #foryoupage ",
+      "channel": "pink_doll08",
+      "views": 839620,
+      "likes": 7786,
+      "comments": 407,
+      "shares": 321,
+      "duration": 25,
+      "uploadDate": "2026-06-06",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 36,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.0% (평균)",
+        "일평균 1.8만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7658366693080599816",
+      "tiktokUser": "user7398638731573",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "일타 강사 이지영의 강의 맛보기 _ 칸트 인격 존중의 원리",
+      "channel": "user7398638731573",
+      "views": 33728,
+      "likes": 1211,
+      "comments": 40,
+      "shares": 225,
+      "duration": 36,
+      "uploadDate": "2026-07-03",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 35,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 4.4% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7657850490323209492",
+      "tiktokUser": "teacherjiu",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "3일만에 컴활 2급 합격?! 수강생 후기 찐인증 🔥 이미 수천 명이 증명한 컴활 강의, 지우쌤입니다 🎓 3일만 따라오시면 됩니다. 🎁 컴활 필기 전과정 강의 🎁 지우쌤 제작 교재 PDF 📁 자료는 네이버에 ‘지우쌤’ 검색 → 카페 ‘예제다운로드’ 게시판에서 확인하세요 다음 합격 후기 주인공은 여러분입니다 🏆 #틱톡성장챌린지 #컴활 #컴활1급 #컴활2급 #컴퓨터활용능력",
+      "channel": "teacherjiu",
+      "views": 42770,
+      "likes": 916,
+      "comments": 388,
+      "shares": 754,
+      "duration": 28,
+      "uploadDate": "2026-07-02",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "entertainment",
+      "_score": 35,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 4.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7655600867206286609",
+      "tiktokUser": "friendly_uni",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "📌 반대말로 학습하는 영어 단어 11쌍! 하나만 알면 반대말까지 자동으로 기억되는 가장 쉬운 단어 암기법 ✨ ✨ 오늘의 영어 단어 – 반대말 11쌍 1️⃣ give 주다 ↔️ take 받다 2️⃣ listen 듣다 ↔️ speak 말하다 3️⃣ stand 서다 ↔️ sit 앉다 4️⃣ work 일하다 ↔️ rest 쉬다 5️⃣ show 보여주다 ↔️ hide 숨기다 6️⃣ enter 들어가다 ↔️ exit 나가다 7️⃣ write 쓰다 ↔️ erase 지우다 8️⃣ remember 기억하다 ↔️ forget 잊다 9️⃣ try 시도하다 ↔️ give up 포기하다 🔟 add 추가하다 ↔️ remove 제거하다 1️⃣1️⃣ know 알다 ↔️ guess 추측하다 💡 반대말(antonyms)로 단어를 배우면 두 단어가 세트로 머릿속에 저장돼서 훨씬 오래 기억돼요! 여행, 일상, 업무에서 다 쓰이는 필수 단어들이에요 ✨ 💬 오늘 단어 중 가장 헷갈렸던 반대말 쌍은 어떤 건가요? 댓글로 알려주세요! 📚 더 많은 쉬운 기초 영어 단어·패턴 강의는 👉 유튜브 #친절한대학 에서 만나보세요 💜 프로필 링크 터치💕",
+      "channel": "friendly_uni",
+      "views": 133020,
+      "likes": 4638,
+      "comments": 25,
+      "shares": 1016,
+      "duration": 104,
+      "uploadDate": "2026-06-26",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "lifestyle",
+      "_score": 35,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 4.3% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7619016064952864022",
+      "tiktokUser": "fashionarea90",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Cute girl street fashion Style outfit 😻  #treanding #style #outfit #oura #viral ",
+      "channel": "fashionarea90",
+      "views": 4985324,
+      "likes": 127143,
+      "comments": 661,
+      "shares": 3973,
+      "duration": 23,
+      "uploadDate": "2026-03-19",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 35,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.6% (평균)",
+        "일평균 4.0만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7528115513789009182",
+      "tiktokUser": "tiktoks_older_brother",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "DM me for dentist reccs #fyp #dentist #nyc ",
+      "channel": "tiktoks_older_brother",
+      "views": 315824,
+      "likes": 20319,
+      "comments": 833,
+      "shares": 2580,
+      "duration": 62,
+      "uploadDate": "2025-07-17",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 35,
+      "_axes": {
+        "er": 32,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 7.5% (매우 우수)"
+      ]
+    },
+    {
+      "tiktokId": "7662876431013268757",
+      "tiktokUser": "sunoolixys",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Night time skincare routine #koreanskincare #skincare #kbeauty #korean #bodycare @SKIN1004 US @mclubtr @Korendy ",
+      "channel": "sunoolixys",
+      "views": 9768,
+      "likes": 251,
+      "comments": 24,
+      "shares": 82,
+      "duration": 142,
+      "uploadDate": "2026-07-15",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 35,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 3.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7658318236605222157",
+      "tiktokUser": "bexxxalexanderx",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Help me choose a fit for a 4th of July party! Theme is comedic American lol I’m going as a biker babe! Tell me what option is your favorite in the comments! #tattooedgirls #altfashion #darkaesthetic #getreadywithme #OOTD ",
+      "channel": "bexxxalexanderx",
+      "views": 21922,
+      "likes": 880,
+      "comments": 28,
+      "shares": 10,
+      "duration": 38,
+      "uploadDate": "2026-07-03",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "gaming",
+      "_score": 35,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7665128069560143125",
+      "tiktokUser": "young_speech_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "같은 문장도 어디에 힘을 주느냐에 따라 상대가 기억하는 것이 달라집니다. “제가 끝까지 책임지겠습니다” → 나라는 사람이 남고 “제가 끝까지 책임지겠습니다” → 의지가 남고 “제가 끝까지 책임지겠습니다” → 약속이 남습니다. 그런데 강조하려고 할 때, 많은 분들이 실수해요. 중요한 단어를 무조건 ‘세게’ 말하는 겁니다. 갑자기 그 단어만 크게 말하면 호흡이 급해지고, 리듬이 깨져서 오히려 어색해져요. 강조는 힘이 아니라 멈춤이 만듭니다. “국기에 대하여… // 경례.” “정답은 // 0입니다.” 키워드 앞에서 멈췄다가 → 힘주기. 이 두 가지가 세트예요. 멈추는 1초가 나에게는 액센트를 준비할 시간, 상대에게는 집중할 시간이 됩니다. 당신의 그 한 문장, 이제 기억에 남기 시작합니다. #발#발표잘하는법말#말잘하는법스#스피치훈련스#스피치강의보고잘하는법",
+      "channel": "young_speech_",
+      "views": 20880,
+      "likes": 288,
+      "comments": 7,
+      "shares": 27,
+      "duration": 47,
+      "uploadDate": "2026-07-21",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 34,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)",
+        "일평균 1.0만회 (떠오름)",
+        "신선 (2일)"
+      ]
+    },
+    {
+      "tiktokId": "7633438806506556693",
+      "tiktokUser": "kimrabbit8848",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "여름코디,이느낌어때요?#옷라이브방송 #여름코디 #틱톡패션 #옷추천 #여자코디 ",
+      "channel": "kimrabbit8848",
+      "views": 110225,
+      "likes": 5165,
+      "comments": 234,
+      "shares": 100,
+      "duration": 54,
+      "uploadDate": "2026-04-27",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "entertainment",
+      "_score": 33,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 5.0% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7638632351613963540",
+      "tiktokUser": "ilovechikin2",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "163/80~85 바다 코디를 드디어 낋여왔다 #추천추천추천추천추천추천추천추천추천추천 #여름코디 #바다코디 #뚱녀코디 #08 ",
+      "channel": "ilovechikin2",
+      "views": 196513,
+      "likes": 6758,
+      "comments": 129,
+      "shares": 178,
+      "duration": 15,
+      "uploadDate": "2026-05-11",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 33,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.6% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7642715033981521160",
+      "tiktokUser": "yesstyle",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "get clear skin like BABYMONSTER’s Ahyeon with this cleanser 🫧🍓🎀 #babymonster #banilaco #kbeauty #koreanskincare #kpop ",
+      "channel": "yesstyle",
+      "views": 271922,
+      "likes": 9818,
+      "comments": 162,
+      "shares": 233,
+      "duration": 6,
+      "uploadDate": "2026-05-22",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "kpop",
+      "_score": 33,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7634730818044251400",
+      "tiktokUser": "elizavets_beauty",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "step by step morning skincare ☁️ #skincare #morningroutine #koreanskincare #kbeauty #glassskin ",
+      "channel": "elizavets_beauty",
+      "views": 315142,
+      "likes": 15554,
+      "comments": 48,
+      "shares": 488,
+      "duration": 15,
+      "uploadDate": "2026-05-01",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 33,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 5.1% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7644942650793053453",
+      "tiktokUser": "pookauniverse",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Unbox This New Tub I Got From The TikTok Shop 🫧 🛁  #unboxing #SelfCare #bath #tub #shower   ",
+      "channel": "pookauniverse",
+      "views": 13437,
+      "likes": 51,
+      "comments": 3,
+      "shares": 2,
+      "duration": 103,
+      "uploadDate": "2026-05-28",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "kpop",
+      "_score": 33,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 15,
+        "commerce": 10,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "인증 브랜드 (pookauniverse)",
+        "커머스 키워드 4개"
+      ]
+    },
+    {
+      "tiktokId": "7650015015579225364",
+      "tiktokUser": "morrow.08_",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#OOTD #outfitideas #StreetStyle #StreetFashion #y2kfashion   ",
+      "channel": "morrow.08_",
+      "views": 179140,
+      "likes": 6329,
+      "comments": 2,
+      "shares": 473,
+      "duration": 10,
+      "uploadDate": "2026-06-11",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 33,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7128311169579764993",
+      "tiktokUser": "cndcl98",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "어느인강쌤의 개웃긴줄임말강의ㅋㅋㅋㅋㅋㅋㅋ#조충현#인강#인터넷강의#수업#메가스터디#웃긴영상#줄임말#틱톡코미디#soonent#쌤#선생님",
+      "channel": "cndcl98",
+      "views": 3255220,
+      "likes": 162930,
+      "comments": 1257,
+      "shares": 13533,
+      "duration": 60,
+      "uploadDate": "2022-08-05",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.5% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7495792815985806600",
+      "tiktokUser": "ultimateweed",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "황수관박사강의",
+      "channel": "ultimateweed",
+      "views": 542984,
+      "likes": 20575,
+      "comments": 360,
+      "shares": 3724,
+      "duration": 113,
+      "uploadDate": "2025-04-21",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.5% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7139516036126149889",
+      "tiktokUser": "ocg__91",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "여자 꼬시는법 강의 영상 #춘그니 #연인사이 ",
+      "channel": "ocg__91",
+      "views": 1693069,
+      "likes": 78599,
+      "comments": 409,
+      "shares": 690,
+      "duration": 26,
+      "uploadDate": "2022-09-04",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7661196777214856456",
+      "tiktokUser": "kokomi.o428",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "かわいい夏服着て夏過ごそ🇺🇸💋 #海外ガール #海外ストリート #夏コーデ #OOTD ",
+      "channel": "kokomi.o428",
+      "views": 143933,
+      "likes": 3571,
+      "comments": 30,
+      "shares": 32,
+      "duration": 15,
+      "uploadDate": "2026-07-11",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)",
+        "일평균 1.2만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7660107220851428616",
+      "tiktokUser": "matiland_mati",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#통통녀이쁜핏 무채색 러버들 모여라...🩶 무채색 빅사이즈 반팔티 추천🩶💁🏻‍♀️                                                        .                                   . #마티제이 #에이블리 #통통녀코디 #플러스사이즈 ",
+      "channel": "matiland_mati",
+      "views": 777489,
+      "likes": 12337,
+      "comments": 147,
+      "shares": 483,
+      "duration": 21,
+      "uploadDate": "2026-07-08",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.7% (평균)",
+        "일평균 5.2만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7659110992105721102",
+      "tiktokUser": "joycethedentist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "My oral hygiene routine as a dentist w an autoimmune disease. This is one of my go to’s as someone who is prone to decay and always has a dry mouth. #dentist #oralhygiene #autoimmunedisease ",
+      "channel": "joycethedentist",
+      "views": 890078,
+      "likes": 20939,
+      "comments": 153,
+      "shares": 515,
+      "duration": 59,
+      "uploadDate": "2026-07-05",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.4% (평균)",
+        "일평균 4.9만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7304290627565686062",
+      "tiktokUser": "drelliephillips",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "As a dentist I would never do this to my patients. #dentistsoftiktok #toothtok #teethtok #whiteningteeth #greenscreensticker ",
+      "channel": "drelliephillips",
+      "views": 2580467,
+      "likes": 100169,
+      "comments": 1433,
+      "shares": 5052,
+      "duration": 82,
+      "uploadDate": "2023-11-22",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "beauty",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.1% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7288307582089891105",
+      "tiktokUser": "drsurinasehgal",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Its all about the acidity. #fyp #fypage #dentist #dentistry #acidic #teeth ",
+      "channel": "drsurinasehgal",
+      "views": 3325414,
+      "likes": 131596,
+      "comments": 725,
+      "shares": 10073,
+      "duration": 58,
+      "uploadDate": "2023-10-10",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.3% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7602298165873675542",
+      "tiktokUser": "drshaadimanouchehri",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#dentist #flossing #londondentist #oralhygienetips #LearnOnTikTok ",
+      "channel": "drshaadimanouchehri",
+      "views": 412562,
+      "likes": 13958,
+      "comments": 76,
+      "shares": 515,
+      "duration": 102,
+      "uploadDate": "2026-02-02",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.5% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7610431458892614932",
+      "tiktokUser": "jeb_bi",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "My 8-steps brightening night routine ✨ All products @Arencia #koreanskincare #skincareroutine #vitaminc #brightening #arencia ",
+      "channel": "jeb_bi",
+      "views": 229385,
+      "likes": 9210,
+      "comments": 52,
+      "shares": 322,
+      "duration": 65,
+      "uploadDate": "2026-02-24",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7618248343164062983",
+      "tiktokUser": "houseofzyn.tn",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "3-product Korean skincare simple routine 🇰🇷🇹🇳 #skincare #koreanskincare #beauty #skincareroutine #tunisia🇹🇳 ",
+      "channel": "houseofzyn.tn",
+      "views": 153975,
+      "likes": 7781,
+      "comments": 28,
+      "shares": 907,
+      "duration": 66,
+      "uploadDate": "2026-03-17",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7584805326592019730",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "햄지 기사식당 #korenfood ",
+      "channel": "hamzy_korean",
+      "views": 834521,
+      "likes": 40725,
+      "comments": 169,
+      "shares": 658,
+      "duration": 92,
+      "uploadDate": "2025-12-17",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.0% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7290895131127926023",
+      "tiktokUser": "heungsam_family",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "햄지가 보내준 대왕 소갈비찜 앙~!! #tiktokfood #mukbang #틱톡푸드 #먹방 #요리 #햄지 #골프채갈비 #갈비찜 ",
+      "channel": "heungsam_family",
+      "views": 1452438,
+      "likes": 53998,
+      "comments": 108,
+      "shares": 282,
+      "duration": 59,
+      "uploadDate": "2023-10-17",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7202059814330027266",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#로제찜닭 #tiktokfood #hamzy #asmr #mukbang #cooking",
+      "channel": "hamzy_korean",
+      "views": 11827353,
+      "likes": 493612,
+      "comments": 1063,
+      "shares": 6395,
+      "duration": 60,
+      "uploadDate": "2023-02-20",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 22,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7625624319963434262",
+      "tiktokUser": "stephaniegeorginia",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad Outfit of the day  I’m 5,4 in height #tiktokmademebuylt #dealdrop #tiktokshop #treatyourself #outfitoftheday ",
+      "channel": "stephaniegeorginia",
+      "views": 246305,
+      "likes": 3367,
+      "comments": 50,
+      "shares": 60,
+      "duration": 131,
+      "uploadDate": "2026-04-06",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 32,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 10,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.4% (평균)",
+        "커머스 키워드 3개"
+      ]
+    },
+    {
+      "tiktokId": "7653115273469267230",
+      "tiktokUser": "hibarbiegirls",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "MAGIC JELLYKINS UNBOXING 🍓✨ #asmrunboxing #magicjellykins #toyunboxing #asmr #fyp ",
+      "channel": "hibarbiegirls",
+      "views": 33889,
+      "likes": 1483,
+      "comments": 12,
+      "shares": 70,
+      "duration": 32,
+      "uploadDate": "2026-06-19",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 31,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 4.6% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7564668911040466231",
+      "tiktokUser": "thedentalsenpai",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad I’m here to expose the trust about your cavities… #dentist #nanohydroxyapatite #teeth #oralhealth #cavities ",
+      "channel": "thedentalsenpai",
+      "views": 3587097,
+      "likes": 50154,
+      "comments": 207,
+      "shares": 712,
+      "duration": 113,
+      "uploadDate": "2025-10-24",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "tech",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.4% (평균)",
+        "일평균 1.3만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7617259805803121933",
+      "tiktokUser": "humanscope",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Tooth Extraction Explained | What Dentists Actually Do #ToothExtraction #DentalProcedure #OralSurgery #DentalHealth #medicalvideo ",
+      "channel": "humanscope",
+      "views": 3542775,
+      "likes": 60144,
+      "comments": 375,
+      "shares": 2397,
+      "duration": 68,
+      "uploadDate": "2026-03-14",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "tech",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.8% (평균)",
+        "일평균 2.7만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7617093551368834326",
+      "tiktokUser": "lozlee13",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad Brand new Launch by medicube their 3 in 1 facial booster pro #medicube #tiktokmademebuylt #koreanskincare #skincare ",
+      "channel": "lozlee13",
+      "views": 3421461,
+      "likes": 27811,
+      "comments": 953,
+      "shares": 15072,
+      "duration": 72,
+      "uploadDate": "2026-03-15",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.3% (평균)",
+        "일평균 2.6만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7614935003025214751",
+      "tiktokUser": "milkydew",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "started blowing bubbles with my nose🫧 #cleanser #koreanskincare #bubble #clearskin #kbeautyskincare using @HANYUL_US yuja cleanser 💛",
+      "channel": "milkydew",
+      "views": 4093166,
+      "likes": 42226,
+      "comments": 422,
+      "shares": 5625,
+      "duration": 10,
+      "uploadDate": "2026-03-08",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)",
+        "일평균 3.0만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7515928100845128990",
+      "tiktokUser": "paul.soles",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Opening Blue Lock Blindboxes with @yafavvmandaa 🤣 #bluelock #blindbox #blindboxopening #bluelockflowerseries #bllk #shidouryusei #reomikage #nagiseishiro #saeitoshi #rinitoshi #isagiyoichi #hioriyo #paulsoles ",
+      "channel": "paul.soles",
+      "views": 8814450,
+      "likes": 229289,
+      "comments": 6038,
+      "shares": 35723,
+      "duration": 91,
+      "uploadDate": "2025-06-14",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 30,
+      "_axes": {
+        "er": 12,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.1% (평균)",
+        "일평균 2.2만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7656409906538384660",
+      "tiktokUser": "brandsforyounepal",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "✅Monsoon Sale is going on  Website: www.brandsforyounepal.com @brandsforyounepal 🛍️ Shop at Lazimapt das tower  Call/Whatsapp/Viber: 9863729624 . . . . . . . . . #koreanskincare #monsoonsale #brandsforyounepals #skincare #fyp ",
+      "channel": "brandsforyounepal",
+      "views": 71582,
+      "likes": 1544,
+      "comments": 3,
+      "shares": 176,
+      "duration": 10,
+      "uploadDate": "2026-06-28",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7659046034198269206",
+      "tiktokUser": "cocoapopsssxx",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Unboxing game!!! #unboxing #game #interactive #viral #trend ",
+      "channel": "cocoapopsssxx",
+      "views": 33782,
+      "likes": 340,
+      "comments": 12,
+      "shares": 16,
+      "duration": 34,
+      "uploadDate": "2026-07-05",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "kpop",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7658942981742906645",
+      "tiktokUser": "fiorelaa_25",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Outfits girls 🩷 2026 #fyp #viral #outfitideas #girls",
+      "channel": "fiorelaa_25",
+      "views": 68978,
+      "likes": 1262,
+      "comments": 6,
+      "shares": 177,
+      "duration": 17,
+      "uploadDate": "2026-07-05",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 29,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7643502260630064415",
+      "tiktokUser": "titiantoysasmrs3x",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#Satisfying #Unboxing #Barbie #Wedding Playset #ASMR Video ",
+      "channel": "titiantoysasmrs3x",
+      "views": 189475,
+      "likes": 2001,
+      "comments": 84,
+      "shares": 101,
+      "duration": 19,
+      "uploadDate": "2026-05-24",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 28,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7650930965929463061",
+      "tiktokUser": "kalixaa_",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "ASMR unboxing kpop packageFAIL cr: xhs #FAIL#unboxingasmr#開箱訂單失敗 #KPOP#unboxingfail ",
+      "channel": "kalixaa_",
+      "views": 56673,
+      "likes": 1437,
+      "comments": 13,
+      "shares": 89,
+      "duration": 51,
+      "uploadDate": "2026-06-13",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "kpop",
+      "_score": 28,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7650679294707993887",
+      "tiktokUser": "phuongsand",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Satisfying with Unboxing Barbie Mystery Dirty Doll Rescue #elsa #masha #mashaandthebear #barbiedoll #barbiefamily #barbieandken #toys #toyvideo #barbietoys #barbielife #barbiegirl #barbieworld #barbiestyle #barbiecollection #barbiehouse #doll #cartoon #cartoonnetwork #BarbieMovie #barbie",
+      "channel": "phuongsand",
+      "views": 201730,
+      "likes": 3495,
+      "comments": 266,
+      "shares": 223,
+      "duration": 610,
+      "uploadDate": "2026-06-20",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "auto",
+      "_score": 28,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7646891712832457991",
+      "tiktokUser": "tonififi",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Date night outfit formula: Statement skirt + Blazer (and perhaps + statement necklace 🤭)  These are all affordable finds and I’ve linked them all for you.  SHOP this post on my LTK linked in bio ⬇ https://liketk.it/6eQ9t #StyleOver40 #FashionStyling #StyledByToni",
+      "channel": "tonififi",
+      "views": 118795,
+      "likes": 3454,
+      "comments": 36,
+      "shares": 91,
+      "duration": 14,
+      "uploadDate": "2026-06-02",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 28,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7651482868056673558",
+      "tiktokUser": "shuffles7602",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "pick ur outfit!#shuffles #fyp #viral #Summer #pickyouroutfit ",
+      "channel": "shuffles7602",
+      "views": 39599,
+      "likes": 593,
+      "comments": 139,
+      "shares": 396,
+      "duration": 9,
+      "uploadDate": "2026-06-15",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 28,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7482809636140240150",
+      "tiktokUser": "drshaadimanouchehri",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#miswak #dentist #londondentist #fyp #goviral ",
+      "channel": "drshaadimanouchehri",
+      "views": 3132684,
+      "likes": 81288,
+      "comments": 4876,
+      "shares": 1505,
+      "duration": 47,
+      "uploadDate": "2025-03-17",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 27,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7553662495026711830",
+      "tiktokUser": "kaizerlevel",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Tsunade 😍 Rocket Toys NARUTO SHIPPUDEN Collectibles #animefigure #unboxing #tsunade #narutofigure #rockettoys #narutoshippuden #toys #toyscollection #hottoys #narutocollectibles #narutocollection #resinstatue #kaizerlevel #naruto #jiraiya #sannin #figureunboxing #narutofan #narutoanime #narutofigure #narutoedit #toyscollector #animecollection",
+      "channel": "kaizerlevel",
+      "views": 1729537,
+      "likes": 42755,
+      "comments": 1240,
+      "shares": 3164,
+      "duration": 61,
+      "uploadDate": "2025-09-24",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "tech",
+      "_score": 27,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7541238011376225544",
+      "tiktokUser": "nix.cee_",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "unbox with me 🎀 #unboxingvideo #miniso #blindbox #asmrsounds #fyp  @MINISO @POP MART @TOPTOY.OFFICIAL ",
+      "channel": "nix.cee_",
+      "views": 2547980,
+      "likes": 28039,
+      "comments": 363,
+      "shares": 1528,
+      "duration": 107,
+      "uploadDate": "2025-08-22",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "fitness",
+      "_score": 27,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7617529417480408342",
+      "tiktokUser": ".girly.things52",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Blue Outfits Ideas for Summer 2026 💙🩵👙🏖️🐚#CapCut #summer2026#outfit#viral#fyp",
+      "channel": ".girly.things52",
+      "views": 1035297,
+      "likes": 18978,
+      "comments": 79,
+      "shares": 1254,
+      "duration": 28,
+      "uploadDate": "2026-03-15",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 27,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7647101249107545365",
+      "tiktokUser": "woojooboss",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "Google, Meta, Microsoft, OpenAI 등 빅테크 기업들은 물론이고, 하버드, MIT, 스텐포드 등 명문대에서도 무료로 수준 높은 AI 강의들을 풀었습니다. 2026년 현재,  무료 AI 학습 사이트 20곳을 모았습니다. 즐겨찾기 해두시고 공부해 보세요😊👍 #무료AI교육 #AI공부 #무료학습사이트 ",
+      "channel": "woojooboss",
+      "views": 27490,
+      "likes": 491,
+      "comments": 191,
+      "shares": 450,
+      "duration": 15,
+      "uploadDate": "2026-06-03",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "tech",
+      "_score": 26,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 4.1% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7171614868833848577",
+      "tiktokUser": "issue_ko",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "16강 올라가는 법 #16강  #월드컵  #축구  #포르투칼  #웃긴  #강의  #웃긴영상",
+      "channel": "issue_ko",
+      "views": 837756,
+      "likes": 36472,
+      "comments": 720,
+      "shares": 770,
+      "duration": 59,
+      "uploadDate": "2022-11-30",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.5% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7303094977171705095",
+      "tiktokUser": "respectkickboxing",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "꼭 봐야할 복싱 펀칭볼 치는 방법 레전드 강의 #펀칭볼 #복싱 #boxing #punchingball #권투 ",
+      "channel": "respectkickboxing",
+      "views": 890028,
+      "likes": 30427,
+      "comments": 253,
+      "shares": 684,
+      "duration": 42,
+      "uploadDate": "2023-11-19",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.5% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7484151685095378194",
+      "tiktokUser": "user1954087778482",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "“신이 그에게 스승을 보낸다“ 배움에는 끝이 없다는 김창옥의 강의 #김창옥 #김창옥쇼 #shorts ",
+      "channel": "user1954087778482",
+      "views": 104403,
+      "likes": 3432,
+      "comments": 31,
+      "shares": 561,
+      "duration": 15,
+      "uploadDate": "2025-03-21",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.9% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7500006984553352456",
+      "tiktokUser": "chulhee_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "도올 김용옥 선생님이 알려주는 정치란? 김건희 때문에 많이 화나신 도올 선생님 입만 뻥긋하면 거짓말 #도올김용옥 #도올 #정치 #도올강의 #정치란무엇인가 #김건희 #윤석열 #입만뻥긋하면거짓말 #거짓말   #주술 ",
+      "channel": "chulhee_",
+      "views": 71814,
+      "likes": 2399,
+      "comments": 28,
+      "shares": 127,
+      "duration": 161,
+      "uploadDate": "2025-05-03",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.6% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7436631667953093906",
+      "tiktokUser": "jin.k.music_official",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "\"진짜 사랑,가짜 사랑 구별법\" 여러분들이 생각하는 진짜 사랑은 뭘까요? #공감영상 #김창옥TV #김창옥강의 #위로영상 #인생강의 #진짜사랑 #가짜사랑 #구별법 #힐링영상 #사랑이란 #희생은없다",
+      "channel": "jin.k.music_official",
+      "views": 227703,
+      "likes": 7045,
+      "comments": 122,
+      "shares": 1538,
+      "duration": 58,
+      "uploadDate": "2024-11-13",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7440108766365895954",
+      "tiktokUser": "1sipwisdom",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "온전한 나로 살아가기 #법륜스님 #삶의철학 #삶의태도 #인생강의 #삶의지혜 #인생명언 #인생조언 #인생철학 #삶이힘들때 ",
+      "channel": "1sipwisdom",
+      "views": 117071,
+      "likes": 4222,
+      "comments": 61,
+      "shares": 607,
+      "duration": 57,
+      "uploadDate": "2024-11-22",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7663759895895821576",
+      "tiktokUser": "aurorong_00",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "에겐녀 여름코디 추천 ★빨강 1 https://applink.a-bly.com/xhj5vq 2 https://applink.a-bly.com/9rmy8a 3 https://applink.a-bly.com/r23zga4 4 https://applink.a-bly.com/n1ows3 ★베이지 1 https://applink.a-bly.com/d4vrfjs 2 https://applink.a-bly.com/r33gfq 3 https://applink.a-bly.com/660n4e 4 https://applink.a-bly.com/7wdm13 ★화이트 1 https://applink.a-bly.com/r3j8qf3 2 https://applink.a-bly.com/b9sxfyp 3 https://applink.a-bly.com/hc997n 4 https://applink.a-bly.com/h9qrym ★블랙 1 https://applink.a-bly.com/ojqz43t 2 https://applink.a-bly.com/iosv1o 3 https://applink.a-bly.com/h9d3ya 4 https://applink.a-bly.com/810cwa #여름코디 #여름옷 #에겐녀코디 #에이블리 #추천",
+      "channel": "aurorong_00",
+      "views": 14629,
+      "likes": 292,
+      "comments": 2,
+      "shares": 14,
+      "duration": 18,
+      "uploadDate": "2026-07-18",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 25,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 2.1% (평균)",
+        "신선 (5일)"
+      ]
+    },
+    {
+      "tiktokId": "7664219986180869397",
+      "tiktokUser": "odhfashion",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "따라만 입어도 분위기 있은 여자 여름 코디 추천 📮 코디 추천 상품 경로는 프로필 링크를 통해 확인! 👉 [113] 분위기 있는 여자 여름 코디 *️⃣ 유사한 상품을 추천하는 콘텐츠입니다. #여자여름코디 #여자코디추천 #여자데일리룩  ",
+      "channel": "odhfashion",
+      "views": 16501,
+      "likes": 237,
+      "comments": 1,
+      "shares": 9,
+      "duration": 18,
+      "uploadDate": "2026-07-19",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "lifestyle",
+      "_score": 25,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 15.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)",
+        "신선 (4일)"
+      ]
+    },
+    {
+      "tiktokId": "7363879320449748229",
+      "tiktokUser": "urbidonticsabreeza",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Finding it difficult to choose the \"RIGHT\" dentist for you? Here are the things you should look for when choosing yours! #dentistsoftiktok #braces #implant #dentistrylife #dentalimplants #dentalassistant #davaodentist #clearaligners ",
+      "channel": "urbidonticsabreeza",
+      "views": 418310,
+      "likes": 18426,
+      "comments": 345,
+      "shares": 1002,
+      "duration": 88,
+      "uploadDate": "2024-05-01",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7304440832378096938",
+      "tiktokUser": "doctorjossen",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "We’re dentists 🫡 Here with cheesy dental jokes starting at TOOTH-HURTY 😩 Had to join in on this trend 😂 #Dentist #DentalTok #DentistsofTikTok #DentalOffice #trend #fyp",
+      "channel": "doctorjossen",
+      "views": 678450,
+      "likes": 30484,
+      "comments": 236,
+      "shares": 2946,
+      "duration": 48,
+      "uploadDate": "2023-11-23",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 5.0% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "6811845534471490817",
+      "tiktokUser": "dr.garima",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "kya karen parlour jo band hai🙄@draadimanuja #HandWashChallenge #dentistcouple #tiktokchef #workfromhome #gharbaithoindia #yayornay #waowao #fyp #foru",
+      "channel": "dr.garima",
+      "views": 1964770,
+      "likes": 76824,
+      "comments": 483,
+      "shares": 5133,
+      "duration": 11,
+      "uploadDate": "2020-04-04",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "entertainment",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.2% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7327414976782748974",
+      "tiktokUser": "happytoothslc",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "The most common questions I get is about tooth decay, so I wanted to take a minute to talk about it. What other questions do you have for me? #dentist #pediatric #pediatricdentistry #dental #dentistry #teeth #toothdecay #kiddentist #decay ",
+      "channel": "happytoothslc",
+      "views": 611928,
+      "likes": 20369,
+      "comments": 634,
+      "shares": 2071,
+      "duration": 75,
+      "uploadDate": "2024-01-23",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "6891967706652806402",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독#틱톡미식회 #makeup #asmr #follow #왕돈까스 #경양식돈까스 #돈까스만들기 #돈까스레시피 #튀김요리 #오이무침 #추천 #좋아요 #혼밥 #야식 #밥도둑 #햄지먹방",
+      "channel": "hamzy_korean",
+      "views": 1802931,
+      "likes": 66676,
+      "comments": 372,
+      "shares": 695,
+      "duration": 60,
+      "uploadDate": "2020-11-06",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.8% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "6895016818247781634",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독💝#틱톡미식회 #asmr #makeup #follow #한식먹방 #우렁쌈밥 #우렁강된장 #우렁쌈장 #쌈밥먹방 #제육볶음 #고기먹방 #혼밥 #밥도둑 #추천 #좋아요 #햄지먹방",
+      "channel": "hamzy_korean",
+      "views": 1168737,
+      "likes": 41972,
+      "comments": 234,
+      "shares": 466,
+      "duration": 60,
+      "uploadDate": "2020-11-14",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "6780158437666950401",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독🧡#asmr #mukbang #youtube #follow #먹방 #킹크랩 #갑각류 #레드킹크랩 #게딱지장 #유튜버 #햄지 #추천 #좋아요",
+      "channel": "hamzy_korean",
+      "views": 563738,
+      "likes": 20506,
+      "comments": 81,
+      "shares": 253,
+      "duration": 59,
+      "uploadDate": "2020-01-10",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.7% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "6822839942511660289",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독❣#틱톡미식회 #asmr #follow #makeup #집밥#돼지고기김치찌개#시금치무침#소세지#계란후라이#김#김치#혼밥#야식#추천#좋아요#햄지먹방",
+      "channel": "hamzy_korean",
+      "views": 1110708,
+      "likes": 43499,
+      "comments": 156,
+      "shares": 343,
+      "duration": 59,
+      "uploadDate": "2020-05-04",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.0% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "6900195568723709186",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독#틱톡미식회 #광고 #asmr #makeup #follow #우유요리 #라면먹방 #면먹방 #진짬뽕 #크림진짬뽕 #디저트 #수제요거트 #우유자조금 #추천 #좋아요 #햄지먹방",
+      "channel": "hamzy_korean",
+      "views": 814226,
+      "likes": 32777,
+      "comments": 197,
+      "shares": 521,
+      "duration": 59,
+      "uploadDate": "2020-11-28",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 25,
+      "_axes": {
+        "er": 22,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 4.1% (좋음)"
+      ]
+    },
+    {
+      "tiktokId": "7657130788474850582",
+      "tiktokUser": "leecheobeen",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "일타강사 이지영이 말아주는 강의 맛보기 #꼰대희 #shorts",
+      "channel": "leecheobeen",
+      "views": 147081,
+      "likes": 2201,
+      "comments": 47,
+      "shares": 307,
+      "duration": 356,
+      "uploadDate": "2026-06-30",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 24,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7661185701450452232",
+      "tiktokUser": "bruces.book.salon",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "무례한 사람 대응법 2탄 - 무례함에 우아하게 이기는 법 무례한 말에 발끈하는 순간, 대화의 주도권은 상대한테 넘어갑니다. 더 효과적이고 우아한 방법을 알려드릴게요. #무례한사람 #대화법 #화법 #인간관계 #감정조절",
+      "channel": "bruces.book.salon",
+      "views": 68717,
+      "likes": 1682,
+      "comments": 40,
+      "shares": 359,
+      "duration": 169,
+      "uploadDate": "2026-07-11",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "creator",
+      "_score": 24,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 3.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7656388900465741076",
+      "tiktokUser": "churrosyj",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "나시+가디건으로 어른여자 코디 ㄱㄱ#여름코디 ",
+      "channel": "churrosyj",
+      "views": 51735,
+      "likes": 908,
+      "comments": 7,
+      "shares": 11,
+      "duration": 20,
+      "uploadDate": "2026-06-28",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 24,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7656062362184715533",
+      "tiktokUser": "haileysani",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "top 10 bestselling Korean skincare products in Korea right now 🫧 #koreanskincare #top10 #kbeauty ",
+      "channel": "haileysani",
+      "views": 64639,
+      "likes": 1498,
+      "comments": 21,
+      "shares": 96,
+      "duration": 54,
+      "uploadDate": "2026-06-27",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "tech",
+      "_score": 24,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7658053153711033614",
+      "tiktokUser": "sweetteapea",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "omg i need to stop saying “but yeah!” buttt yeah happy Thursday outfit checkkk!!!😁😚💕 #OOTD #fitcheck #thursday #outfitcheck #outfitoftheday ",
+      "channel": "sweetteapea",
+      "views": 85851,
+      "likes": 1707,
+      "comments": 34,
+      "shares": 59,
+      "duration": 51,
+      "uploadDate": "2026-07-02",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 24,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 2.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7653154930651417863",
+      "tiktokUser": "user7398638731573",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "일타 강사 이지영의 강의 맛보기 _ 달마대사의 참선법",
+      "channel": "user7398638731573",
+      "views": 50834,
+      "likes": 1564,
+      "comments": 39,
+      "shares": 173,
+      "duration": 52,
+      "uploadDate": "2026-06-19",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7634014001948560658",
+      "tiktokUser": "official_myohada",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "주린이 보육교사 존마의 주식 기초 강의 | 묘묘의 공부방 주식 1~3편 몰아보기 #13",
+      "channel": "official_myohada",
+      "views": 154925,
+      "likes": 2712,
+      "comments": 21,
+      "shares": 391,
+      "duration": 259,
+      "uploadDate": "2026-04-29",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7651589139111955719",
+      "tiktokUser": "laelspeech",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "나의 가치를 낮추는 사람VS 나의 가치를 높이는 사람#스피치 #스피치강사#스피치강의#소통",
+      "channel": "laelspeech",
+      "views": 101240,
+      "likes": 2585,
+      "comments": 24,
+      "shares": 753,
+      "duration": 30,
+      "uploadDate": "2026-06-15",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7649086087867927822",
+      "tiktokUser": "karolina.new50",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "주린이 보육교사 존마의 주식 기초 강의 #김묘성 #묘하다 #묘점시 #아싸뷰 #묘장군 #재미있는이야기",
+      "channel": "karolina.new50",
+      "views": 196898,
+      "likes": 2247,
+      "comments": 55,
+      "shares": 231,
+      "duration": 120,
+      "uploadDate": "2026-06-08",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "finance",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7643122799866875167",
+      "tiktokUser": "hv.movie33",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#황창연신부님 #행복특강 #성필립보생태마을",
+      "channel": "hv.movie33",
+      "views": 141297,
+      "likes": 2623,
+      "comments": 28,
+      "shares": 206,
+      "duration": 549,
+      "uploadDate": "2026-05-23",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "beauty",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7640144560861072653",
+      "tiktokUser": "wallstreetjournal",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Dentists have high incomes and valuable practices but start their professional lives playing financial catch-up. Host/Producer: @juliamunslow Reporter: Miriam Gottfried #dentist #wsj",
+      "channel": "wallstreetjournal",
+      "views": 3464986,
+      "likes": 14506,
+      "comments": 123,
+      "shares": 879,
+      "duration": 82,
+      "uploadDate": "2026-05-16",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "kpop",
+      "_score": 23,
+      "_axes": {
+        "er": 4,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "일평균 5.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7633792506601245960",
+      "tiktokUser": "korean_beautypoint",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Target your skin concerns with the right ingredients ✨💖 Blackheads? Try @COSRX Official BHA Blackhead Power Liquid 🖤🧴 Tired eyes? Wake them up with @AXIS-Y Store US Vegan Collagen Eye Serum🌿 👀✨ Pores acting up? Smooth things out with @anua_global Niacinamide 10% Serum 🫧💧 Wrinkles? Rewind time with @ksecret_nepal Retinal Shot Serum ⏳💫 #koreanskincare #skincaretips #kbeauty #explore #fyp ",
+      "channel": "korean_beautypoint",
+      "views": 420323,
+      "likes": 5684,
+      "comments": 18,
+      "shares": 767,
+      "duration": 9,
+      "uploadDate": "2026-04-28",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7642072989349023006",
+      "tiktokUser": "michellepinedaa",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad so happy I  found an affordable wide leg capri set 😭 🥰 I’m here for the capri obsession  #wideleg #capris #twopieceset #errandsoutfit #highwaistedlegging ",
+      "channel": "michellepinedaa",
+      "views": 115171,
+      "likes": 1071,
+      "comments": 59,
+      "shares": 103,
+      "duration": 39,
+      "uploadDate": "2026-05-20",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "tech",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7648463439291059476",
+      "tiktokUser": "stylusfinds",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Y2k Outfits #style #styleinspo #Fyp #fyp #outfit ",
+      "channel": "stylusfinds",
+      "views": 66041,
+      "likes": 1480,
+      "comments": 4,
+      "shares": 218,
+      "duration": 19,
+      "uploadDate": "2026-06-07",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7648733496319544598",
+      "tiktokUser": "yasmina_grigore",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "мои образы на лето!! делать 2 часть??? идею брала у @лизкина  #образы #образыналето #Summer #outfits #style ",
+      "channel": "yasmina_grigore",
+      "views": 70552,
+      "likes": 1320,
+      "comments": 53,
+      "shares": 39,
+      "duration": 28,
+      "uploadDate": "2026-06-07",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 23,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7614024453034413314",
+      "tiktokUser": "cuugalch9816",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "일타강사 이지영쌤의 23시간 clog",
+      "channel": "cuugalch9816",
+      "views": 318461,
+      "likes": 6237,
+      "comments": 88,
+      "shares": 117,
+      "duration": 34,
+      "uploadDate": "2026-03-06",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7562386531315420436",
+      "tiktokUser": "yeonyenshorts",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "일타강사 이지영이 말해주는 강의 맛보기 #shorts #이지영",
+      "channel": "yeonyenshorts",
+      "views": 628893,
+      "likes": 10468,
+      "comments": 238,
+      "shares": 574,
+      "duration": 57,
+      "uploadDate": "2025-10-18",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7631410403339406612",
+      "tiktokUser": "user7398638731573",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "대치동 1타 강사 현장강의는 얼마나 많은 학생들이 들을까_",
+      "channel": "user7398638731573",
+      "views": 204677,
+      "likes": 3833,
+      "comments": 22,
+      "shares": 213,
+      "duration": 14,
+      "uploadDate": "2026-04-22",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7426929223438322952",
+      "tiktokUser": "dyr4h4nrv8007",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#김창옥명강의#동기부여#공감#❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ ",
+      "channel": "dyr4h4nrv8007",
+      "views": 1269427,
+      "likes": 23638,
+      "comments": 62,
+      "shares": 1937,
+      "duration": 60,
+      "uploadDate": "2024-10-18",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7579940194036600071",
+      "tiktokUser": "zzana_official",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "난 덩이나 벌래 #인생강의 ",
+      "channel": "zzana_official",
+      "views": 393312,
+      "likes": 11877,
+      "comments": 221,
+      "shares": 1417,
+      "duration": 31,
+      "uploadDate": "2025-12-04",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7544646135294496018",
+      "tiktokUser": "suzeox",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "에이블리 느좋녀 코디 ˚⋆𝜗𝜚 *#09#에이블리녀#에이블리녀#느좋코디나만따라와",
+      "channel": "suzeox",
+      "views": 883133,
+      "likes": 23651,
+      "comments": 198,
+      "shares": 540,
+      "duration": 17,
+      "uploadDate": "2025-08-31",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7631936278317124881",
+      "tiktokUser": "user80213462917016",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#ad 미소녀 물신 아르무아 코디♥ #코디 #에겐녀#제품제공#fyppppppppppppppppppppppp #추천떠라 ",
+      "channel": "user80213462917016",
+      "views": 252570,
+      "likes": 2764,
+      "comments": 22,
+      "shares": 49,
+      "duration": 26,
+      "uploadDate": "2026-04-23",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7623024685944442128",
+      "tiktokUser": "user80213462917016",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "(ably입니닥)노출 거의 없는 키작녀코디♥ #코디 #키작녀코디#노출없는#오오티디 #fyppppppppppppppppppppppp ",
+      "channel": "user80213462917016",
+      "views": 184998,
+      "likes": 3569,
+      "comments": 29,
+      "shares": 130,
+      "duration": 25,
+      "uploadDate": "2026-03-30",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7625925162948513054",
+      "tiktokUser": "o3rg00bsg1",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "세트 하나면 코디 걱정 끝 편하고 예뻐요~#여성세트 #출근룩 #꾸안꾸룩 #세트코디 #OOTD #패션스타그램 #코디추천 #데일리룩",
+      "channel": "o3rg00bsg1",
+      "views": 172836,
+      "likes": 2408,
+      "comments": 219,
+      "shares": 243,
+      "duration": 9,
+      "uploadDate": "2026-04-07",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "lifestyle",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7619717299712396565",
+      "tiktokUser": "peachrosy0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "수련회&수학여행에서 입으면 누구나 반하는 코디 #수학여행 #여친룩 #꾸안꾸 #에이블리 #옷코디 ",
+      "channel": "peachrosy0",
+      "views": 580320,
+      "likes": 6852,
+      "comments": 73,
+      "shares": 136,
+      "duration": 14,
+      "uploadDate": "2026-03-21",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "travel",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7628021128656653586",
+      "tiktokUser": "user1437435009980",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이렇게 입으면 나도 느좋녀💞 저장하고 옷살때 참고해보기!✨ #패션 #fashiongram #OOTD #lookbook #룩북",
+      "channel": "user1437435009980",
+      "views": 256127,
+      "likes": 3862,
+      "comments": 6,
+      "shares": 48,
+      "duration": 19,
+      "uploadDate": "2026-04-12",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "d2c",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7337265666174520584",
+      "tiktokUser": "fashion_people_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "힙한 여자 코디 너무 좋다😍 #여자코디 #코디모음 #여친룩 #힙한코디 #힙한코디룩 #패션룩 ",
+      "channel": "fashion_people_",
+      "views": 1039051,
+      "likes": 23471,
+      "comments": 131,
+      "shares": 488,
+      "duration": 10,
+      "uploadDate": "2024-02-19",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "d2c",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7395288289323961646",
+      "tiktokUser": "thebentist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Why It’s Wise To REMOVE Your Wisdom Teeth! 😭🦷 #wisdomteeth #removal #dentist ",
+      "channel": "thebentist",
+      "views": 3127573,
+      "likes": 98336,
+      "comments": 1090,
+      "shares": 4342,
+      "duration": 138,
+      "uploadDate": "2024-07-24",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7342247131652132142",
+      "tiktokUser": "safespaceasmr",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "delicious though 😌 #asmr #asmrsounds #asmrvideo #asmrroleplay #fyp ",
+      "channel": "safespaceasmr",
+      "views": 3903914,
+      "likes": 128480,
+      "comments": 772,
+      "shares": 708,
+      "duration": 171,
+      "uploadDate": "2024-03-03",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7346303994844745003",
+      "tiktokUser": "kishengodhia",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#paidpartnership@crest Here is your dental REALITY CHECKUP plus some RED FLAGS 🚩you need to look out for in your own oral care routine🦷!? #CrestPartner  @Crest Pro-Health Maximum Cavity Protection from @Target is one of my favorite toothpastes because while most toothpastes stop working in minutes, it contains anti-bacterial fluoride helping to protect  your teeth for up to 12 hours!  Which red flags are YOU guilty of 👀?! #CrestRealityCheckup #CrestHasYouCovered  ",
+      "channel": "kishengodhia",
+      "views": 20714054,
+      "likes": 40096,
+      "comments": 7,
+      "shares": 2014,
+      "duration": 32,
+      "uploadDate": "2024-03-14",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "tech",
+      "_score": 22,
+      "_axes": {
+        "er": 4,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "일평균 2.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7397895671166078238",
+      "tiktokUser": "johnniibeanasmr",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Replying to @Rollie_cool Remember to floss! #asmr #asmrvideo #asmrsound #dentistasmr #asmrdentist ",
+      "channel": "johnniibeanasmr",
+      "views": 1918729,
+      "likes": 41284,
+      "comments": 753,
+      "shares": 555,
+      "duration": 145,
+      "uploadDate": "2024-07-31",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7544433059836218637",
+      "tiktokUser": "johnniibeanasmr",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "This is a first, but I don’t mind it! #asmr #asmrdentist #asmrvideo",
+      "channel": "johnniibeanasmr",
+      "views": 677432,
+      "likes": 13700,
+      "comments": 499,
+      "shares": 285,
+      "duration": 109,
+      "uploadDate": "2025-08-30",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7578248390765513997",
+      "tiktokUser": "joycethedentist",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#onthisday keeping you on your toes w the stamp technique #dentist #cavities ",
+      "channel": "joycethedentist",
+      "views": 2086888,
+      "likes": 50026,
+      "comments": 150,
+      "shares": 570,
+      "duration": 114,
+      "uploadDate": "2025-11-29",
+      "category": "#dentist",
+      "_source": "tikwm_search_dentist_p0",
+      "industry": "tech",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7629027952277064980",
+      "tiktokUser": "idareen_",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Cardi B said this is the final boss of Korean skincare… so I had to try it and here’s what I think of @FULLY Skincare face mask #poremask #maskcleanser #cardibgreenmask",
+      "channel": "idareen_",
+      "views": 229899,
+      "likes": 6465,
+      "comments": 37,
+      "shares": 175,
+      "duration": 25,
+      "uploadDate": "2026-04-15",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "tech",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7590456534853864726",
+      "tiktokUser": "lailapaul7",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Milky skin routine 🥛🥛🥛instant even, luminous & plump @Erborian ad #koreanskincare",
+      "channel": "lailapaul7",
+      "views": 2285904,
+      "likes": 19745,
+      "comments": 748,
+      "shares": 1348,
+      "duration": 20,
+      "uploadDate": "2026-01-01",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "tech",
+      "_score": 22,
+      "_axes": {
+        "er": 4,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "일평균 1.1만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7592112533209615629",
+      "tiktokUser": "baileewhittmo",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#hamzy #hamzy_asmr #hamzymukbang #fyp ",
+      "channel": "baileewhittmo",
+      "views": 294477,
+      "likes": 4931,
+      "comments": 180,
+      "shares": 58,
+      "duration": 95,
+      "uploadDate": "2026-01-06",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "tech",
+      "_score": 22,
+      "_axes": {
+        "er": 12,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7580859060149390623",
+      "tiktokUser": "tati.tts",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad never any wardrobe malfunctions 💅 #fashionhacks #OOTD #fyp #outfitinspo #fashioninspo ",
+      "channel": "tati.tts",
+      "views": 12263424,
+      "likes": 45428,
+      "comments": 193,
+      "shares": 8509,
+      "duration": 9,
+      "uploadDate": "2025-12-07",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 22,
+      "_axes": {
+        "er": 4,
+        "velocity": 18,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "일평균 5.4만회 (떠오름)"
+      ]
+    },
+    {
+      "tiktokId": "7657874079562714399",
+      "tiktokUser": "mitchelvinces28639",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#ad The luckiest blind box pull ever! 😱 Watch until the end for her meltdown. 🤣 #blindbox #unboxingvideo #secretedition #mysterybox #funnykids ",
+      "channel": "mitchelvinces28639",
+      "views": 48604,
+      "likes": 277,
+      "comments": 23,
+      "shares": 13,
+      "duration": 15,
+      "uploadDate": "2026-07-02",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 21,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 8.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7594492981428751632",
+      "tiktokUser": "place__lab",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "지금 바로 저장하세요! 1. SNUON 무료로 서울대 강의 듣기 etl.snu.ac.kr/snuon 2. 서울시평생학습포털 서울시에서 운영하는 강의 사이트 sll.seoul.go.kr 3. EBS비즈니스리뷰 직장인을 위한 직무 강의 ebr.ebs.co.kr 4. 에듀코카 콘텐츠 제작 관련 강의 edu.kocca.kr 5. 소상공인지식배움터 자영업자들을 위한 강의 사이트 edu.sbiz.or.kr 6. 부스트코스 네이버에서 설립한 무료 IT 교육기관 boostcourse.org 7. EBS위대한수업 최고 수준 석학들의 강연 공개 home.ebs.co.kr/greatminds 8. 경기도평생학습포털 경기도에서 운영하는 강의 사이트 gseek.kr 9. 배민아카데미 배민에서 운영하는 무료 장사 강의 academy.baemin.com 10. STEP 고용노동부에서 제공하는 직업강의 사이트 step.or.kr 11. 스파크노트 원서 읽기를 통한 영어 공부 sparknotes.com 12. 런어스 연세대에서 운영하는 강의 플랫폼 learnus.org 13. EBSe 기초 영어 회화 ebse.co.kr 14. 꿈날개 경기도와 여성가족부가 함께 운영하는 강의 플랫폼 dream.go.kr 15. KOCW 국내 대학교 강의 및 세미나 촬영본 www.kocw.net 16. 사이버진로교육센터 진로 탐색 및 직업교육 work.go.kr/cyberedu 17. EBS 클래스e 인문·예술·건강의학 등 10개 분야 강연 classe.ebs.co.kr 18. 네이버비즈니스스쿨 플레이스 기초 강의 bizschool.naver.com 19. 자영업연구소 플레이스 무료 실전 강의 ➡️프로필에 있는 링크 클릭 *일부 사이트에서는 유/무료 콘텐츠를 함께 제공합니다.",
+      "channel": "place__lab",
+      "views": 104672,
+      "likes": 1251,
+      "comments": 248,
+      "shares": 1300,
+      "duration": 11,
+      "uploadDate": "2026-01-12",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 20,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7608410707280809247",
+      "tiktokUser": "saebyeol.wellness",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Top 5 Korean pharmacy skincare that ACTUALLY works for every skin concern ‼️ These are the skin care products that I actually love using that helps me address any concerns I have ✅ If i missed any, comment down below and follow for more ☺️ #skincare #kbeauty #koreanskincare #beauty #over40",
+      "channel": "saebyeol.wellness",
+      "views": 40363,
+      "likes": 566,
+      "comments": 25,
+      "shares": 157,
+      "duration": 84,
+      "uploadDate": "2026-02-19",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "auto",
+      "_score": 20,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7609930128591703327",
+      "tiktokUser": "eviieee08",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "@ReRe Gift @ReRe Gift Box Unboxing my first reregift lucky scoop order. #unboxingvideo #luckyscoop #mymelody  #mysweetpiano #sanrio ",
+      "channel": "eviieee08",
+      "views": 33867,
+      "likes": 468,
+      "comments": 59,
+      "shares": 23,
+      "duration": 310,
+      "uploadDate": "2026-02-23",
+      "category": "#unboxing",
+      "_source": "tikwm_search_unboxing_p0",
+      "industry": "creator",
+      "_score": 20,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7649906443964927239",
+      "tiktokUser": "shopsilkwhisper",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "🔗 Link in bio to shop now The ultimate summer uniform has arrived. Minimalist, effortless, and iconic. 🤍✨ Crafted for the global traveler who refuses to compromise on style. From coastal mornings to rooftop nights in London or New York. 🥂 The Details: ✨ Premium breathable fabric ✨ Flattering backless silhouette ✨ Effortless pack-and-go texture Limited stock available for the season. #SilkWhisper #QuietLuxury #SummerDress #MinimalistFashion #VacationOutfits",
+      "channel": "shopsilkwhisper",
+      "views": 164766,
+      "likes": 655,
+      "comments": 8,
+      "shares": 268,
+      "duration": 10,
+      "uploadDate": "2026-06-10",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "kpop",
+      "_score": 20,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 3.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7656806799324105997",
+      "tiktokUser": "honey31499",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Figure hugging fits all day#fyp#OOTD#figurefit#bodyhugging#hotoutfit ",
+      "channel": "honey31499",
+      "views": 21717,
+      "likes": 292,
+      "comments": 12,
+      "shares": 62,
+      "duration": 15,
+      "uploadDate": "2026-06-29",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 16,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": [
+        "ER 1.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7257298572834622721",
+      "tiktokUser": "mentorrr_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이지영 강사 '노력이란?' #공부자극 #쓴소리 #동기부여 #강의 #서울대 ",
+      "channel": "mentorrr_",
+      "views": 324328,
+      "likes": 4450,
+      "comments": 191,
+      "shares": 4114,
+      "duration": 54,
+      "uploadDate": "2023-07-18",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.7% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7640841438523100438",
+      "tiktokUser": "basic_english01",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "[왕초보] 딱 3글자 영어 읽기 완전 정복  세상 쉬운 파닉스 강의 #기초영어 #영어읽기 #파닉스 #영어단어 #초보영어 #영어공부 #생활영어",
+      "channel": "basic_english01",
+      "views": 58330,
+      "likes": 673,
+      "comments": 4,
+      "shares": 162,
+      "duration": 78,
+      "uploadDate": "2026-05-17",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.4% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7544256336003878162",
+      "tiktokUser": "fullexnj0eb",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "가족을 떠나야 비로소 '내가' 보입니다 #고미숙 #자기계발 #동기부여 #강의",
+      "channel": "fullexnj0eb",
+      "views": 77301,
+      "likes": 1956,
+      "comments": 74,
+      "shares": 498,
+      "duration": 62,
+      "uploadDate": "2025-08-30",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7097637781660388609",
+      "tiktokUser": "dyddnr0707",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "결혼은 이렇게 해라! 김 미 경 강사님#강의 #강사 #김미경 #유튜브 #한국 #추천떠라 #추천간판 #추천 #좋아요 #fyp #코미디",
+      "channel": "dyddnr0707",
+      "views": 228747,
+      "likes": 1610,
+      "comments": 67,
+      "shares": 1069,
+      "duration": 249,
+      "uploadDate": "2022-05-14",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7090454867810012417",
+      "tiktokUser": "funpun0",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "이런 인강?는 좋을 듯 인강이랑 강의랑 차이가 있나요? #강의 #수업 #강의 #인강 #인강추천 #인강강사 #인강촬영 #인강강사님 #시험 #시험기간 #시험공부",
+      "channel": "funpun0",
+      "views": 107628,
+      "likes": 2793,
+      "comments": 8,
+      "shares": 35,
+      "duration": 49,
+      "uploadDate": "2022-04-25",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7521204266145516808",
+      "tiktokUser": "cndcl98",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "\"에겐남\"은 어떤 줄임말? #에겐남#강의#공부#조충현#밈#틱톡코미디#soonent ",
+      "channel": "cndcl98",
+      "views": 250880,
+      "likes": 4874,
+      "comments": 103,
+      "shares": 873,
+      "duration": 28,
+      "uploadDate": "2025-06-29",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7122402635805756674",
+      "tiktokUser": "bloodlikekimch",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "안녕하세요 변호사 패션킬러 입니다                 갱사인은 동양문화 입니다 #갱 #힙합 #미국 #일본 #패션 #틱톡패션 #강의 #변호사 #우영우 #변호 #남자패션 #추천",
+      "channel": "bloodlikekimch",
+      "views": 70877,
+      "likes": 2236,
+      "comments": 66,
+      "shares": 63,
+      "duration": 87,
+      "uploadDate": "2022-07-20",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "d2c",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7640908815835221269",
+      "tiktokUser": "user9913196085496",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "돈 벌고 싶다면 반드시 알고 있어야 되는 2가지 #shorts #김미경최근강의 #돈버는법 (쇼츠 김미경)",
+      "channel": "user9913196085496",
+      "views": 39154,
+      "likes": 625,
+      "comments": 9,
+      "shares": 132,
+      "duration": 53,
+      "uploadDate": "2026-05-17",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 2.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7443246716482030864",
+      "tiktokUser": "user20093632151136",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#허경영강연 ",
+      "channel": "user20093632151136",
+      "views": 76241,
+      "likes": 1317,
+      "comments": 189,
+      "shares": 175,
+      "duration": 474,
+      "uploadDate": "2024-12-01",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7516826462209543445",
+      "tiktokUser": "motivationy110",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "소년이여, 앞을 보아라. #동기부여 #동기부여영상#동기부여영상 #Motivation #Inspiration #동기부여강의 #동기부여강사 #자기계발 #성공 #성공명언 #성장 #마인드셋 #습관 #도전",
+      "channel": "motivationy110",
+      "views": 128353,
+      "likes": 3955,
+      "comments": 48,
+      "shares": 198,
+      "duration": 11,
+      "uploadDate": "2025-06-17",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.3% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7542395112735689991",
+      "tiktokUser": "golfciderjopro",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "뒷땅안나는법!이것만 알면되는데~✌️#골프국가대표상비군출신 #매일경제최고위과정골프지도교수 #조하빈프로 #골프레슨 #골프 ",
+      "channel": "golfciderjopro",
+      "views": 85447,
+      "likes": 1087,
+      "comments": 28,
+      "shares": 258,
+      "duration": 21,
+      "uploadDate": "2025-08-25",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7338377092519824642",
+      "tiktokUser": "all_time_growth",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "\"빠르게 완강 하는 것 보다, 한 강의라도 제대로 듣는 게 중요합니다.\"",
+      "channel": "all_time_growth",
+      "views": 85492,
+      "likes": 2112,
+      "comments": 29,
+      "shares": 37,
+      "duration": 24,
+      "uploadDate": "2024-02-22",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7241491721681521938",
+      "tiktokUser": "jelly_ing",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "실감나는 군사정권 12.12사태 6분 강의 #문쌤 #문상훈 #군사정권 #1212 #빠더너스 #빠더너스bdns ",
+      "channel": "jelly_ing",
+      "views": 196325,
+      "likes": 2000,
+      "comments": 73,
+      "shares": 277,
+      "duration": 344,
+      "uploadDate": "2023-06-06",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7617056793222450440",
+      "tiktokUser": "mental_studio_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "인강 강사되려고 이것까지 해봤다 #동기부여 #쓴소리 #명대사 #명장면 #명언 #명언모음 #동기부여명언 #공부자극 #이지영",
+      "channel": "mental_studio_",
+      "views": 16447,
+      "likes": 439,
+      "comments": 10,
+      "shares": 23,
+      "duration": 50,
+      "uploadDate": "2026-03-21",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7635424769776618772",
+      "tiktokUser": "j82golf4",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "골프스윙 golf #golfswing 골프 #골프레슨 #j82golf #제이82 비거리 ゴルフ @friendxgolf #golflesson golftips",
+      "channel": "j82golf4",
+      "views": 4007,
+      "likes": 55,
+      "comments": 0,
+      "shares": 8,
+      "duration": 12,
+      "uploadDate": "2026-05-02",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7612184936774176018",
+      "tiktokUser": "ruchu_33",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "오늘 날씨는 맑음☀️ 기상캐스터 룩북 #기상캐스터 #룩북 #오피스룩 #단정룩 #코디추천 #출근룩 #여자코디 #틱톡패션",
+      "channel": "ruchu_33",
+      "views": 50201,
+      "likes": 1327,
+      "comments": 16,
+      "shares": 62,
+      "duration": 71,
+      "uploadDate": "2026-03-01",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "lifestyle",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7645815354144476424",
+      "tiktokUser": "fittaku2",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "따라 입고 싶은 여름 코디, 여자편 #여름 #여름코디 #여름코디추천 #여름옷 #여름옷추천 ",
+      "channel": "fittaku2",
+      "views": 35559,
+      "likes": 475,
+      "comments": 4,
+      "shares": 48,
+      "duration": 18,
+      "uploadDate": "2026-05-30",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6839875083859709186",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유큐브두독🤩#asmr #makeup #follow #틱톡미식회 #디저트먹방#빵먹방#파리바게트#컵라면#케익먹방#dessert먹방#혼밥#야식#추천#좋아요#햄지먹방",
+      "channel": "hamzy_korean",
+      "views": 694565,
+      "likes": 19249,
+      "comments": 103,
+      "shares": 217,
+      "duration": 59,
+      "uploadDate": "2020-06-19",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.8% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6736860125774040322",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독♥️#asmr #mukbang #youtube #follow #열무비빔밥 #된장찌개 #계란후라이 #맛있는음식 #햄지 #유튜버 #추천 #좋아요",
+      "channel": "hamzy_korean",
+      "views": 92370,
+      "likes": 1734,
+      "comments": 8,
+      "shares": 31,
+      "duration": 59,
+      "uploadDate": "2019-09-15",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6850645977582390529",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독♡#틱톡미식회 #follow #makeup #asmr #콩국수#열무김치#면요리#면먹방#시원한음식#여름음식#추천#좋아요#햄지먹방#야식#혼밥",
+      "channel": "hamzy_korean",
+      "views": 723793,
+      "likes": 21121,
+      "comments": 98,
+      "shares": 120,
+      "duration": 59,
+      "uploadDate": "2020-07-18",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.9% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7578424634429820181",
+      "tiktokUser": "dkfl0809",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "출처:햄지youtube #mukbang #먹방 #김치 #kimchi #koreanfood ",
+      "channel": "dkfl0809",
+      "views": 84709,
+      "likes": 1836,
+      "comments": 10,
+      "shares": 29,
+      "duration": 169,
+      "uploadDate": "2025-11-30",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 2.2% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6772018609872014594",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독😘#asmr #mukbang #youtube #follow #먹방 #셰프장 #간장새우장 #양념새우장 #밥도둑 #추천 #좋아요 #햄지",
+      "channel": "hamzy_korean",
+      "views": 831236,
+      "likes": 24557,
+      "comments": 77,
+      "shares": 163,
+      "duration": 59,
+      "uploadDate": "2019-12-19",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6781632787213585666",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독💋#asmr #mukbang #youtube #follow #먹방 #쿠캣마켓 #닭볶음탕 #곱도리탕 #참치마요주먹밥 #밥도둑 #술안주 #혼밥 #추천 #좋아요 #햄지",
+      "channel": "hamzy_korean",
+      "views": 533754,
+      "likes": 18256,
+      "comments": 231,
+      "shares": 140,
+      "duration": 59,
+      "uploadDate": "2020-01-14",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7611370083352366357",
+      "tiktokUser": "gwaengiburi.official",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "반찬만 있어도 완전히 싹싹김치  #괭이부리마을 #햄지 #먹방 #화덕생선구이",
+      "channel": "gwaengiburi.official",
+      "views": 14655,
+      "likes": 221,
+      "comments": 3,
+      "shares": 2,
+      "duration": 37,
+      "uploadDate": "2026-02-27",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.5% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6726461928836812034",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독♥️#asmr #mukbang #youtube #follow #뼈다귀해장국 #야식 #술안주 #식사대용 #해장 #추천 #좋아요 #존맛탱 #리얼먹방 #햄지",
+      "channel": "hamzy_korean",
+      "views": 106850,
+      "likes": 1635,
+      "comments": 19,
+      "shares": 54,
+      "duration": 59,
+      "uploadDate": "2019-08-18",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "6783834377714437377",
+      "tiktokUser": "hamzy_korean",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "유튜브구독💓#asmr #mukbang #youtube #follow #먹방 #짜장라면 #짜장면 #총각김치 #참쌀도넛 #디저트 #면요리 #라면 #볶음면 #햄지 #추천 #좋아요",
+      "channel": "hamzy_korean",
+      "views": 484124,
+      "likes": 14284,
+      "comments": 56,
+      "shares": 180,
+      "duration": 59,
+      "uploadDate": "2020-01-20",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "food",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 3.0% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7607525113705057567",
+      "tiktokUser": "blairiscute",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "A simple outfit of the day for a lazy day ",
+      "channel": "blairiscute",
+      "views": 38211,
+      "likes": 392,
+      "comments": 7,
+      "shares": 19,
+      "duration": 5,
+      "uploadDate": "2026-02-16",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "tech",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": [
+        "ER 1.1% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7637018368779848991",
+      "tiktokUser": "getravy",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Accessories are the difference between cute and iconic 🖤 Save this look & level up your festival fit🔥  @Roxana ♡ styling our Red Flare Sleeveless Bodysuit❤️‍🔥 #raveoutfit #festivalfashion #festivaloutfit #edc #dubstep ",
+      "channel": "getravy",
+      "views": 30885,
+      "likes": 453,
+      "comments": 6,
+      "shares": 30,
+      "duration": 16,
+      "uploadDate": "2026-05-07",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 15,
+      "_axes": {
+        "er": 12,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": [
+        "ER 1.6% (평균)"
+      ]
+    },
+    {
+      "tiktokId": "7643776399945370900",
+      "tiktokUser": "keke4387eez",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "카카오톡 ID: abb688을 추가해주세요 여성 패션 #캐주얼 스타일 #다용도 스타일 #여성코디#tiktok #fyp ",
+      "channel": "keke4387eez",
+      "views": 134369,
+      "likes": 888,
+      "comments": 41,
+      "shares": 71,
+      "duration": 7,
+      "uploadDate": "2026-05-25",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "d2c",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7635939572278496519",
+      "tiktokUser": "beigeblack_2_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "고양의상의 춤출때 진짜이쁨 오픈숄더라서더 여성여성해욧!!😅속바지에요 팬티아님😅 #빅사이즈데일리룩 #빅사이즈전문 #데일리룩코디 #댄스룩#봄코디 ",
+      "channel": "beigeblack_2_",
+      "views": 783670,
+      "likes": 4599,
+      "comments": 396,
+      "shares": 1278,
+      "duration": 14,
+      "uploadDate": "2026-05-04",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "lifestyle",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7638264320157158676",
+      "tiktokUser": "afsanapushpita",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "From Painful Bump → almost gone in 7days🫢 👉🏻@IUNIK - Tea Tree Relief Serum #pimple #teatree #koreanskincare #kbeauty #tiktokmademebuyit ",
+      "channel": "afsanapushpita",
+      "views": 298633,
+      "likes": 1517,
+      "comments": 54,
+      "shares": 74,
+      "duration": 12,
+      "uploadDate": "2026-05-10",
+      "category": "#koreanskincare",
+      "_source": "tikwm_search_koreanskincare_p0",
+      "industry": "tech",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7635182134516370706",
+      "tiktokUser": "alexstarxx3",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#foryoypage #foryou #outfit #Alexastar ",
+      "channel": "alexstarxx3",
+      "views": 276829,
+      "likes": 2226,
+      "comments": 56,
+      "shares": 133,
+      "duration": 13,
+      "uploadDate": "2026-05-02",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7649523339291151646",
+      "tiktokUser": "bondie.us",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "the best thing I've ever used on my dresses!! #fashionhack #dress #OOTD #dealsforyoudays ",
+      "channel": "bondie.us",
+      "views": 87622,
+      "likes": 471,
+      "comments": 5,
+      "shares": 105,
+      "duration": 16,
+      "uploadDate": "2026-06-10",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7631474934862138638",
+      "tiktokUser": "pina.jessy",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "Your Next Fashion Inspiration #fashiontiktok #styleinspo #outfitideas #fashiontips #trendalert",
+      "channel": "pina.jessy",
+      "views": 717823,
+      "likes": 4569,
+      "comments": 98,
+      "shares": 156,
+      "duration": 61,
+      "uploadDate": "2026-04-22",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 14,
+      "_axes": {
+        "er": 4,
+        "velocity": 10,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7482216001355009298",
+      "tiktokUser": "_foodmoa_",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "3월 20일까지만 먹을 수 있는 국수! #아유타야보트누들 🔴 아유타야 보트누들은 판교역 3번 출구에서 도보 3분 정도 걸리며, 접근성이 매우 좋아요.😄  🟡 1350만 유튜버 햄지님이 극찬한 보트누들을 판교 현대백화점 팝업을 통해 3월20일까지 즐길 수 있어요.  🟢 대표 메뉴인 아유타야 보트누들 뿐만 아니라, 매콤한 똠얌누들, 새콤달콤한 쏨땀누들, 겉은 바삭하고 속은 쫀득한 태국식 바나나 튀김, 그리고 매우 높은 당도를 자랑하는 태국식 오렌지 주스도 함께 팔고있어요.😍  🔵 보트누들을 구매하면 태국항공권을 받을 수 있는 이벤트도 진행중이니 당장 달려가보자구요. ✔️ 매장 : 아유타야 보트누들  🎈 위치 : 현대백화점 판교점 지하1층  💰 가격  - 아유타야 세트 : 25,900원  💌 총평  - 맛 : ⭐️⭐️⭐️ - 가격 : ⭐️⭐️⭐️ - 서비스 : ⭐️⭐️⭐️⭐️ - 분위기 : ⭐️⭐️⭐️ - 거리 : ⭐️⭐️⭐️⭐️⭐️  ❤️ 총점 :  3.6/5  #보트누들 #판교현대팝업 #햄지 #판교판업 ",
+      "channel": "_foodmoa_",
+      "views": 51622,
+      "likes": 404,
+      "comments": 12,
+      "shares": 13,
+      "duration": 12,
+      "uploadDate": "2025-03-16",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 12,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 5,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7655206521290116372",
+      "tiktokUser": "reels_drgn",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "패션 오오티디 스톱모션 영상 제작법 ⏰ ✅ 주요 어플: 캡컷 ✅ 주요 기능: 분할, 삭제, 추출, 비트 🎬 스마트폰으로도 쉽게 영상 제작 해봐요! ✨ 이 내용이 도움이 되셧다면 좋아요, 공유, 팔로우 부탁드려요! ✨ 영상 제작 저를 찾아주세요! @reels_drgn ✨ 이 정보를 지인들에게 공유해주세요! . . . . #영상편집 #영상편집강의 #캡컷편집 #캡컷 #패션 ",
+      "channel": "reels_drgn",
+      "views": 9232,
+      "likes": 54,
+      "comments": 2,
+      "shares": 7,
+      "duration": 24,
+      "uploadDate": "2026-06-25",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "tech",
+      "_score": 8,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 8.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7145484330301689090",
+      "tiktokUser": "noori00100",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "나 집중이 잘 안돼..#재밌는영상 #여신 #수학 #선생님 #강의 ",
+      "channel": "noori00100",
+      "views": 60099,
+      "likes": 448,
+      "comments": 18,
+      "shares": 10,
+      "duration": 11,
+      "uploadDate": "2022-09-20",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p0",
+      "industry": "edu",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7320995666765810946",
+      "tiktokUser": "the_iwillsuccess",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "#공부자극영상 #공부자극명언 #공부자극영상모음 #공부자극 #동기부여강의 #동기부여강사 #동기부여영상 #동기부여 #인생명언 #명대사 #자기계발그램 #자기계발러 #자기계발 ",
+      "channel": "the_iwillsuccess",
+      "views": 70363,
+      "likes": 182,
+      "comments": 9,
+      "shares": 19,
+      "duration": 27,
+      "uploadDate": "2024-01-06",
+      "category": "#강의",
+      "_source": "tikwm_search_강의_p1",
+      "industry": "edu",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7631977274933333280",
+      "tiktokUser": "rixgf3uyo3",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "편하고 스타일리시해요매일 입고 싶은 바지#여성바지 #팬츠코디 #하이웨스트 #키작녀룩 #슬랙스추천   ",
+      "channel": "rixgf3uyo3",
+      "views": 15322,
+      "likes": 86,
+      "comments": 1,
+      "shares": 2,
+      "duration": 12,
+      "uploadDate": "2026-04-23",
+      "category": "#여자코디",
+      "_source": "tikwm_search_여자코디_p0",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7572402093529517332",
+      "tiktokUser": "gwaengiburi.official",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "먹방 유튜버 햄지 5명이 먹는 한 끼 식사량  #괭이부리마을 #햄지 #먹방 #유튜버 #추천",
+      "channel": "gwaengiburi.official",
+      "views": 14282,
+      "likes": 89,
+      "comments": 2,
+      "shares": 1,
+      "duration": 19,
+      "uploadDate": "2025-11-14",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7592052655648689429",
+      "tiktokUser": "manseok.official",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "엄마의 뜨거움 참기! 엄마는 강하다?  #만석동철판집 #햄지 #먹방 #엄마",
+      "channel": "manseok.official",
+      "views": 23608,
+      "likes": 176,
+      "comments": 4,
+      "shares": 2,
+      "duration": 8,
+      "uploadDate": "2026-01-06",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7651885704531758343",
+      "tiktokUser": "keirao278",
+      "platform": "TikTok",
+      "country": "KR",
+      "title": "전세계가 사랑한 먹방 '햄지' 장영란 기절시킨 대저택 최초공개(특급레시피) p4 #Aclassrani #A급 #예능 #Vlog #fyp #foryoupage❤️❤️",
+      "channel": "keirao278",
+      "views": 10833,
+      "likes": 85,
+      "comments": 1,
+      "shares": 2,
+      "duration": 189,
+      "uploadDate": "2026-06-16",
+      "category": "#햄지",
+      "_source": "tikwm_search_햄지_p0",
+      "industry": "entertainment",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 3.0
+      },
+      "_reasons": []
+    },
+    {
+      "tiktokId": "7582482262252424470",
+      "tiktokUser": "mahya8__5rah1",
+      "platform": "TikTok",
+      "country": "US",
+      "title": "#outfit #name #💞❤ #inspo ",
+      "channel": "mahya8__5rah1",
+      "views": 208562,
+      "likes": 1446,
+      "comments": 168,
+      "shares": 257,
+      "duration": 15,
+      "uploadDate": "2025-12-11",
+      "category": "#outfit",
+      "_source": "tikwm_search_outfit_p0",
+      "industry": "creator",
+      "_score": 7,
+      "_axes": {
+        "er": 4,
+        "velocity": 3,
+        "authority": 0,
+        "commerce": 0,
+        "freshness": 0.0
+      },
+      "_reasons": []
+    }
+  ]
+}
