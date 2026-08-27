@@ -1,0 +1,20 @@
+{
+  "total_collected": 189,
+  "passed_filter": 0,
+  "balanced_output": 0,
+  "platform_distribution": {},
+  "rejected_hard_filter": 189,
+  "rejected_low_score": 0,
+  "rejected_by_balance": 0,
+  "filter_threshold": 0,
+  "per_platform_cap": 500,
+  "criteria": {
+    "min_views": 2000,
+    "min_likes": 20,
+    "min_views_for_old_videos": 50000,
+    "block_pattern_count": 29,
+    "scoring": "Engagement Rate(40) + Velocity(30) + Authority(15) + Commerce(15) × Time Decay",
+    "safety": "차단·로그인 응답 키워드 감지 시 즉시 제외 + 3 플랫폼 균등 배치"
+  },
+  "videos": []
+}
